@@ -33,7 +33,10 @@
         "time": "22:00",
         "act": "NEVERSLEEP feat. E. SHAPERE",
         "url": "http://neversleepmusic.de",
-        "space": "Movement Space"
+        "space": "Movement Space",
+        "instagram": [
+          "NEVERSLEEPmusic"
+        ]
       },
       {
         "time": "23:00",
@@ -61,7 +64,10 @@
         "time": "02:00",
         "act": "3rd Party Influence",
         "url": "https://3pi.tv/",
-        "space": "Project Space"
+        "space": "Project Space",
+        "instagram": [
+          "3rdPartyInfluence"
+        ]
       },
       {
         "time": "04:00",
