@@ -1,0 +1,18 @@
+node_modules/
+.svelte-kit/
+build/
+
+# Generated from media/ by `npm run images` - never edited by hand.
+static/images/
+src/lib/data/photo-sizes.json
+
+# LibreOffice lock files
+.~lock.*#
+
+# Fetched Super pages, only needed to re-run scripts/migration. See its README.
+scripts/migration/*.html
+scripts/migration/out/
+
+# Originals of the flyers, already imported into media/web/ with bms_ ids.
+# Kept locally as provenance; photos.json records the Facebook source.
+some_sources/

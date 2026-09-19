@@ -1,0 +1,215 @@
+:root {
+	--bg: #ffffff;
+	--surface: #f4f4f5;
+	--text: #18181b;
+	--text-muted: #6b6b73;
+	--rule: #e4e4e7;
+	--accent: #cc2b1d;
+	--accent-hover: #a82217;
+
+	--measure: 46rem;
+	--font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	--font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme='light']) {
+		--bg: #131316;
+		--surface: #1d1d21;
+		--text: #ededf0;
+		--text-muted: #a1a1ab;
+		--rule: #2e2e34;
+		--accent: #ff6b5e;
+		--accent-hover: #ff8d83;
+	}
+}
+
+:root[data-theme='dark'] {
+	--bg: #131316;
+	--surface: #1d1d21;
+	--text: #ededf0;
+	--text-muted: #a1a1ab;
+	--rule: #2e2e34;
+	--accent: #ff6b5e;
+	--accent-hover: #ff8d83;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
+	/* Deep links to a heading should not tuck it under the sticky header. */
+	scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	margin: 0;
+	/* The page-header cover bleeds to the viewport edges with negative margins,
+	   which overhangs by half a scrollbar. `clip` trims that without creating a
+	   scroll container, so the sticky nav keeps working - `hidden` would break it. */
+	overflow-x: clip;
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font-body);
+	font-size: 1.0625rem;
+	line-height: 1.65;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Links take the text colour, as they did on the old site - Super's stylesheet
+   set `.notion-link { color: inherit }`. The underline carries the affordance,
+   so a paragraph of prose does not turn into a field of red. */
+a {
+	color: inherit;
+	text-underline-offset: 0.18em;
+	text-decoration-thickness: 1px;
+}
+
+a:hover {
+	text-decoration-thickness: 2px;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.22;
+	letter-spacing: -0.015em;
+	scroll-margin-top: 5rem;
+}
+
+h1 {
+	font-size: clamp(2rem, 5vw, 2.75rem);
+	margin: 0 0 1.5rem;
+}
+
+h2 {
+	font-size: clamp(1.35rem, 3vw, 1.6rem);
+	margin: 2.75rem 0 0.75rem;
+}
+
+h3 {
+	font-size: 1.15rem;
+	margin: 2rem 0 0.5rem;
+}
+
+p {
+	margin: 0 0 1.1rem;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid var(--rule);
+	margin: 2.5rem 0;
+}
+
+/* Heading anchors - the reason this site left Notion/Super.
+   The link is always in the DOM (so it can be copied and shared);
+   it only becomes visible on hover or keyboard focus. */
+.heading-anchor {
+	margin-left: 0.4rem;
+	color: var(--text-muted);
+	text-decoration: none;
+	opacity: 0;
+	transition: opacity 0.12s ease-in-out;
+}
+
+h1:hover > .heading-anchor,
+h2:hover > .heading-anchor,
+h3:hover > .heading-anchor,
+.heading-anchor:focus-visible {
+	opacity: 1;
+}
+
+@media (hover: none) {
+	.heading-anchor {
+		opacity: 0.35;
+	}
+}
+
+:target {
+	scroll-margin-top: 5rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Notion text colours.
+
+   Notion let you colour a word or a whole paragraph, and BMS used that to mark
+   the two artist-area paragraphs apart - "if you are INTERESTED" in orange,
+   "if you have been CONFIRMED" in green - and to colour venue and day names in
+   the event archive. Super rendered them from `class="color-orange"` and the
+   like, so the migration keeps the same names as `.nc-orange`.
+
+   Light values are Super's own, read out of its stylesheet. Dark values are
+   Notion's dark palette, because Super derived its dark colours through a chain
+   of hsl() calc()s that did not survive being scraped.
+   --------------------------------------------------------------------------- */
+:root {
+	--nc-gray: rgb(120, 119, 116);
+	--nc-brown: rgb(100, 71, 58);
+	--nc-orange: rgb(217, 115, 13);
+	--nc-yellow: rgb(203, 145, 47);
+	--nc-green: rgb(15, 123, 108);
+	--nc-blue: rgb(11, 110, 153);
+	--nc-purple: rgb(105, 64, 165);
+	--nc-pink: rgb(173, 26, 114);
+	--nc-red: rgb(224, 62, 62);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme='light']) {
+		--nc-gray: #9b9b9b;
+		--nc-brown: #ba856f;
+		--nc-orange: #c77d48;
+		--nc-yellow: #ca9849;
+		--nc-green: #529e72;
+		--nc-blue: #5e87c9;
+		--nc-purple: #9d68d3;
+		--nc-pink: #d15796;
+		--nc-red: #df5452;
+	}
+}
+
+:root[data-theme='dark'] {
+	--nc-gray: #9b9b9b;
+	--nc-brown: #ba856f;
+	--nc-orange: #c77d48;
+	--nc-yellow: #ca9849;
+	--nc-green: #529e72;
+	--nc-blue: #5e87c9;
+	--nc-purple: #9d68d3;
+	--nc-pink: #d15796;
+	--nc-red: #df5452;
+}
+
+.nc-gray { color: var(--nc-gray); }
+.nc-brown { color: var(--nc-brown); }
+.nc-orange { color: var(--nc-orange); }
+.nc-yellow { color: var(--nc-yellow); }
+.nc-green { color: var(--nc-green); }
+.nc-blue { color: var(--nc-blue); }
+.nc-purple { color: var(--nc-purple); }
+.nc-pink { color: var(--nc-pink); }
+.nc-red { color: var(--nc-red); }
+
+/* A coloured link keeps the colour and stays underlined, so it still reads as
+   a link rather than as coloured prose. */
+[class^='nc-'] a,
+[class*=' nc-'] a {
+	color: inherit;
+	text-decoration: underline;
+}

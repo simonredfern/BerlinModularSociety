@@ -1,0 +1,57 @@
+---
+title: "Artist Area"
+description: "Welcome to the Berlin Modular Society artist\u2019s area."
+icon: "bms_logo-in-white-on-black-background"
+---
+
+<script>
+	import Color from '$lib/components/Color.svelte';
+</script>
+
+Welcome to the Berlin Modular Society artist’s area.
+
+## Artist Submissions
+
+<Color c="orange">
+
+If you are **INTERESTED** in performing / streaming with us, please see the [Artist Submission](/submit) page.
+
+</Color>
+
+## Artist Performance Agreement Form
+
+<Color c="green">
+
+If you have been **CONFIRMED** by the BMS team to perform, please complete the following [Performance Agreement Form here](https://forms.gle/BwD2RsY5q81eiw1AA).
+
+</Color>
+
+## Preparing to Perform
+
+Apart from preparing a fantastic uplifting / dark / ambient / danceable / musical modular set :-)  we will need **your help** in promoting the event you are part of. This involves providing us with **creative** promo materials in a **timely manner** which can include some of the following:A striking **picture** or two of your act / your gear.A **short bio** about your act and/or your particular performance.A video &lt; 60 seconds longA music clip 29 seconds long that fades out after 28 seconds.We strongly recommend you have an **Instagram** profile and a **Resident Advisor** profile.
+
+## Preparing to Stream
+
+Practice makes perfect, right? It’s true! Streaming is no exception - so if you are going to perform on one of our streaming events, we ask you that you do a [streaming test](/artist-area/streaming-test) **well in advance**! :-) **Please don’t wait for the last minute**, even if you are an experienced streamer!
+
+If you are new to OBS, please see the [Using OBS](/artist-area/using-obs) introduction.
+
+Please add a small Berlin Modular Society logo to the corner of your stream. The [Media Assets](/artist-area/media-assets) page has logos you can use. If you add your own artists logo, please put it in a *different* corner. You can use the opacity settings on OBS so the logo blends in.
+
+## Related Links
+
+- [Using OBS](/artist-area/using-obs)
+
+- [Streaming Test](/artist-area/streaming-test)
+
+- [Media Assets](/artist-area/media-assets)
+
+- [Upcoming Dates](/upcoming-dates)
+
+- [Artist Payments](/artist-area/artist-payments)
+
+- [Performing with Video](/artist-area/performing-with-video)
+
+- [For Performers](/artist-area/for-performers)
+
+- [Using MKV Files](/artist-area/using-mkv-files)

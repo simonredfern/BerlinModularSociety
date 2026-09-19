@@ -1,0 +1,87 @@
+[
+  {
+    "path": "",
+    "title": "Berlin Modular Society",
+    "description": "We organise live modular music events."
+  },
+  {
+    "path": "about",
+    "title": "About",
+    "description": "The Berlin Modular Society is currently organised by Simon Redfern (3rd Party Influence), JacqNoise, Dirk Pogrzeba (Neversleep), Franziska and Daniel Lonn (Shellbeat)."
+  },
+  {
+    "path": "artist-area",
+    "title": "Artist Area",
+    "description": "Welcome to the Berlin Modular Society artist’s area."
+  },
+  {
+    "path": "artist-area/artist-payments",
+    "title": "Artist Payments",
+    "description": "Firstly, it depends on the venue."
+  },
+  {
+    "path": "artist-area/for-performers",
+    "title": "For Performers",
+    "description": "Facebook:"
+  },
+  {
+    "path": "artist-area/media-assets",
+    "title": "Media Assets",
+    "description": "Here you can find some logos to add to your OBS stream and promotion etc."
+  },
+  {
+    "path": "artist-area/media-assets/media-assets-archive",
+    "title": "Media Assets Archive",
+    "description": "This page contains a history of previous logos and word marks."
+  },
+  {
+    "path": "artist-area/performing-with-video",
+    "title": "Performing with Video",
+    "description": "We encourage live video performances at BMS events 🙂"
+  },
+  {
+    "path": "artist-area/streaming-test",
+    "title": "Streaming Test",
+    "description": "If you are a Berlin Modular Society performer and have been given our restream.io key (which we change periodically), you can do a test stream from your streaming software e.g. OBS - and your stream should appear on our bmsTesting Twitch channel HERE."
+  },
+  {
+    "path": "artist-area/using-mkv-files",
+    "title": "Using MKV Files",
+    "description": "MKV (Matroska) files are an open source file format that contains both audio and video files."
+  },
+  {
+    "path": "artist-area/using-obs",
+    "title": "Using OBS",
+    "description": "OBS (Open Broadcast Suite) is the recommended tool to stream."
+  },
+  {
+    "path": "br-mood-board",
+    "title": "BR Mood Board",
+    "description": ""
+  },
+  {
+    "path": "community",
+    "title": "Community",
+    "description": "BMS23"
+  },
+  {
+    "path": "event-archive",
+    "title": "Event Archive",
+    "description": "Every Berlin Modular Society event since BMS1 in May 2021 - line-ups, venues, photos and streams."
+  },
+  {
+    "path": "modular-courses",
+    "title": "Modular Courses",
+    "description": "If you have other inquiries about specialist courses, please email us or contact us via Instagram."
+  },
+  {
+    "path": "submit",
+    "title": "Artist Submission",
+    "description": ""
+  },
+  {
+    "path": "upcoming-dates",
+    "title": "Upcoming Dates",
+    "description": "We host live modular music events about once a month depending on the season. Check with us before planning your travel!"
+  }
+]

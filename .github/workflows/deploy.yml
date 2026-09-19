@@ -1,0 +1,65 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets you rebuild from the Actions tab without pushing - useful because event
+  # dates are evaluated at build time, so an event stops being "upcoming" only when
+  # the site is rebuilt.
+  workflow_dispatch:
+
+# Allow GITHUB_TOKEN to deploy to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; don't cancel a run that is already publishing.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Cache the generated image variants. Without this every deploy re-encodes
+      # 387 files with sharp, which is the slowest part of the build by far.
+      - name: Cache generated images
+        uses: actions/cache@v4
+        with:
+          path: static/images
+          key: images-${{ hashFiles('media/**', 'scripts/build-images.mjs') }}
+
+      - uses: actions/configure-pages@v5
+        id: pages
+
+      - run: npm run build
+        env:
+          # GitHub Pages serves this repo at /<repo-name> until a custom domain is
+          # set. Once berlinmodularsociety.com points here, delete this env block so
+          # the base path is empty.
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,39 @@
+name: Calendar drift
+
+# The Google Calendar people subscribe to is maintained by hand, separately from
+# src/lib/data/events.json. This notices when the two disagree.
+#
+# Deliberately NOT part of the deploy workflow: an out-of-date Google calendar is
+# no reason to stop publishing the site. A failure here just sends you the usual
+# GitHub "workflow failed" notification.
+
+on:
+  # Most drift is an event added to the site and forgotten in Google, so check
+  # whenever the event data changes.
+  push:
+    branches: [main]
+    paths:
+      - 'src/lib/data/events.json'
+      - 'src/content/upcoming-dates.md'
+      - 'scripts/check-calendar-drift.mjs'
+  # And weekly, to catch the calendar being edited without a push here.
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # No npm ci: the script has no dependencies, and the calendar is public,
+      # so there is nothing to install and no secret to configure.
+      - run: node scripts/check-calendar-drift.mjs --strict

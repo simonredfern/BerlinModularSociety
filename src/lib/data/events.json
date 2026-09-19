@@ -1,0 +1,1166 @@
+[
+  {
+    "number": "BMS59",
+    "date": "2026-09-25",
+    "name": "Pollen",
+    "venue": "90Mil",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "19:00",
+        "act": "Ambient Tai Chi: Simon Redfern + Mitch Altman",
+        "url": "https://www.ambienttaichi.com/",
+        "space": "Movement Space or Outside"
+      },
+      {
+        "time": "20:30",
+        "act": "trismo",
+        "space": "Movement Space",
+        "instagram": [
+          "trismooo"
+        ]
+      },
+      {
+        "time": "21:00",
+        "act": "Phoebe Killdeer & THE SHIFT",
+        "space": "Movement Space",
+        "instagram": [
+          "phoebekilldeerandtheshift"
+        ]
+      },
+      {
+        "time": "22:00",
+        "act": "NEVERSLEEP feat. E. SHAPERE",
+        "url": "http://neversleepmusic.de",
+        "space": "Movement Space"
+      },
+      {
+        "time": "23:00",
+        "act": "Vile Tensor",
+        "space": "Movement Space",
+        "instagram": [
+          "vile.tensor"
+        ]
+      },
+      {
+        "time": "00:00",
+        "act": "Rocco.fx & Depuratumba",
+        "space": "Movement Space",
+        "instagram": [
+          "Rocco.fx",
+          "depuratumba"
+        ]
+      },
+      {
+        "time": "01:00",
+        "act": "(other collective takes space)",
+        "space": "Movement Space"
+      },
+      {
+        "time": "02:00",
+        "act": "3rd Party Influence",
+        "url": "https://3pi.tv/",
+        "space": "Project Space"
+      },
+      {
+        "time": "04:00",
+        "act": "Ends"
+      }
+    ],
+    "slug": "bms59",
+    "hasBody": true
+  },
+  {
+    "number": "BMS58",
+    "date": "2026-05-10",
+    "name": "DIY KIT DAY",
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "17:00",
+        "act": "Forestry Commission"
+      },
+      {
+        "time": "17:55",
+        "act": "Agente Costura"
+      },
+      {
+        "time": "18:50",
+        "act": "Timo Rozendal"
+      },
+      {
+        "time": "20:00",
+        "act": "Estroe & Raaf"
+      },
+      {
+        "time": "21:00",
+        "act": "Frank Funke b2b NEVERSLEEP b2b E.Shapere"
+      },
+      {
+        "time": "22:00",
+        "act": "tamiX ∞ THESSIAN"
+      },
+      {
+        "time": "23:00",
+        "act": "3rd Party Influence"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms58",
+    "hasBody": true
+  },
+  {
+    "number": "BMS57",
+    "date": "2026-04-16",
+    "name": null,
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:00",
+        "act": "Harpa @bpnrao07"
+      },
+      {
+        "time": "21:00",
+        "act": "Boris Hauf"
+      },
+      {
+        "time": "22:00",
+        "act": "Summaq @Summmmmaq"
+      },
+      {
+        "time": "23:00",
+        "act": "ICKX @jan_ickx"
+      },
+      {
+        "time": "00:00",
+        "act": "Jesusonecstasy @jesusonecstasy"
+      },
+      {
+        "time": "01:00",
+        "act": "The Dark Wasp @thedarkwasp"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms57",
+    "hasBody": true
+  },
+  {
+    "number": "BMS56",
+    "date": "2025-10-31",
+    "name": "Halloweeeeeen!",
+    "venue": "Crack Bellmer",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms56",
+    "hasBody": true
+  },
+  {
+    "number": "BMS55",
+    "date": "2025-09-25",
+    "name": null,
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "inferredYear": true,
+    "slug": "bms55",
+    "hasBody": true
+  },
+  {
+    "number": "BMS54",
+    "date": "2025-06-08",
+    "name": "Crackbellmer",
+    "venue": "Crack Bellmer",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "21:30",
+        "act": "Monotrail"
+      },
+      {
+        "time": "22:30",
+        "act": "Chang Rodrigues"
+      },
+      {
+        "time": "23:30",
+        "act": "Shellbeat"
+      },
+      {
+        "time": "00:30",
+        "act": "Andreas Krach"
+      },
+      {
+        "time": "01:30",
+        "act": "Catenation"
+      },
+      {
+        "time": "02:30",
+        "act": "Julez"
+      },
+      {
+        "time": "03:15",
+        "act": "(DJ) Hilary C/B"
+      }
+    ],
+    "slug": "bms54",
+    "hasBody": true
+  },
+  {
+    "number": "BMS53",
+    "date": "2025-05-11",
+    "name": "DIY Kit Day",
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "17:00",
+        "act": "Lena C."
+      },
+      {
+        "time": "17:40",
+        "act": "Teslator"
+      },
+      {
+        "time": "18:20",
+        "act": "Colloid"
+      },
+      {
+        "time": "19:15",
+        "act": "True Cuckoo"
+      },
+      {
+        "time": "20:20",
+        "act": "Erd (Shakmat)"
+      },
+      {
+        "time": "21:05",
+        "act": "Elektortek"
+      },
+      {
+        "time": "22:05",
+        "act": "NEVERSLEEP"
+      },
+      {
+        "time": "23:05",
+        "act": "ALX-106"
+      }
+    ],
+    "slug": "bms53",
+    "hasBody": true
+  },
+  {
+    "number": "BMS52",
+    "date": "2025-05-09",
+    "name": "AKA Neulant",
+    "venue": "Transistor Raum",
+    "city": "Berlin",
+    "url": "https://ra.co/promoters/102998",
+    "lineup": [
+      {
+        "time": "22:00",
+        "act": "Krista Bourgeois  @kristabourgeoismusic"
+      },
+      {
+        "time": "23:00",
+        "act": "Rocco.fx  @rocco.fx"
+      },
+      {
+        "time": "02:00",
+        "act": "3rd Party Influence  @3rdPartyInfluence"
+      },
+      {
+        "time": "00:00",
+        "act": "Jamaica Suk  @jamaicasuk"
+      },
+      {
+        "time": "01:00",
+        "act": "Blush Response  @blush_response"
+      },
+      {
+        "time": "03:00",
+        "act": "Frank Funke  @frankfunke"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms52",
+    "hasBody": true
+  },
+  {
+    "number": "BMS50",
+    "date": "2025-04-27",
+    "name": "Modulation in Utrecht",
+    "venue": "De Helling",
+    "city": "Utrecht",
+    "url": "https://dehelling.nl/agenda/modulation-x-berlin-modular-society-27-04-2025/",
+    "lineup": [],
+    "inferredYear": true,
+    "slug": "bms50",
+    "hasBody": true
+  },
+  {
+    "number": "BMS49",
+    "date": "2025-04-17",
+    "name": null,
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms49",
+    "hasBody": true
+  },
+  {
+    "number": "BMS48",
+    "date": "2025-03-08",
+    "name": "Neulant",
+    "venue": "Neulant van Excel",
+    "city": "Berlin",
+    "url": "https://ra.co/events/2119018",
+    "lineup": [],
+    "slug": "bms48",
+    "hasBody": true
+  },
+  {
+    "number": "BMS47",
+    "date": "2024-12-13",
+    "name": null,
+    "venue": "Neulant van Excel",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms47",
+    "hasBody": true
+  },
+  {
+    "number": "BMS46",
+    "date": "2024-11-09",
+    "name": null,
+    "venue": "Crack Bellmer",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:30",
+        "act": "Chor für Oberton und Kehlgesang @musik_in_theorie_und_praxis @cassisbmusic"
+      },
+      {
+        "time": "21:30",
+        "act": "JacqNoise @jacqnoise"
+      },
+      {
+        "time": "22:30",
+        "act": "Vile Tensor @vile.tensor"
+      },
+      {
+        "time": "23:30",
+        "act": "Leon Trimble @leolodreamland"
+      },
+      {
+        "time": "00:30",
+        "act": "Outro @juan.outro"
+      },
+      {
+        "time": "01:30",
+        "act": "to 03:30 DJ 1 PARAND b2b Aura Nox"
+      },
+      {
+        "time": "03:30",
+        "act": "to 05:30 DJ 2 Matte"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms46",
+    "hasBody": true
+  },
+  {
+    "number": "BMS45",
+    "date": "2024-10-03",
+    "name": null,
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "inferredYear": true,
+    "slug": "bms45",
+    "hasBody": true
+  },
+  {
+    "number": "BMS44",
+    "date": "2024-09-07",
+    "name": null,
+    "venue": "Neulant van Excel",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "inferredYear": true,
+    "slug": "bms44",
+    "hasBody": true
+  },
+  {
+    "number": "BMS43",
+    "date": "2024-05-19",
+    "name": "DIY Kit Day",
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms43",
+    "hasBody": true
+  },
+  {
+    "number": "BMS42",
+    "date": "2024-04-30",
+    "name": null,
+    "venue": "Crack Bellmer",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:00",
+        "act": "HARPA - bipinrao9"
+      },
+      {
+        "time": "21:00",
+        "act": "SHELLBEAT - shellfishbeat"
+      },
+      {
+        "time": "22:00",
+        "act": "DJ_NIGHTLIFE93 - djnl93"
+      },
+      {
+        "time": "23:00",
+        "act": "VAMP ACID - vampacid"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms42",
+    "hasBody": true
+  },
+  {
+    "number": "BMS41",
+    "date": "2024-03-07",
+    "name": "Ambient - - Wohnzimmer",
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms41",
+    "hasBody": true
+  },
+  {
+    "number": "BMS40",
+    "date": "2023-11-30",
+    "name": "Ambient & Techno",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "inferredYear": true,
+    "slug": "bms40",
+    "hasBody": true
+  },
+  {
+    "number": "BMS39",
+    "date": "2023-10-19",
+    "name": null,
+    "venue": "Crack Bellmer",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "inferredYear": true,
+    "slug": "bms39",
+    "hasBody": true
+  },
+  {
+    "number": "BMS38",
+    "date": "2023-09-28",
+    "name": null,
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:30",
+        "act": "EMME MOISES @emme.moises"
+      },
+      {
+        "time": "21:30",
+        "act": "FRANK FUNKE @frankfunke"
+      },
+      {
+        "time": "22:30",
+        "act": "3RD PARTY INFLUENCE @3rdPartyInfluence"
+      },
+      {
+        "time": "23:30",
+        "act": "OPITZ @a_opitz"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms38",
+    "hasBody": true
+  },
+  {
+    "number": "BMS37",
+    "date": "2023-08-20",
+    "name": null,
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "19:00",
+        "act": "UGLYDUB"
+      },
+      {
+        "time": "20:00",
+        "act": "ANNA SHARIFI"
+      },
+      {
+        "time": "21:00",
+        "act": "PETER KIRN"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms37",
+    "hasBody": false
+  },
+  {
+    "number": "BMS36",
+    "date": "2023-07-14",
+    "name": null,
+    "venue": "LARK",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "23:00",
+        "act": "LEON TRIMBLE"
+      },
+      {
+        "time": "00:00",
+        "act": "PROFESSOR DICTABEAT"
+      },
+      {
+        "time": "01:00",
+        "act": "3RD PARTY INFLUENCE"
+      },
+      {
+        "time": "02:00",
+        "act": "JESSICA KERT"
+      },
+      {
+        "time": "03:00",
+        "act": "STIWAHN"
+      }
+    ],
+    "inferredYear": true,
+    "slug": "bms36",
+    "hasBody": true
+  },
+  {
+    "number": "BMS35",
+    "date": "2023-06-29",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms35",
+    "hasBody": true
+  },
+  {
+    "number": "BMS34",
+    "date": "2023-05-14",
+    "name": "DIY Kit Day",
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms34",
+    "hasBody": true
+  },
+  {
+    "number": "BMS33",
+    "date": "2023-05-05",
+    "name": "Dance!",
+    "venue": "Marie Antoinette",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms33",
+    "hasBody": true
+  },
+  {
+    "number": "BMS32",
+    "date": "2023-04-22",
+    "name": "Earth Day",
+    "venue": "ACUD",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms32",
+    "hasBody": true
+  },
+  {
+    "number": "BMS31",
+    "date": "2023-04-06",
+    "name": "Spectrum",
+    "venue": "Klunkerkranich",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:15",
+        "act": "JACQNOISE  \t@jacqnoise"
+      },
+      {
+        "time": "21:30",
+        "act": "JAY QUENTIN \t@jay_quentin"
+      },
+      {
+        "time": "22:30",
+        "act": "RICHARD EASEL\t@richardeasel"
+      },
+      {
+        "time": "23:30",
+        "act": "NEVERSLEEP \t@neversleepmusic"
+      },
+      {
+        "time": "00:30",
+        "act": "HARTBRAND\t\t@hartbrand"
+      }
+    ],
+    "slug": "bms31",
+    "hasBody": true
+  },
+  {
+    "number": "BMS30",
+    "date": "2023-03-24",
+    "name": "Dance!",
+    "venue": "Marie Antoinette",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms30",
+    "hasBody": true
+  },
+  {
+    "number": "BMS29",
+    "date": "2023-03-02",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms29",
+    "hasBody": true
+  },
+  {
+    "number": "BMS28",
+    "date": "2023-02-09",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms28",
+    "hasBody": true
+  },
+  {
+    "number": "BMS27",
+    "date": "2023-01-13",
+    "name": null,
+    "venue": "Marie Antoinette",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "22:00",
+        "act": "QURE"
+      },
+      {
+        "time": "23:00",
+        "act": "JACQNOISE"
+      },
+      {
+        "time": "00:00",
+        "act": "3RD PARTY INFLUENCE"
+      },
+      {
+        "time": "01:00",
+        "act": "KIMBOWNAUT"
+      },
+      {
+        "time": "02:00",
+        "act": "EIRA"
+      },
+      {
+        "time": "03:00",
+        "act": "FANGARM"
+      }
+    ],
+    "slug": "bms27",
+    "hasBody": true
+  },
+  {
+    "number": "BMS26",
+    "date": "2022-12-15",
+    "name": null,
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms26",
+    "hasBody": true
+  },
+  {
+    "number": "BMS25",
+    "date": "2022-12-01",
+    "name": null,
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:30",
+        "act": "KATHARINA BÉVAND"
+      },
+      {
+        "time": "21:00",
+        "act": "QUOTATION MARK W/ CONNY ALBRECHT"
+      },
+      {
+        "time": "22:00",
+        "act": "DRUSNOISE"
+      },
+      {
+        "time": "23:00",
+        "act": "OCTODIODE (Covid)"
+      },
+      {
+        "time": "00:00",
+        "act": "JEAN MARCEL FRICKE B2B  PETER KIRN"
+      }
+    ],
+    "slug": "bms25",
+    "hasBody": true
+  },
+  {
+    "number": "BMS24",
+    "date": "2022-11-18",
+    "name": "1.5 Year Anniversary Show",
+    "venue": "ACUD",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "21:00",
+        "act": "EILIYAS"
+      },
+      {
+        "time": "21:45",
+        "act": "ANDREW BLUMHAGEN"
+      },
+      {
+        "time": "22:45",
+        "act": "JULIUS B2B JACQNOISE"
+      },
+      {
+        "time": "23:45",
+        "act": "SUKKUBE"
+      },
+      {
+        "time": "00:45",
+        "act": "SELV IKEI"
+      }
+    ],
+    "slug": "bms24",
+    "hasBody": true
+  },
+  {
+    "number": "BMS23",
+    "date": "2022-11-03",
+    "name": null,
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms23",
+    "hasBody": true
+  },
+  {
+    "number": "BMS22",
+    "date": "2022-10-20",
+    "name": null,
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": "https://ra.co/events/1602864",
+    "lineup": [],
+    "slug": "bms22",
+    "hasBody": true
+  },
+  {
+    "number": "BMS21",
+    "date": "2022-10-06",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms21",
+    "hasBody": true
+  },
+  {
+    "number": "BMS20",
+    "date": "2022-09-22",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms20",
+    "hasBody": true
+  },
+  {
+    "number": "BMS19",
+    "date": "2022-09-08",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": "https://ra.co/dj/sarahsommers",
+    "lineup": [],
+    "slug": "bms19",
+    "hasBody": true
+  },
+  {
+    "number": "BMS18",
+    "date": "2022-08-25",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": "https://ra.co/dj/josefkunz",
+    "lineup": [],
+    "slug": "bms18",
+    "hasBody": true
+  },
+  {
+    "number": "BMS17",
+    "date": "2022-08-11",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms17",
+    "hasBody": true
+  },
+  {
+    "number": "BMS16",
+    "date": "2022-07-28",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": "https://ra.co/dj/josefkunz",
+    "lineup": [],
+    "slug": "bms16",
+    "hasBody": true
+  },
+  {
+    "number": "BMS15",
+    "date": "2022-07-14",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": "https://ra.co/dj/roccofx",
+    "lineup": [],
+    "slug": "bms15",
+    "hasBody": true
+  },
+  {
+    "number": "BMS14",
+    "date": "2022-06-16",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms14",
+    "hasBody": true
+  },
+  {
+    "number": "BMS13",
+    "date": "2022-05-19",
+    "name": "Spectrum",
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms13",
+    "hasBody": true
+  },
+  {
+    "number": "BMSAV1",
+    "date": "2022-05-07",
+    "name": "Modular Video Synth Special",
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bmsav1",
+    "hasBody": true
+  },
+  {
+    "number": "BMS12",
+    "date": "2022-04-21",
+    "name": null,
+    "venue": "Fitzroy",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms12",
+    "hasBody": true
+  },
+  {
+    "number": "BMS11",
+    "date": "2022-04-10",
+    "name": "Out of Towners livestream",
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms11",
+    "hasBody": true
+  },
+  {
+    "number": "BMS10",
+    "date": "2022-03-25",
+    "name": null,
+    "venue": "Bar Drehmoment",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms10",
+    "hasBody": true
+  },
+  {
+    "number": "BMS9",
+    "date": "2022-02-26",
+    "name": null,
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "JacqNoise"
+      },
+      {
+        "act": "ili.ili"
+      },
+      {
+        "act": "Neversleep"
+      },
+      {
+        "act": "antilophobia"
+      },
+      {
+        "act": "drusnoise"
+      },
+      {
+        "act": "3rd Party Influence with Optical Collusion"
+      }
+    ],
+    "slug": "bms9",
+    "hasBody": false,
+    "image": "bms_bms9-flyer"
+  },
+  {
+    "number": "BMS8",
+    "date": "2022-01-28",
+    "name": "Keep on patching",
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "time": "20:00",
+        "act": "fabs.asmr"
+      },
+      {
+        "time": "21:00",
+        "act": "3rd Party Influence (duo set: Simon Redfern and Daniel Tippmann) with Optical Collusion on visuals"
+      },
+      {
+        "time": "23:00",
+        "act": "drusnoise"
+      }
+    ],
+    "slug": "bms8",
+    "hasBody": false,
+    "image": "bms_bms8-keep-on-patching"
+  },
+  {
+    "number": "BMS7",
+    "date": "2021-12-18",
+    "name": "Livestream",
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "Sarah Sommers"
+      },
+      {
+        "act": "3rd Party Influence"
+      },
+      {
+        "act": "drusnoise"
+      },
+      {
+        "act": "Live visuals by Optical Collusion"
+      }
+    ],
+    "slug": "bms7",
+    "hasBody": false,
+    "image": "bms_bms7-livestream"
+  },
+  {
+    "number": "BMS6",
+    "date": "2021-11-27",
+    "name": null,
+    "venue": "Bar Drehmoment",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "Robin Burke"
+      },
+      {
+        "act": "ili.ili"
+      },
+      {
+        "act": "drusnoise"
+      },
+      {
+        "act": "3rd Party Influence"
+      }
+    ],
+    "slug": "bms6",
+    "hasBody": false,
+    "image": "bms_bms6-flyer"
+  },
+  {
+    "number": "BMS5",
+    "date": "2021-10-24",
+    "name": "Undead",
+    "venue": "Loophole",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "Schreibmaschine"
+      },
+      {
+        "act": "Andreas Krach"
+      },
+      {
+        "act": "3rd Party Influence & Max Blax"
+      },
+      {
+        "act": "drusnoise"
+      }
+    ],
+    "slug": "bms5",
+    "hasBody": true,
+    "image": "bms_bms5-undead"
+  },
+  {
+    "number": "BMS4",
+    "date": "2021-09-25",
+    "name": null,
+    "venue": "Bar Drehmoment",
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "Monotrail"
+      },
+      {
+        "act": "JacqNoise"
+      },
+      {
+        "act": "drusnoise"
+      },
+      {
+        "act": "3rd Party Influence with Max Blax"
+      }
+    ],
+    "slug": "bms4",
+    "hasBody": false,
+    "image": "bms_bms4-banner"
+  },
+  {
+    "number": "BMS3",
+    "date": "2021-08-28",
+    "name": "Country Fair",
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "ili.ili"
+      },
+      {
+        "act": "JacqNoise & max frimout"
+      },
+      {
+        "act": "3rd Party Influence"
+      },
+      {
+        "act": "drusnoise"
+      }
+    ],
+    "slug": "bms3",
+    "hasBody": true,
+    "image": "bms_bms3-country-fair"
+  },
+  {
+    "number": "BMS2",
+    "date": "2021-06-19",
+    "name": null,
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [
+      {
+        "act": "3rd Party Influence"
+      },
+      {
+        "act": "drusnoise"
+      },
+      {
+        "act": "StaTrax Berlin"
+      }
+    ],
+    "slug": "bms2",
+    "hasBody": false
+  },
+  {
+    "number": "BMS1",
+    "date": "2021-05-22",
+    "name": null,
+    "venue": null,
+    "city": "Berlin",
+    "url": null,
+    "lineup": [],
+    "slug": "bms1",
+    "hasBody": true
+  }
+]

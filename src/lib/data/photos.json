@@ -1,0 +1,820 @@
+{
+  "bms_dsc-1652-2-crop-banner": {
+    "id": "bms_dsc-1652-2-crop-banner",
+    "file": "bms_dsc-1652-2-crop-banner.jpg",
+    "alt": "Berlin Modular Society",
+    "caption": "Berlin Modular Society",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/167ec237-b489-4c63-838a-b709ef07107e/DSC_1652-2_crop_banner",
+    "pages": [
+      "index",
+      "event-archive"
+    ],
+    "captionHtml": "Berlin Modular Society"
+  },
+  "bms_logo-in-black-on-white-background": {
+    "id": "bms_logo-in-black-on-white-background",
+    "file": "bms_logo-in-black-on-white-background.jpg",
+    "alt": "Berlin Modular Society",
+    "caption": "Berlin Modular Society",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd333bfa-b6ba-4da4-a5f0-56f7bc71fdce/Logo_in_black_on_white_background",
+    "pages": [
+      "index",
+      "upcoming-dates",
+      "event-archive",
+      "about",
+      "submit",
+      "artist-area/performing-with-video",
+      "artist-area/using-obs",
+      "artist-area/streaming-test",
+      "artist-area/media-assets"
+    ],
+    "captionHtml": "Berlin Modular Society"
+  },
+  "bms_klunkerkranich": {
+    "id": "bms_klunkerkranich",
+    "file": "bms_klunkerkranich.jpg",
+    "alt": "Klunkerkranich",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/6da2fea0-3258-44a4-8956-16b80be740bb/klunkerkranich",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms56-simple": {
+    "id": "bms_bms56-simple",
+    "file": "bms_bms56-simple.png",
+    "alt": "BMS56",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/882f9ce1-c6b2-4f97-a0a1-c52730723a60/BMS56_simple",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_54-bms54-still-e-0-116": {
+    "id": "bms_54-bms54-still-e-0-116",
+    "file": "bms_54-bms54-still-e-0-116.jpg",
+    "alt": "BMS54 still",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7eb7f4b3-5e82-46d3-8f3d-fda60bd71294/54-BMS54-still-E.0.116",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_whatsapp-image-2025-04-15-at-08-47-04": {
+    "id": "bms_whatsapp-image-2025-04-15-at-08-47-04",
+    "file": "bms_whatsapp-image-2025-04-15-at-08-47-04.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9e58ab1b-59c6-438b-a816-f6f684bd4228/WhatsApp_Image_2025-04-15_at_08.47.04",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms49-still-0-28": {
+    "id": "bms_bms49-still-0-28",
+    "file": "bms_bms49-still-0-28.jpg",
+    "alt": "BMS49 still",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/222fb46d-25a7-4228-b9b0-7e1fb9c48229/BMS49-still-.0.28",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms48-still-0-59": {
+    "id": "bms_bms48-still-0-59",
+    "file": "bms_bms48-still-0-59.jpg",
+    "alt": "BMS48 still",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7762dadd-e3ab-4051-9750-d93f9684813d/BMS48-still-.0.59",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_e-bms44-stills-0-16": {
+    "id": "bms_e-bms44-stills-0-16",
+    "file": "bms_e-bms44-stills-0-16.jpg",
+    "alt": "BMS44 stills",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e4024d77-8d2c-4c28-bc47-f646126008bb/_E-BMS44-stills-.0.16",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms43-still-b6": {
+    "id": "bms_bms43-still-b6",
+    "file": "bms_bms43-still-b6.png",
+    "alt": "BMS43 still b6",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/34c78990-c10b-4c38-99f1-099925ffdd31/BMS43-still-b6",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_flyer-back-png": {
+    "id": "bms_flyer-back-png",
+    "file": "bms_flyer-back-png.png",
+    "alt": "Flyer back",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a915bdc3-13e0-4d21-8288-5b0ef3882026/FLYER_BACK_png",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms42-still2": {
+    "id": "bms_bms42-still2",
+    "file": "bms_bms42-still2.jpg",
+    "alt": "BMS42 still2",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/cd0d64d0-581a-4d8c-bec6-5316c3c11ba4/BMS42-still2",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms40-final-still": {
+    "id": "bms_bms40-final-still",
+    "file": "bms_bms40-final-still.jpg",
+    "alt": "BMS40 still",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ef27c26c-73c3-4568-a00f-784fbbcc1ed0/BMS40-final-still",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms39-corrected": {
+    "id": "bms_bms39-corrected",
+    "file": "bms_bms39-corrected.jpg",
+    "alt": "BMS39",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a9628953-9955-4fe9-8275-84fe0c258dfd/BMS39_corrected",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_flyer-diykitday-2023-back1": {
+    "id": "bms_flyer-diykitday-2023-back1",
+    "file": "bms_flyer-diykitday-2023-back1.jpg",
+    "alt": "Flyer diykitday back1",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/648082cb-a26f-4b5b-90d6-96a59a7461ab/Flyer_DiyKitDay_2023_back1",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms34-timesb": {
+    "id": "bms_bms34-timesb",
+    "file": "bms_bms34-timesb.png",
+    "alt": "BMS34 timesb",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/96bc970d-7a41-493a-9cc3-d961e7c3ec8a/BMS34-timesb",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms33-v7b": {
+    "id": "bms_bms33-v7b",
+    "file": "bms_bms33-v7b.png",
+    "alt": "BMS33 v7b",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e5c56ffa-13ed-41f1-a0ee-a9f4e9023f7e/BMS33-v7b",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms31-running-order-final-b": {
+    "id": "bms_bms31-running-order-final-b",
+    "file": "bms_bms31-running-order-final-b.png",
+    "alt": "BMS31 running order",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d13a578c-6610-408a-98d1-2dbdc1fe7558/BMS31-running_order_final-b",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_group-3020158-smaller": {
+    "id": "bms_group-3020158-smaller",
+    "file": "bms_group-3020158-smaller.jpg",
+    "alt": "Group",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b864e35e-51c5-4bda-a126-d76efea22429/group-3020158_smaller",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms29-running-order": {
+    "id": "bms_bms29-running-order",
+    "file": "bms_bms29-running-order.png",
+    "alt": "BMS29 running order",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/efe88638-d3e6-4696-a2d6-210cebc55922/BMS29-running-order",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms28-still-with-times": {
+    "id": "bms_bms28-still-with-times",
+    "file": "bms_bms28-still-with-times.png",
+    "alt": "BMS28 still with times",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/804b30c2-3fb9-4aef-a526-ea5b5a19d70d/BMS28-still-with-times",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-14-postcard": {
+    "id": "bms_bms-14-postcard",
+    "file": "bms_bms-14-postcard.png",
+    "alt": "BMS postcard",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c663d19b-c4f5-4a75-adbb-4137faae04af/BMS_14_postcard",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-10-insta": {
+    "id": "bms_bms-10-insta",
+    "file": "bms_bms-10-insta.png",
+    "alt": "BMS insta",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/597d974c-88fd-41fe-8d49-50855294e6d4/BMS_10_Insta",
+    "pages": [
+      "event-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-berlin-modular-society-logo-in-white-on-black-background": {
+    "id": "bms_bms-berlin-modular-society-logo-in-white-on-black-background",
+    "file": "bms_bms-berlin-modular-society-logo-in-white-on-black-background.jpg",
+    "alt": "Community",
+    "caption": "Community",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/351ae890-0eda-4575-85a1-b4dd82c07603/BMS_Berlin_Modular_Society_Logo_in_white_on_black_background",
+    "pages": [
+      "community",
+      "modular-courses"
+    ],
+    "captionHtml": "Community"
+  },
+  "bms_img-5596": {
+    "id": "bms_img-5596",
+    "file": "bms_img-5596.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c2d98df9-844b-44b5-908c-590f72e298b2/IMG_5596",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0929": {
+    "id": "bms_img-0929",
+    "file": "bms_img-0929.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1ea1709c-b18f-49de-ac19-b68636a37ab6/IMG_0929",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0451": {
+    "id": "bms_img-0451",
+    "file": "bms_img-0451.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f672eca0-3e3b-4a8c-adb1-beafc42bdfc2/IMG_0451",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0441": {
+    "id": "bms_img-0441",
+    "file": "bms_img-0441.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/17fd7cdf-c647-4dd6-a2a4-a17135416baf/IMG_0441",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0438": {
+    "id": "bms_img-0438",
+    "file": "bms_img-0438.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4c27c6bb-bdb5-4e00-a63c-d5ec034eff1d/IMG_0438",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0424": {
+    "id": "bms_img-0424",
+    "file": "bms_img-0424.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dd670a1c-2eff-44a9-8a05-0e251463d6eb/IMG_0424",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0417": {
+    "id": "bms_img-0417",
+    "file": "bms_img-0417.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/7947506c-f38f-4353-bd0a-775cd13ad644/IMG_0417",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0410": {
+    "id": "bms_img-0410",
+    "file": "bms_img-0410.jpg",
+    "alt": "",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d18785e6-2850-409b-949b-c87da62ab5c6/IMG_0410",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": ""
+  },
+  "bms_img-0413": {
+    "id": "bms_img-0413",
+    "file": "bms_img-0413.jpg",
+    "alt": "Simon Redfern and Steve Williams",
+    "caption": "Simon Redfern and Steve Williams",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f89253d3-eead-4842-9f69-45da860a27eb/IMG_0413",
+    "pages": [
+      "community"
+    ],
+    "captionHtml": "Simon Redfern and Steve Williams"
+  },
+  "bms_logo-in-white-on-black-background": {
+    "id": "bms_logo-in-white-on-black-background",
+    "file": "bms_logo-in-white-on-black-background.jpg",
+    "alt": "Artist Area",
+    "caption": "Artist Area",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/860a4882-3691-4b61-a23d-a5f2e5cda05e/Logo_in_white_on_black_background",
+    "pages": [
+      "artist-area",
+      "artist-area/media-assets"
+    ],
+    "captionHtml": "Artist Area"
+  },
+  "bms_bms-berlin-modular-society-black-watermark": {
+    "id": "bms_bms-berlin-modular-society-black-watermark",
+    "file": "bms_bms-berlin-modular-society-black-watermark.png",
+    "alt": "For Performers",
+    "caption": "For Performers",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/e6c2fdb1-ab3a-4e9b-b42c-fa7c9298e717/BMS_Berlin_Modular_Society_Black_watermark",
+    "pages": [
+      "artist-area/for-performers",
+      "artist-area/using-mkv-files"
+    ],
+    "captionHtml": "For Performers"
+  },
+  "bms_img-3012": {
+    "id": "bms_img-3012",
+    "file": "bms_img-3012.jpg",
+    "alt": "Artist Payments",
+    "caption": "Artist Payments",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/22a42c33-365d-4b8a-baee-04a0b3084e95/IMG_3012",
+    "pages": [
+      "artist-area/artist-payments"
+    ],
+    "captionHtml": "Artist Payments"
+  },
+  "bms_bms-berlin-modular-society-logo-in-black-on-white-background": {
+    "id": "bms_bms-berlin-modular-society-logo-in-black-on-white-background",
+    "file": "bms_bms-berlin-modular-society-logo-in-black-on-white-background.jpg",
+    "alt": "Artist Payments",
+    "caption": "Artist Payments",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/208c1ea4-f705-4db6-aeed-1873a8284bb5/BMS_Berlin_Modular_Society_Logo_in_black_on_white_background",
+    "pages": [
+      "artist-area/artist-payments"
+    ],
+    "captionHtml": "Artist Payments"
+  },
+  "bms_bms-video-setup-2": {
+    "id": "bms_bms-video-setup-2",
+    "file": "bms_bms-video-setup-2.jpg",
+    "alt": "BMS video setup",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d99a6953-d863-4af2-af42-827dbcf021f8/BMS_Video_Setup_(2)",
+    "pages": [
+      "artist-area/performing-with-video"
+    ],
+    "captionHtml": ""
+  },
+  "bms_obs-0": {
+    "id": "bms_obs-0",
+    "file": "bms_obs-0.png",
+    "alt": "OBS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/96b17735-07e9-4569-8ef9-b3cd0e5fa202/OBS_0",
+    "pages": [
+      "artist-area/using-obs"
+    ],
+    "captionHtml": ""
+  },
+  "bms_obs-1": {
+    "id": "bms_obs-1",
+    "file": "bms_obs-1.png",
+    "alt": "OBS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ffb245b0-31da-48be-b37a-9ecbf7593cf1/OBS_1",
+    "pages": [
+      "artist-area/using-obs"
+    ],
+    "captionHtml": ""
+  },
+  "bms_obs-general-settings": {
+    "id": "bms_obs-general-settings",
+    "file": "bms_obs-general-settings.png",
+    "alt": "OBS general settings",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b398dec5-5ac2-43bb-bbf1-c49a92853bea/OBS_general_settings",
+    "pages": [
+      "artist-area/using-obs"
+    ],
+    "captionHtml": ""
+  },
+  "bms_obs-stream-settings": {
+    "id": "bms_obs-stream-settings",
+    "file": "bms_obs-stream-settings.png",
+    "alt": "OBS stream settings",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae5560b6-ef6f-4277-a76f-5743a4b0c83c/OBS_stream_settings",
+    "pages": [
+      "artist-area/using-obs"
+    ],
+    "captionHtml": ""
+  },
+  "bms_obs-record-settings": {
+    "id": "bms_obs-record-settings",
+    "file": "bms_obs-record-settings.png",
+    "alt": "OBS record settings",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2c7f2092-e0d0-40f8-9e7d-a6b2465f8783/OBS_record_settings",
+    "pages": [
+      "artist-area/using-obs"
+    ],
+    "captionHtml": ""
+  },
+  "bms_black-watermark": {
+    "id": "bms_black-watermark",
+    "file": "bms_black-watermark.png",
+    "alt": "Black watermark",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/54448768-747b-483e-b1a8-f88e7c5b4fdb/Black_watermark",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_white-watermark": {
+    "id": "bms_white-watermark",
+    "file": "bms_white-watermark.png",
+    "alt": "White watermark",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/261ff98e-608c-4af6-a1f1-fdb41c488017/White_watermark",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-1": {
+    "id": "bms_bms-1",
+    "file": "bms_bms-1.png",
+    "alt": "BMS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1ae26ee1-aaba-4d3c-aea3-7fe085de3129/BMS-1",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-2": {
+    "id": "bms_bms-2",
+    "file": "bms_bms-2.png",
+    "alt": "BMS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8b6e933d-5448-429b-836b-e5d31fd20b7c/BMS-2",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-3": {
+    "id": "bms_bms-3",
+    "file": "bms_bms-3.png",
+    "alt": "BMS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/dc6c0131-5fac-4a7a-be4f-f7fddafc853a/BMS-3",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-4": {
+    "id": "bms_bms-4",
+    "file": "bms_bms-4.png",
+    "alt": "BMS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/224f61b1-55bd-4884-8f29-3fc8b22614de/BMS-4",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-5": {
+    "id": "bms_bms-5",
+    "file": "bms_bms-5.png",
+    "alt": "BMS",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c30eef61-bae9-4b9b-8b9f-3861815a231a/BMS-5",
+    "pages": [
+      "artist-area/media-assets"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-logo": {
+    "id": "bms_bms-logo",
+    "file": "bms_bms-logo.jpg",
+    "alt": "BMS logo",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/290bbfa0-0ef8-4371-984b-4cdb21ffd2af/BMS_LOGO",
+    "pages": [
+      "artist-area/media-assets/media-assets-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_modular-box-colors": {
+    "id": "bms_modular-box-colors",
+    "file": "bms_modular-box-colors.jpg",
+    "alt": "Modular box colors",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/10363830-04a5-49af-b8a0-89ea6759da67/Modular_Box_Colors",
+    "pages": [
+      "artist-area/media-assets/media-assets-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_modular-box": {
+    "id": "bms_modular-box",
+    "file": "bms_modular-box.jpg",
+    "alt": "Modular box",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5f75c9bb-66ac-40c4-865d-9bc8868d3e06/MODULAR_BOX",
+    "pages": [
+      "artist-area/media-assets/media-assets-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_logo-ideas": {
+    "id": "bms_logo-ideas",
+    "file": "bms_logo-ideas.png",
+    "alt": "Logo ideas",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/889746af-ce18-41e0-911a-94f8a3623d5d/LOGO_IDEAS",
+    "pages": [
+      "artist-area/media-assets/media-assets-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms-modular-font-3rows": {
+    "id": "bms_bms-modular-font-3rows",
+    "file": "bms_bms-modular-font-3rows.png",
+    "alt": "BMS modular font 3rows",
+    "caption": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/42b355cf-e81b-4493-ae86-20b012e01116/bms-modular-font-3rows",
+    "pages": [
+      "artist-area/media-assets/media-assets-archive"
+    ],
+    "captionHtml": ""
+  },
+  "bms_bms3-country-fair": {
+    "id": "bms_bms3-country-fair",
+    "file": "bms_bms3-country-fair.jpg",
+    "alt": "Country Fair poster: a vintage tractor in a brick yard, with live modular synth performances by ili.ili, JacqNoise & max frimout, third party influence and drusnoise",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  },
+  "bms_bms4-banner": {
+    "id": "bms_bms4-banner",
+    "file": "bms_bms4-banner.jpg",
+    "alt": "Berlin Modular Society banner in pink lettering over a close-up of patched Eurorack modules",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  },
+  "bms_bms5-undead": {
+    "id": "bms_bms5-undead",
+    "file": "bms_bms5-undead.jpg",
+    "alt": "Undead poster: tangled patch cables lit red, green and blue, listing Schreibmaschine, Andreas Krach, 3rd Party Influence & Max Blax and Drusnoise at Loophole",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  },
+  "bms_bms6-flyer": {
+    "id": "bms_bms6-flyer",
+    "file": "bms_bms6-flyer.jpg",
+    "alt": "Berlin Modular Society #6 flyer, blue on green, listing Robin Burke, ili.ili, drusnoise and 3rd Party Influence at Drehmoment, Glasgower Str. 29",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  },
+  "bms_bms7-livestream": {
+    "id": "bms_bms7-livestream",
+    "file": "bms_bms7-livestream.jpg",
+    "alt": "Berlin Modular Society #7 flyer in neon lettering, listing Sarah Sommers, 3rd Party Influence, drusnoise and live visuals by Optical Collusion",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  },
+  "bms_bms8-keep-on-patching": {
+    "id": "bms_bms8-keep-on-patching",
+    "file": "bms_bms8-keep-on-patching.jpg",
+    "alt": "Keep On Patching livestream flyer in yellow and black, listing fabs asmr, 3rd Party Influence and drusnoise",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  },
+  "bms_bms9-flyer": {
+    "id": "bms_bms9-flyer",
+    "file": "bms_bms9-flyer.jpg",
+    "alt": "Berlin Modular Society #9 livestream flyer: a performer at a modular rig in headphones, with JacqNoise, ili.ili, Neversleep, antilophobia, drusnoise and 3rd Party Influence with Optical Collusion",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "Facebook event",
+    "pages": [
+      "event-archive"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "",
+    "title": "Home",
+    "short": "Home"
+  },
+  {
+    "slug": "upcoming-dates",
+    "title": "Upcoming Dates",
+    "short": "Dates"
+  },
+  {
+    "slug": "event-archive",
+    "title": "Event Archive",
+    "short": "Archive"
+  },
+  {
+    "slug": "about",
+    "title": "About",
+    "short": "About"
+  },
+  {
+    "slug": "community",
+    "title": "Community",
+    "short": "Community"
+  },
+  {
+    "slug": "modular-courses",
+    "title": "Modular Courses",
+    "short": "Courses"
+  },
+  {
+    "slug": "artist-area",
+    "title": "Artist Area",
+    "short": "Artists"
+  },
+  {
+    "slug": "submit",
+    "title": "Artist Submission",
+    "short": "Submit"
+  }
+]

@@ -1,0 +1,112 @@
+<script>
+	import { onMount } from 'svelte';
+	import {
+		splitEvents,
+		formatEventDate,
+		eventTitle,
+		eventWhere,
+		venueRenamedTo
+	} from '$lib/events.js';
+	import Lineup from '$lib/components/Lineup.svelte';
+	import Photo from '$lib/components/Photo.svelte';
+
+	let now = $state(new Date());
+	const split = $derived(splitEvents(now));
+
+	// Undated events are the earliest ones - the old site never recorded a date for
+	// them. They belong in the archive, just at the end of it.
+	const list = $derived([...split.past, ...split.undated]);
+
+	// Each event's prose lives in src/content/events/<slug>.md so that mdsvex compiles
+	// it and the <Photo> and <Embed> tags inside it are real components. Eager, because
+	// the whole archive renders at once and every page here is prerendered anyway.
+	const bodies = import.meta.glob('/src/content/events/*.md', { eager: true });
+
+	function bodyOf(e) {
+		return bodies[`/src/content/events/${e.slug}.md`]?.default;
+	}
+
+	onMount(() => {
+		now = new Date();
+	});
+</script>
+
+<div class="archive">
+	{#each list as e (e.number)}
+		{@const Body = bodyOf(e)}
+		<article class="entry" id={e.slug}>
+			<h2>
+				{eventTitle(e)}
+				<a class="heading-anchor" href="#{e.slug}" aria-hidden="true" tabindex="-1">#</a>
+			</h2>
+
+			<p class="entry__meta">
+				{#if e.when}
+					<time datetime={e.date}>{formatEventDate(e.when)}</time>
+				{:else}
+					<span class="entry__undated">date not recorded</span>
+				{/if}
+				{#if e.venue}
+					<span>· {eventWhere(e)}</span>
+					{#if venueRenamedTo(e.venue)}
+						<span class="entry__renamed">(now {venueRenamedTo(e.venue)})</span>
+					{/if}
+				{/if}
+				{#if e.url}
+					<span>· <a href={e.url} target="_blank" rel="noopener noreferrer">tickets</a></span>
+				{/if}
+			</p>
+
+			<!-- The event's own flyer or still. Events migrated from the old site
+			     carry their images inside the body instead; this is for the ones
+			     where the picture is all there was. -->
+			{#if e.image}
+				<div class="entry__image">
+					<Photo id={e.image} sizes="(max-width: 46rem) 100vw, 30rem" />
+				</div>
+			{/if}
+
+			<Lineup lineup={e.lineup} />
+
+			{#if Body}<Body />{/if}
+		</article>
+	{/each}
+</div>
+
+<style>
+	.archive {
+		margin: 2rem 0;
+	}
+
+	.entry {
+		padding: 2rem 0;
+		border-top: 1px solid var(--rule);
+	}
+
+	.entry :global(h2) {
+		margin-top: 0;
+	}
+
+	.entry__meta {
+		margin: -0.5rem 0 1rem;
+		color: var(--text-muted);
+		font-size: 0.95rem;
+	}
+
+	.entry__undated {
+		font-style: italic;
+	}
+
+	.entry__renamed {
+		opacity: 0.75;
+	}
+
+	/* A flyer is a poster, not a photograph - it does not need the full measure. */
+	.entry__image {
+		max-width: 30rem;
+	}
+
+	.entry__image :global(figure) {
+		margin: 1.25rem 0;
+	}
+</style>
