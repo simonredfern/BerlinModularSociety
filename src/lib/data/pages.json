@@ -55,8 +55,8 @@
     "description": "OBS (Open Broadcast Suite) is the recommended tool to stream."
   },
   {
-    "path": "bms-artists",
-    "title": "BMS Artists",
+    "path": "artist-list",
+    "title": "Artist List",
     "description": "Everyone who has played at Berlin Modular Society, with the events, dates and venues they played."
   },
   {

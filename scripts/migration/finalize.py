@@ -13,14 +13,13 @@ idmap = json.load(open(os.path.join(OUT, 'idmap.json'), encoding='utf8'))
 NAV = [
     # Home is in the menu rather than as a breadcrumb on every page.
     ('', 'Home', 'Home'),
-    ('upcoming-dates', 'Upcoming Dates', 'Dates'),
+    ('upcoming-dates', 'Upcoming Dates', 'Upcoming'),
     ('event-archive', 'Event Archive', 'Archive'),
-    ('bms-artists', 'BMS Artists', 'Artists'),
+    ('artist-list', 'Artist List', 'Artist List'),
     ('about', 'About', 'About'),
     ('community', 'Community', 'Community'),
     ('modular-courses', 'Modular Courses', 'Courses'),
     ('artist-area', 'Artist Area', 'Artist Area'),
-    ('submit', 'Artist Submission', 'Submit'),
 ]
 
 COMPONENTS = {

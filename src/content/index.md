@@ -40,7 +40,7 @@ Tickets are pretty much always available on the door and often on our [Resident 
 
 ### Contact
 
-If you’d like to **perform**, please get in touch using our [Artist’s Submission page](/submit).
+If you’d like to **perform**, please get in touch using our [Artist Area](/artist-area#artist-submissions).
 
 Our Email is: [info@berlinmodularsociety.com](mailto:info@berlinmodularsociety.com)
 

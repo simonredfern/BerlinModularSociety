@@ -7,7 +7,7 @@
   {
     "slug": "upcoming-dates",
     "title": "Upcoming Dates",
-    "short": "Dates"
+    "short": "Upcoming"
   },
   {
     "slug": "event-archive",
@@ -15,9 +15,9 @@
     "short": "Archive"
   },
   {
-    "slug": "bms-artists",
-    "title": "BMS Artists",
-    "short": "Artists"
+    "slug": "artist-list",
+    "title": "Artist List",
+    "short": "Artist List"
   },
   {
     "slug": "about",
@@ -38,10 +38,5 @@
     "slug": "artist-area",
     "title": "Artist Area",
     "short": "Artist Area"
-  },
-  {
-    "slug": "submit",
-    "title": "Artist Submission",
-    "short": "Submit"
   }
 ]

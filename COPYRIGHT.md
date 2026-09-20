@@ -32,7 +32,7 @@ other than Simon contributed to that repo, their copyright carries across too.
 
 ## Content — all rights reserved
 
-Copyright © 2021–2026 Berlin Modular Society.
+Copyright © 2021–2026 Berlin Modular Society and contributors
 
 Not covered by the AGPL, and not licensed for reuse:
 
