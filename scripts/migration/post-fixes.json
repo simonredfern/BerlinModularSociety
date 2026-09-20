@@ -5,6 +5,12 @@
     "venue": "90Mil",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
+    "url": "https://ra.co/events/2536386",
+    "images": [
+      "bms_bms59-flyer",
+      "pollen_festival-flyer"
+    ],
+    "note": "BMS59 takes place in the context of [Pollen](https://ra.co/events/2536386) — a 24 hour interdisciplinary festival. You will need to have / get membership for 5 Euros and then there is a suggested donation of 20 to 30 Euros. The second image shows the broader context for the night.",
     "lineup": [
       {
         "time": "19:00",
@@ -960,7 +966,9 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "locality": "in the Neukölln Arcaden",
-    "image": "bms_bms43-flyer",
+    "images": [
+      "bms_bms43-flyer"
+    ],
     "lineup": [
       {
         "act": "HATAKEN",
@@ -1097,7 +1105,9 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "locality": "in the Neukölln Arcaden",
-    "image": "bms_bms41-flyer",
+    "images": [
+      "bms_bms41-flyer"
+    ],
     "lineup": [
       {
         "act": "Silver Galaxy",
@@ -1367,7 +1377,9 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "locality": "in the Neukölln Arcaden",
-    "image": "bms_bms34-flyer",
+    "images": [
+      "bms_bms34-flyer"
+    ],
     "lineup": [
       {
         "time": "16:00",
@@ -1473,7 +1485,9 @@
     "venue": "ACUD",
     "city": "Berlin",
     "locality": "near Rosenthaler Platz",
-    "image": "bms_bms32-flyer",
+    "images": [
+      "bms_bms32-flyer"
+    ],
     "lineup": [
       {
         "act": "drusnoise & Erbse",
@@ -1520,7 +1534,9 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "locality": "in the Neukölln Arcaden",
-    "image": "bms_bms31-flyer",
+    "images": [
+      "bms_bms31-flyer"
+    ],
     "lineup": [
       {
         "time": "20:15",
@@ -1580,7 +1596,9 @@
     "venue": "Marie Antoinette",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms30-flyer",
+    "images": [
+      "bms_bms30-flyer"
+    ],
     "lineup": [
       {
         "time": "23:00",
@@ -1749,7 +1767,9 @@
     "venue": "Marie Antoinette",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms27-flyer",
+    "images": [
+      "bms_bms27-flyer"
+    ],
     "lineup": [
       {
         "time": "22:00",
@@ -1800,7 +1820,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms26-flyer",
+    "images": [
+      "bms_bms26-flyer"
+    ],
     "lineup": [
       {
         "act": "Gong Klonk",
@@ -1845,7 +1867,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms25-flyer",
+    "images": [
+      "bms_bms25-flyer"
+    ],
     "lineup": [
       {
         "time": "20:30",
@@ -1892,7 +1916,9 @@
     "venue": "ACUD",
     "city": "Berlin",
     "locality": "near Rosenthaler Platz",
-    "image": "bms_bms24-flyer",
+    "images": [
+      "bms_bms24-flyer"
+    ],
     "lineup": [
       {
         "time": "21:00",
@@ -1937,7 +1963,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms23-flyer",
+    "images": [
+      "bms_bms23-flyer"
+    ],
     "lineup": [
       {
         "act": "Kaspar König & Seamus O'Donnell & Dida Zende",
@@ -1994,7 +2022,9 @@
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
     "url": "https://ra.co/events/1602864",
-    "image": "bms_bms22-flyer",
+    "images": [
+      "bms_bms22-flyer"
+    ],
     "lineup": [
       {
         "act": "Nikita and Anton",
@@ -2041,7 +2071,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms21-flyer",
+    "images": [
+      "bms_bms21-flyer"
+    ],
     "lineup": [
       {
         "act": "drusnoise",
@@ -2088,7 +2120,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms20-flyer",
+    "images": [
+      "bms_bms20-flyer"
+    ],
     "lineup": [
       {
         "act": "Chebedajha",
@@ -2136,7 +2170,9 @@
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
     "url": "https://ra.co/dj/sarahsommers",
-    "image": "bms_bms19-flyer",
+    "images": [
+      "bms_bms19-flyer"
+    ],
     "lineup": [
       {
         "act": "Gina Lo",
@@ -2184,7 +2220,9 @@
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
     "url": "https://ra.co/dj/josefkunz",
-    "image": "bms_bms18-flyer",
+    "images": [
+      "bms_bms18-flyer"
+    ],
     "lineup": [
       {
         "act": "Katharina Bévand",
@@ -2231,7 +2269,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms17-flyer",
+    "images": [
+      "bms_bms17-flyer"
+    ],
     "lineup": [
       {
         "act": "Böse",
@@ -2273,7 +2313,9 @@
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
     "url": "https://ra.co/dj/josefkunz",
-    "image": "bms_bms16-flyer",
+    "images": [
+      "bms_bms16-flyer"
+    ],
     "lineup": [
       {
         "act": "Phallucipher",
@@ -2320,7 +2362,9 @@
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
     "url": "https://ra.co/dj/roccofx",
-    "image": "bms_bms15-flyer",
+    "images": [
+      "bms_bms15-flyer"
+    ],
     "lineup": [
       {
         "act": "VTVT w/ VanTa on visuals",
@@ -2362,7 +2406,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms14-flyer",
+    "images": [
+      "bms_bms14-flyer"
+    ],
     "lineup": [
       {
         "act": "Aquarium",
@@ -2410,7 +2456,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms13-flyer",
+    "images": [
+      "bms_bms13-flyer"
+    ],
     "lineup": [
       {
         "time": "20:00",
@@ -2473,7 +2521,9 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "locality": "near Jannowitzbrücke",
-    "image": "bms_bms12-flyer",
+    "images": [
+      "bms_bms12-flyer"
+    ],
     "lineup": [
       {
         "act": "Neversleep",
@@ -2522,7 +2572,9 @@
     "date": "2022-04-10",
     "name": "Out of Towners livestream",
     "city": "Berlin",
-    "image": "bms_bms11-flyer",
+    "images": [
+      "bms_bms11-flyer"
+    ],
     "lineup": [
       {
         "act": "Octodiode",
@@ -2596,7 +2648,9 @@
   "BMS9": {
     "date": "2022-02-26",
     "city": "Berlin",
-    "image": "bms_bms9-flyer",
+    "images": [
+      "bms_bms9-flyer"
+    ],
     "lineup": [
       {
         "act": "JacqNoise",
@@ -2641,7 +2695,9 @@
     "date": "2022-01-28",
     "name": "Keep on patching",
     "city": "Berlin",
-    "image": "bms_bms8-keep-on-patching",
+    "images": [
+      "bms_bms8-keep-on-patching"
+    ],
     "lineup": [
       {
         "time": "20:00",
@@ -2671,7 +2727,9 @@
     "date": "2021-12-18",
     "name": "Livestream",
     "city": "Berlin",
-    "image": "bms_bms7-livestream",
+    "images": [
+      "bms_bms7-livestream"
+    ],
     "lineup": [
       {
         "act": "Sarah Sommers",
@@ -2704,7 +2762,9 @@
     "venue": "Bar Drehmoment",
     "city": "Berlin",
     "locality": "in Wedding",
-    "image": "bms_bms6-flyer",
+    "images": [
+      "bms_bms6-flyer"
+    ],
     "lineup": [
       {
         "act": "Robin Burke",
@@ -2737,7 +2797,9 @@
     "name": "Undead",
     "venue": "Loophole",
     "city": "Berlin",
-    "image": "bms_bms5-undead",
+    "images": [
+      "bms_bms5-undead"
+    ],
     "lineup": [
       {
         "act": "Schreibmaschine",
@@ -2771,7 +2833,9 @@
     "venue": "Bar Drehmoment",
     "city": "Berlin",
     "locality": "in Wedding",
-    "image": "bms_bms4-banner",
+    "images": [
+      "bms_bms4-banner"
+    ],
     "lineup": [
       {
         "act": "Monotrail",
@@ -2804,7 +2868,9 @@
     "date": "2021-08-28",
     "name": "Country Fair",
     "city": "Berlin",
-    "image": "bms_bms3-country-fair",
+    "images": [
+      "bms_bms3-country-fair"
+    ],
     "lineup": [
       {
         "act": "ili.ili",

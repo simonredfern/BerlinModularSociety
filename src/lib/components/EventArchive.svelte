@@ -5,7 +5,8 @@
 		formatEventDate,
 		eventTitle,
 		eventWhereLong,
-		venueRenamedTo
+		venueRenamedTo,
+		noteParts
 	} from '$lib/events.js';
 	import Lineup from '$lib/components/Lineup.svelte';
 	import Photo from '$lib/components/Photo.svelte';
@@ -65,11 +66,17 @@
 			<!-- The event's own flyer or still. Events migrated from the old site
 			     carry their images inside the body instead; this is for the ones
 			     where the picture is all there was. -->
-			{#if e.image}
+			{#if e.note}
+			<p class="entry__note entry__note--plain">
+				{#each noteParts(e.note) as part}{#if part.href}<a href={part.href} target="_blank" rel="noopener noreferrer">{part.text}</a>{:else}{part.text}{/if}{/each}
+			</p>
+		{/if}
+
+			{#each e.images ?? [] as img (img)}
 				<div class="entry__image">
-					<Photo id={e.image} sizes="(max-width: 46rem) 100vw, 30rem" />
+					<Photo id={img} sizes="(max-width: 46rem) 100vw, 30rem" />
 				</div>
-			{/if}
+			{/each}
 
 			<Lineup lineup={e.lineup} />
 
@@ -110,6 +117,13 @@
 
 	.entry__renamed {
 		opacity: 0.75;
+	}
+
+	.entry__note--plain {
+		padding-left: 0;
+		border-left: 0;
+		color: var(--text);
+		font-size: 1rem;
 	}
 
 	.entry__note {

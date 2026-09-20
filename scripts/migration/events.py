@@ -199,7 +199,7 @@ events.insert(0, {
     'name': 'Pollen',
     'venue': '90Mil',
     'city': 'Berlin',
-    'url': None,
+    'url': 'https://ra.co/events/2536386',
     'lineup': [
         {'time': '19:00', 'act': 'Ambient Tai Chi + MAPP: Simon Redfern + Mitch Altman',
          'url': 'https://www.ambienttaichi.com/', 'space': 'Movement Space or Outside'},
@@ -221,6 +221,8 @@ events.insert(0, {
     ],
     'body': 'There are several other performance and workshop spaces, and the whole '
             'event runs from 16:00 to 04:00.',
+    'note':
+        'BMS59 takes place in the context of [Pollen](https://ra.co/events/2536386) — a 24 hour interdisciplinary festival. You will need to have / get membership for 5 Euros and then there is a suggested donation of 20 to 30 Euros. The second image shows the broader context for the night.',
 })
 
 # Events are written newest-first and the sequence never goes backwards, so an event

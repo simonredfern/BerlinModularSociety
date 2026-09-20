@@ -1,9 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { splitEvents, eventTitle, eventWhereLong } from '$lib/events.js';
+	import { splitEvents, eventTitle, eventWhereLong, noteParts } from '$lib/events.js';
 	import Lineup from '$lib/components/Lineup.svelte';
 	import AddToCalendar from '$lib/components/AddToCalendar.svelte';
+	import Photo from '$lib/components/Photo.svelte';
 
 	let now = $state(new Date());
 	const split = $derived(splitEvents(now));
@@ -48,6 +49,22 @@
 			<time datetime={next.date}>{weekday} {day} {monthLong} {year}</time>
 			at {eventWhereLong(next)}
 		</p>
+
+		{#if next.note}
+			<p class="next__note">
+				{#each noteParts(next.note) as part}{#if part.href}<a href={part.href} target="_blank" rel="noopener noreferrer">{part.text}</a>{:else}{part.text}{/if}{/each}
+			</p>
+		{/if}
+
+		{#if next.images?.length}
+			<div class="next__flyers">
+				{#each next.images as img (img)}
+					<div class="next__flyer">
+						<Photo id={img} sizes="(max-width: 40rem) 90vw, 20rem" />
+					</div>
+				{/each}
+			</div>
+		{/if}
 
 		<Lineup lineup={next.lineup} />
 
@@ -110,6 +127,30 @@
 		font-size: 1.2rem;
 		font-weight: 600;
 		line-height: 1.35;
+	}
+
+	.next__note {
+		margin: 0.9rem 0 0;
+		max-width: 42rem;
+	}
+
+	/* The event's own flyer, and the festival's - the second gives the wider
+	   context the event sits in. Side by side where there is room. */
+	.next__flyers {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		margin-top: 1.4rem;
+	}
+
+	.next__flyer {
+		flex: 1 1 16rem;
+		max-width: 20rem;
+		margin: 0;
+	}
+
+	.next__flyer :global(figure) {
+		margin: 0;
 	}
 
 	.next__foot {

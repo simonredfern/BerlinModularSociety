@@ -5,7 +5,7 @@
     "name": "Pollen",
     "venue": "90Mil",
     "city": "Berlin",
-    "url": null,
+    "url": "https://ra.co/events/2536386",
     "lineup": [
       {
         "time": "19:00",
@@ -102,7 +102,12 @@
     ],
     "slug": "bms59",
     "hasBody": true,
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms59-flyer",
+      "pollen_festival-flyer"
+    ],
+    "note": "BMS59 takes place in the context of [Pollen](https://ra.co/events/2536386) — a 24 hour interdisciplinary festival. You will need to have / get membership for 5 Euros and then there is a suggested donation of 20 to 30 Euros. The second image shows the broader context for the night."
   },
   {
     "number": "BMS58",
@@ -1117,8 +1122,10 @@
     ],
     "slug": "bms43",
     "hasBody": true,
-    "image": "bms_bms43-flyer",
-    "locality": "in the Neukölln Arcaden"
+    "locality": "in the Neukölln Arcaden",
+    "images": [
+      "bms_bms43-flyer"
+    ]
   },
   {
     "number": "BMS42",
@@ -1214,8 +1221,10 @@
     ],
     "slug": "bms41",
     "hasBody": true,
-    "image": "bms_bms41-flyer",
-    "locality": "in the Neukölln Arcaden"
+    "locality": "in the Neukölln Arcaden",
+    "images": [
+      "bms_bms41-flyer"
+    ]
   },
   {
     "number": "BMS40",
@@ -1548,8 +1557,10 @@
     ],
     "slug": "bms34",
     "hasBody": true,
-    "image": "bms_bms34-flyer",
-    "locality": "in the Neukölln Arcaden"
+    "locality": "in the Neukölln Arcaden",
+    "images": [
+      "bms_bms34-flyer"
+    ]
   },
   {
     "number": "BMS33",
@@ -1642,8 +1653,10 @@
     ],
     "slug": "bms32",
     "hasBody": true,
-    "image": "bms_bms32-flyer",
-    "locality": "near Rosenthaler Platz"
+    "locality": "near Rosenthaler Platz",
+    "images": [
+      "bms_bms32-flyer"
+    ]
   },
   {
     "number": "BMS31",
@@ -1706,8 +1719,10 @@
     ],
     "slug": "bms31",
     "hasBody": true,
-    "image": "bms_bms31-flyer",
-    "locality": "in the Neukölln Arcaden"
+    "locality": "in the Neukölln Arcaden",
+    "images": [
+      "bms_bms31-flyer"
+    ]
   },
   {
     "number": "BMS30",
@@ -1770,8 +1785,10 @@
     ],
     "slug": "bms30",
     "hasBody": true,
-    "image": "bms_bms30-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms30-flyer"
+    ]
   },
   {
     "number": "BMS29",
@@ -1944,8 +1961,10 @@
     ],
     "slug": "bms27",
     "hasBody": true,
-    "image": "bms_bms27-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms27-flyer"
+    ]
   },
   {
     "number": "BMS26",
@@ -1994,8 +2013,10 @@
     ],
     "slug": "bms26",
     "hasBody": true,
-    "image": "bms_bms26-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms26-flyer"
+    ]
   },
   {
     "number": "BMS25",
@@ -2045,8 +2066,10 @@
     ],
     "slug": "bms25",
     "hasBody": true,
-    "image": "bms_bms25-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms25-flyer"
+    ]
   },
   {
     "number": "BMS24",
@@ -2095,8 +2118,10 @@
     ],
     "slug": "bms24",
     "hasBody": true,
-    "image": "bms_bms24-flyer",
-    "locality": "near Rosenthaler Platz"
+    "locality": "near Rosenthaler Platz",
+    "images": [
+      "bms_bms24-flyer"
+    ]
   },
   {
     "number": "BMS23",
@@ -2155,9 +2180,11 @@
     ],
     "slug": "bms23",
     "hasBody": true,
-    "image": "bms_bms23-flyer",
     "facebookNote": "Facebook reports Kaspar König alone, without Seamus O'Donnell and Dida Zende, and describes his set as performance art.",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms23-flyer"
+    ]
   },
   {
     "number": "BMS22",
@@ -2207,8 +2234,10 @@
     ],
     "slug": "bms22",
     "hasBody": true,
-    "image": "bms_bms22-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms22-flyer"
+    ]
   },
   {
     "number": "BMS21",
@@ -2258,8 +2287,10 @@
     ],
     "slug": "bms21",
     "hasBody": true,
-    "image": "bms_bms21-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms21-flyer"
+    ]
   },
   {
     "number": "BMS20",
@@ -2309,8 +2340,10 @@
     ],
     "slug": "bms20",
     "hasBody": true,
-    "image": "bms_bms20-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms20-flyer"
+    ]
   },
   {
     "number": "BMS19",
@@ -2359,9 +2392,11 @@
     ],
     "slug": "bms19",
     "hasBody": true,
-    "image": "bms_bms19-flyer",
     "facebookNote": "Facebook reports Kat Polar in place of Gina Lo and Sub Strata.",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms19-flyer"
+    ]
   },
   {
     "number": "BMS18",
@@ -2411,8 +2446,10 @@
     ],
     "slug": "bms18",
     "hasBody": true,
-    "image": "bms_bms18-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms18-flyer"
+    ]
   },
   {
     "number": "BMS17",
@@ -2456,8 +2493,10 @@
     ],
     "slug": "bms17",
     "hasBody": true,
-    "image": "bms_bms17-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms17-flyer"
+    ]
   },
   {
     "number": "BMS16",
@@ -2506,8 +2545,10 @@
     ],
     "slug": "bms16",
     "hasBody": true,
-    "image": "bms_bms16-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms16-flyer"
+    ]
   },
   {
     "number": "BMS15",
@@ -2552,8 +2593,10 @@
     ],
     "slug": "bms15",
     "hasBody": true,
-    "image": "bms_bms15-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms15-flyer"
+    ]
   },
   {
     "number": "BMS14",
@@ -2604,8 +2647,10 @@
     ],
     "slug": "bms14",
     "hasBody": true,
-    "image": "bms_bms14-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms14-flyer"
+    ]
   },
   {
     "number": "BMS13",
@@ -2651,9 +2696,11 @@
     ],
     "slug": "bms13",
     "hasBody": true,
-    "image": "bms_bms13-flyer",
     "facebookNote": "Facebook reports the line-up as Schreibmaschine, Monotrail, JacqNoise, Sarah Sommers, Burnside and drusnoise with Optical Collusion.",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms13-flyer"
+    ]
   },
   {
     "number": "BMSAV1",
@@ -2732,8 +2779,10 @@
     ],
     "slug": "bms12",
     "hasBody": true,
-    "image": "bms_bms12-flyer",
-    "locality": "near Jannowitzbrücke"
+    "locality": "near Jannowitzbrücke",
+    "images": [
+      "bms_bms12-flyer"
+    ]
   },
   {
     "number": "BMS11",
@@ -2764,7 +2813,9 @@
     ],
     "slug": "bms11",
     "hasBody": true,
-    "image": "bms_bms11-flyer"
+    "images": [
+      "bms_bms11-flyer"
+    ]
   },
   {
     "number": "BMS10",
@@ -2868,7 +2919,9 @@
     ],
     "slug": "bms9",
     "hasBody": false,
-    "image": "bms_bms9-flyer"
+    "images": [
+      "bms_bms9-flyer"
+    ]
   },
   {
     "number": "BMS8",
@@ -2903,7 +2956,9 @@
     ],
     "slug": "bms8",
     "hasBody": false,
-    "image": "bms_bms8-keep-on-patching"
+    "images": [
+      "bms_bms8-keep-on-patching"
+    ]
   },
   {
     "number": "BMS7",
@@ -2940,7 +2995,9 @@
     ],
     "slug": "bms7",
     "hasBody": false,
-    "image": "bms_bms7-livestream"
+    "images": [
+      "bms_bms7-livestream"
+    ]
   },
   {
     "number": "BMS6",
@@ -2977,8 +3034,10 @@
     ],
     "slug": "bms6",
     "hasBody": false,
-    "image": "bms_bms6-flyer",
-    "locality": "in Wedding"
+    "locality": "in Wedding",
+    "images": [
+      "bms_bms6-flyer"
+    ]
   },
   {
     "number": "BMS5",
@@ -3016,7 +3075,9 @@
     ],
     "slug": "bms5",
     "hasBody": true,
-    "image": "bms_bms5-undead"
+    "images": [
+      "bms_bms5-undead"
+    ]
   },
   {
     "number": "BMS4",
@@ -3054,8 +3115,10 @@
     ],
     "slug": "bms4",
     "hasBody": false,
-    "image": "bms_bms4-banner",
-    "locality": "in Wedding"
+    "locality": "in Wedding",
+    "images": [
+      "bms_bms4-banner"
+    ]
   },
   {
     "number": "BMS3",
@@ -3093,7 +3156,9 @@
     ],
     "slug": "bms3",
     "hasBody": true,
-    "image": "bms_bms3-country-fair"
+    "images": [
+      "bms_bms3-country-fair"
+    ]
   },
   {
     "number": "BMS2",

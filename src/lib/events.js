@@ -77,3 +77,23 @@ export function eventWhereLong(e) {
 export function eventWhere(e) {
 	return [e.venue, e.venue === e.city ? null : e.city].filter(Boolean).join(', ');
 }
+
+/**
+ * Splits a note into plain text and links, so `[Pollen](https://…)` renders as a
+ * link without handing the string to {@html}. The notes are ours, but escaping
+ * by default is the right habit for anything that ends up in the DOM.
+ */
+export function noteParts(note) {
+	if (!note) return [];
+	const parts = [];
+	const rx = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+	let last = 0;
+	let m;
+	while ((m = rx.exec(note))) {
+		if (m.index > last) parts.push({ text: note.slice(last, m.index) });
+		parts.push({ text: m[1], href: m[2] });
+		last = m.index + m[0].length;
+	}
+	if (last < note.length) parts.push({ text: note.slice(last) });
+	return parts;
+}

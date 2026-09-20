@@ -1115,5 +1115,31 @@
     "pages": [
       "event-archive"
     ]
+  },
+  "bms_bms59-flyer": {
+    "id": "bms_bms59-flyer",
+    "file": "bms_bms59-flyer.jpg",
+    "alt": "BMS59 flyer: orange text over a dark red rose, listing Ambient Tai Chi + MAPP, trismo, Phoebe Killdeer & THE SHIFT, NEVERSLEEP feat. E. Shapere, Vile Tensor, Rocco.fx & Depuratumba and 3rd Party Influence at Pollen, 90Mil, 16:00 to 04:00",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "supplied by BMS, September 2026",
+    "pages": [
+      "index"
+    ]
+  },
+  "pollen_festival-flyer": {
+    "id": "pollen_festival-flyer",
+    "file": "pollen_festival-flyer.jpg",
+    "alt": "Pollen festival flyer for 25 September 2026 at 90Mil: the full programme across performance, music, symposium, A/V exhibition and cinema, with the Berlin Modular Society block listing Phoebe Killdeer x The Shift, NEVERSLEEP x E. Shapere, Mitch Altman, Trismo, Vile Tensor, Rocco.fx x Depuratumba and Modular Artists for Planet and People",
+    "caption": "",
+    "captionHtml": "",
+    "credit": null,
+    "creditUrl": null,
+    "source": "supplied by BMS, September 2026",
+    "pages": [
+      "index"
+    ]
   }
 }
