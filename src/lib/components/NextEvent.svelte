@@ -42,33 +42,36 @@
 		</div>
 
 		<div class="next__head">
-			<div class="next__date" aria-hidden="true">
+			<p class="next__date" aria-hidden="true">
 				<span class="next__day">{day}</span>
-				<span class="next__month">{month}</span>
-			</div>
+				<span class="next__rest">{month}<br />{year}</span>
+			</p>
 
 			<div class="next__what">
-				<p class="next__title">
+				<h3 class="next__title">
 					{#if next.url}
 						<a href={next.url} target="_blank" rel="noopener noreferrer">{eventTitle(next)}</a>
 					{:else}{eventTitle(next)}{/if}
-				</p>
+				</h3>
 				<p class="next__meta">
-					<time datetime={next.date}>{weekday} {day} {monthLong} {year}</time>
-					<span class="next__dot" aria-hidden="true">·</span>
-					<span class="next__where">{eventWhere(next)}</span>
+					<time datetime={next.date}>
+						<span class="sr-only">{weekday} {day} {monthLong} {year}</span>
+						<span aria-hidden="true">{weekday}</span>
+					</time>
+					<span aria-hidden="true">·</span>
+					<span>{eventWhere(next)}</span>
 				</p>
-				{#if next.url}
-					<p class="next__cta">
-						<a href={next.url} target="_blank" rel="noopener noreferrer">Tickets</a>
-					</p>
-				{/if}
 			</div>
 		</div>
 
 		<Lineup lineup={next.lineup} prominent />
 
-		<AddToCalendar event={next} />
+		<div class="next__foot">
+			{#if next.url}
+				<a class="next__cta" href={next.url} target="_blank" rel="noopener noreferrer">Tickets</a>
+			{/if}
+			<AddToCalendar event={next} />
+		</div>
 	</aside>
 {:else}
 	<aside class="next next--empty">
@@ -80,20 +83,16 @@
 {/if}
 
 <style>
-	.next {
-		margin: 2.5rem 0 3rem;
-		padding: 1.4rem 1.6rem 1.6rem;
-		border: 1px solid var(--rule);
-		border-radius: 10px;
-		background: var(--surface);
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-	}
-
-	/* A solid rule across the top, so the box reads as the page's headline.
-	   Monochrome throughout: the BMS logo is black-on-white, and the structure
-	   does the work here rather than colour. */
+	/* Light card. The weight comes from the scale of the date and title and from
+	   two solid dark elements - the countdown and the Tickets pill - rather than
+	   from inverting the whole block. */
 	.next {
 		position: relative;
+		margin: 2.5rem 0 3rem;
+		padding: 1.6rem 1.75rem 1.5rem;
+		border: 1px solid var(--rule);
+		border-radius: 12px;
+		background: var(--surface);
 		overflow: hidden;
 	}
 
@@ -101,8 +100,8 @@
 		content: '';
 		position: absolute;
 		inset: 0 0 auto;
-		height: 3px;
-		background: var(--text);
+		height: 4px;
+		background: var(--ink);
 	}
 
 	.next__bar {
@@ -110,60 +109,59 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 1rem;
-		margin-bottom: 1rem;
+		margin-bottom: 1.4rem;
 	}
 
 	.next__label {
 		margin: 0;
 		font-size: 0.72rem;
 		font-weight: 700;
-		letter-spacing: 0.16em;
+		letter-spacing: 0.22em;
 		text-transform: uppercase;
-		color: var(--text);
+		color: var(--text-muted);
 	}
 
 	.next__countdown {
-		padding: 0.2rem 0.6rem;
+		padding: 0.25rem 0.7rem;
+		background: var(--ink);
+		color: var(--paper);
 		border-radius: 999px;
-		background: var(--text);
-		color: var(--bg);
-		font-size: 0.75rem;
-		font-weight: 600;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
 		white-space: nowrap;
 	}
 
 	.next__head {
 		display: flex;
 		align-items: flex-start;
-		gap: 1.1rem;
+		gap: 1.2rem;
+		padding-bottom: 1.3rem;
 	}
 
-	/* Calendar tile. */
+	/* The day as the loudest thing on the page. */
 	.next__date {
+		display: flex;
+		align-items: baseline;
+		gap: 0.5rem;
+		margin: 0;
 		flex: 0 0 auto;
-		width: 4.2rem;
-		padding: 0.5rem 0 0.6rem;
-		border-radius: 8px;
-		background: var(--bg);
-		border: 1px solid var(--rule);
-		text-align: center;
-		line-height: 1;
 	}
 
 	.next__day {
-		display: block;
-		font-size: 1.9rem;
-		font-weight: 700;
+		font-size: 4.2rem;
+		font-weight: 800;
+		line-height: 0.82;
+		letter-spacing: -0.05em;
 		font-variant-numeric: tabular-nums;
-		letter-spacing: -0.02em;
 	}
 
-	.next__month {
-		display: block;
-		margin-top: 0.25rem;
-		font-size: 0.72rem;
+	.next__rest {
+		font-size: 0.78rem;
 		font-weight: 700;
-		letter-spacing: 0.12em;
+		line-height: 1.25;
+		letter-spacing: 0.14em;
 		text-transform: uppercase;
 		color: var(--text-muted);
 	}
@@ -174,13 +172,14 @@
 
 	.next__title {
 		margin: 0;
-		font-size: 1.6rem;
-		font-weight: 700;
-		line-height: 1.15;
-		letter-spacing: -0.015em;
+		font-size: 2rem;
+		font-weight: 800;
+		line-height: 1.05;
+		letter-spacing: -0.025em;
 	}
 
 	.next__title a {
+		color: inherit;
 		text-decoration: none;
 	}
 
@@ -188,34 +187,68 @@
 		text-decoration: underline;
 	}
 
+	/* The day and the venue are what someone actually needs off this card, so
+	   they sit close to the title in weight rather than as fine print. */
 	.next__meta {
-		margin: 0.35rem 0 0;
-		color: var(--text-muted);
-		font-size: 0.95rem;
+		margin: 0.45rem 0 0;
+		color: var(--text);
+		font-size: 1.15rem;
+		font-weight: 600;
+		line-height: 1.3;
 	}
 
-	.next__dot {
-		margin: 0 0.3rem;
-		opacity: 0.6;
+	.next__meta [aria-hidden='true'] {
+		color: var(--text-muted);
+		font-weight: 400;
+	}
+
+	.next__meta span {
+		margin-left: 0.25rem;
+	}
+
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
+
+	.next__meta time span.sr-only {
+		margin-left: 0;
+	}
+
+	.next__foot {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.9rem;
+		margin-top: 1.2rem;
 	}
 
 	.next__cta {
-		margin: 0.8rem 0 0;
-	}
-
-	.next__cta a {
-		display: inline-block;
-		padding: 0.4rem 0.95rem;
+		padding: 0.5rem 1.2rem;
 		border-radius: 999px;
-		background: var(--text);
-		color: var(--bg);
-		font-size: 0.88rem;
-		font-weight: 600;
+		background: var(--ink);
+		color: var(--paper);
+		font-size: 0.9rem;
+		font-weight: 700;
 		text-decoration: none;
+		white-space: nowrap;
 	}
 
-	.next__cta a:hover {
-		background: var(--text-muted);
+	.next__cta:hover {
+		background: color-mix(in srgb, var(--ink) 80%, var(--paper));
+	}
+
+	/* The calendar row sits on the same line as Tickets and needs no top rule. */
+	.next__foot :global(.cal) {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0;
 	}
 
 	.next--empty::before {
@@ -224,23 +257,23 @@
 
 	@media (max-width: 34rem) {
 		.next {
-			padding: 1.2rem 1.1rem 1.3rem;
+			padding: 1.25rem 1.15rem 1.2rem;
 		}
 
 		.next__head {
-			gap: 0.85rem;
-		}
-
-		.next__date {
-			width: 3.6rem;
+			gap: 0.9rem;
 		}
 
 		.next__day {
-			font-size: 1.6rem;
+			font-size: 3.2rem;
 		}
 
 		.next__title {
-			font-size: 1.3rem;
+			font-size: 1.5rem;
+		}
+
+		.next__meta {
+			font-size: 1.05rem;
 		}
 	}
 </style>

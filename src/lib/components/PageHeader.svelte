@@ -2,26 +2,46 @@
 	import Photo from '$lib/components/Photo.svelte';
 
 	/** The Super page header: a wide cover photo, the BMS logo, and the title. */
-	let { title, cover = null, icon = null, level = 1 } = $props();
+	/**
+	 * The banner every page wears unless it brings its own. Only the homepage,
+	 * /event-archive and /artist-area/artist-payments set `cover` in their
+	 * frontmatter; the rest inherit this so the site reads as one thing.
+	 * A page can opt out with `cover: ""`.
+	 */
+	const DEFAULT_COVER = 'bms_dsc-1652-2-crop-banner';
+
+	/**
+	 * Likewise the logo. Most migrated pages carry this exact id already; pages
+	 * added since had none, which left them without the mark every other page
+	 * wears. Opt out with `icon: ""`.
+	 */
+	const DEFAULT_ICON = 'bms_logo-in-black-on-white-background';
+
+	/** `titleHidden` keeps the heading in the DOM but out of sight - for a page
+	    whose logo image already is the wordmark. */
+	let { title, cover = null, icon = null, level = 1, titleHidden = false } = $props();
+
+	const banner = $derived(cover === '' ? null : (cover ?? DEFAULT_COVER));
+	const mark = $derived(icon === '' ? null : (icon ?? DEFAULT_ICON));
 </script>
 
-<header class="page-header" class:page-header--cover={cover}>
-	{#if cover}
+<header class="page-header" class:page-header--cover={banner}>
+	{#if banner}
 		<div class="page-header__cover">
-			<Photo id={cover} bare eager sizes="100vw" />
+			<Photo id={banner} bare eager sizes="100vw" />
 		</div>
 	{/if}
 
-	{#if icon}
+	{#if mark}
 		<div class="page-header__icon">
-			<Photo id={icon} bare eager sizes="5rem" />
+			<Photo id={mark} bare eager sizes="5rem" />
 		</div>
 	{/if}
 
 	{#if level === 1}
-		<h1 class="page-header__title">{title}</h1>
+		<h1 class="page-header__title" class:sr-only={titleHidden}>{title}</h1>
 	{:else}
-		<p class="page-header__title">{title}</p>
+		<p class="page-header__title" class:sr-only={titleHidden}>{title}</p>
 	{/if}
 </header>
 
@@ -74,6 +94,17 @@
 		height: 100%;
 		object-fit: contain;
 		display: block;
+	}
+
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
 	}
 
 	.page-header__title {

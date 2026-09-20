@@ -10,7 +10,7 @@ icon: "bms_logo-in-black-on-white-background"
 	import NextEvent from '$lib/components/NextEvent.svelte';
 </script>
 
-### <span class="nc-gray">We organise live modular music events!</span>
+## <span class="nc-gray">We organise live modular music events!</span>
 
 <NextEvent />
 

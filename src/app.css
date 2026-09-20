@@ -7,6 +7,11 @@
 	--accent: #cc2b1d;
 	--accent-hover: #a82217;
 
+	/* The page's own ink and paper, as separate tokens. An element that inverts
+	   needs to read these while redefining --text for its children. */
+	--ink: #18181b;
+	--paper: #ffffff;
+
 	--measure: 46rem;
 	--font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 	--font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -21,10 +26,14 @@
 		--rule: #2e2e34;
 		--accent: #ff6b5e;
 		--accent-hover: #ff8d83;
+		--ink: #ededf0;
+		--paper: #131316;
 	}
 }
 
 :root[data-theme='dark'] {
+	--ink: #ededf0;
+	--paper: #131316;
 	--bg: #131316;
 	--surface: #1d1d21;
 	--text: #ededf0;

@@ -9,11 +9,6 @@
 
 <header class="site-header">
 	<div class="site-header__bar">
-		<a class="brand" href="{base}/" onclick={() => (open = false)}>
-			<img src="{base}/favicon.png" alt="" width="26" height="26" />
-			<span>Berlin Modular Society</span>
-		</a>
-
 		<button
 			class="nav-toggle"
 			type="button"
@@ -52,32 +47,13 @@
 		border-bottom: 1px solid var(--rule);
 	}
 
+	/* Holds nothing but the mobile menu toggle now that the brand is gone, so it
+	   is not rendered at all on wider screens. */
 	.site-header__bar {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 1rem;
-		max-width: var(--measure);
-		margin: 0 auto;
-		padding: 0.7rem 1rem;
+		display: none;
 	}
 
-	.brand {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.55rem;
-		color: var(--text);
-		font-weight: 600;
-		font-size: 0.95rem;
-		text-decoration: none;
-		white-space: nowrap;
-	}
-
-	.brand img {
-		border-radius: 3px;
-	}
-
-	.nav-toggle {
+				.nav-toggle {
 		display: none;
 		padding: 0.35rem 0.7rem;
 		border: 1px solid var(--rule);
@@ -95,7 +71,8 @@
 		gap: 0.15rem 1rem;
 		max-width: var(--measure);
 		margin: 0 auto;
-		padding: 0 1rem 0.65rem;
+		/* The brand bar used to provide the space above these links. */
+		padding: 0.8rem 1rem 0.7rem;
 		list-style: none;
 	}
 
@@ -115,6 +92,14 @@
 	}
 
 	@media (max-width: 40rem) {
+		.site-header__bar {
+			display: flex;
+			justify-content: flex-end;
+			max-width: var(--measure);
+			margin: 0 auto;
+			padding: 0.6rem 1rem;
+		}
+
 		.nav-toggle {
 			display: block;
 		}
@@ -130,6 +115,8 @@
 		.site-nav ul {
 			flex-direction: column;
 			gap: 0;
+			/* The toggle bar sits above on mobile, so no extra space is needed. */
+			padding-top: 0;
 			padding-bottom: 0.75rem;
 		}
 
