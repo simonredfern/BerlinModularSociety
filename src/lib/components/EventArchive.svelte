@@ -4,11 +4,13 @@
 		splitEvents,
 		formatEventDate,
 		eventTitle,
-		eventWhere,
+		eventWhereLong,
 		venueRenamedTo
 	} from '$lib/events.js';
 	import Lineup from '$lib/components/Lineup.svelte';
 	import Photo from '$lib/components/Photo.svelte';
+	import JsonLd from '$lib/components/JsonLd.svelte';
+	import { eventSchema } from '$lib/schema.js';
 
 	let now = $state(new Date());
 	const split = $derived(splitEvents(now));
@@ -16,6 +18,7 @@
 	// Undated events are the earliest ones - the old site never recorded a date for
 	// them. They belong in the archive, just at the end of it.
 	const list = $derived([...split.past, ...split.undated]);
+	const archive = $derived(list);
 
 	// Each event's prose lives in src/content/events/<slug>.md so that mdsvex compiles
 	// it and the <Photo> and <Embed> tags inside it are real components. Eager, because
@@ -30,6 +33,8 @@
 		now = new Date();
 	});
 </script>
+
+<JsonLd data={archive.filter((e) => e.date).map(eventSchema)} />
 
 <div class="archive">
 	{#each list as e (e.number)}
@@ -47,7 +52,7 @@
 					<span class="entry__undated">date not recorded</span>
 				{/if}
 				{#if e.venue}
-					<span>· {eventWhere(e)}</span>
+					<span>· {eventWhereLong(e)}</span>
 					{#if venueRenamedTo(e.venue)}
 						<span class="entry__renamed">(now {venueRenamedTo(e.venue)})</span>
 					{/if}

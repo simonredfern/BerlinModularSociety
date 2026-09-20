@@ -60,6 +60,20 @@ export function venueRenamedTo(venue) {
 	return RENAMED[venue] ?? null;
 }
 
+/**
+ * The venue written out for a reader: "90Mil, near Jannowitzbrücke".
+ *
+ * `locality` holds the whole phrase, preposition included, because a station is
+ * "near" and a district is "in" - and only the data knows which it is. More use
+ * to someone deciding whether to come than the city, which is Berlin for all but
+ * one event.
+ */
+export function eventWhereLong(e) {
+	if (!e.venue) return e.city ?? '';
+	if (e.locality) return `${e.venue}, ${e.locality}`;
+	return eventWhere(e);
+}
+
 export function eventWhere(e) {
 	return [e.venue, e.venue === e.city ? null : e.city].filter(Boolean).join(', ');
 }

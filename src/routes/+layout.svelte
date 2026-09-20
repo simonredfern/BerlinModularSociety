@@ -2,9 +2,13 @@
 	import '../app.css';
 	import Nav from '$lib/components/Nav.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import JsonLd from '$lib/components/JsonLd.svelte';
+	import { organisation } from '$lib/schema.js';
 
 	let { children } = $props();
 </script>
+
+<JsonLd data={organisation()} />
 
 <a class="skip" href="#main">Skip to content</a>
 

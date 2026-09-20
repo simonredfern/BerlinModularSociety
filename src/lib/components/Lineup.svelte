@@ -24,7 +24,12 @@
 		{#each groups as group, i (i)}
 			{#if group.space}<p class="lineup__space">{group.space}</p>{/if}
 			<ol class="lineup__acts">
-				{#each group.acts as act (act.time + act.act)}
+				<!-- Unkeyed on purpose. An act can legitimately appear twice on one
+				     bill under the same name and time - sehrsehr opened and closed
+				     BMS48 - and a duplicate key throws, taking the page down at
+				     hydration while the server-rendered HTML looks fine. The list
+				     is static, so there is nothing for a key to buy here. -->
+				{#each group.acts as act}
 					<li>
 						{#if hasTimes}<span class="lineup__time">{act.time}</span>{/if}
 						<span class="lineup__act">
@@ -33,7 +38,7 @@
 							{:else}{act.act}{/if}
 							<!-- Acts with no site of their own get their Instagram handle instead.
 							     A slot can hold two artists, so this is a list. -->
-							{#each act.instagram ?? [] as handle (handle)}
+							{#each act.instagram ?? [] as handle}
 								<a
 									class="lineup__handle"
 									href="https://www.instagram.com/{handle}/"
@@ -54,12 +59,11 @@
 		margin: 1rem 0;
 	}
 
+	/* A room name is a name - "Movement Space or Outside", not a shouted label. */
 	.lineup__space {
 		margin: 1rem 0 0.4rem;
-		font-size: 0.75rem;
+		font-size: 0.95rem;
 		font-weight: 600;
-		letter-spacing: 0.12em;
-		text-transform: uppercase;
 		color: var(--text-muted);
 	}
 
@@ -113,18 +117,18 @@
 	}
 
 	.lineup--prominent .lineup__time {
-		font-size: 1rem;
-		font-weight: 600;
+		font-size: 0.95rem;
+		font-weight: 400;
 		color: var(--text-muted);
 	}
 
 	.lineup--prominent .lineup__act {
-		font-size: 1.05rem;
+		font-size: 0.95rem;
+		font-weight: 700;
 	}
 
 	.lineup--prominent .lineup__space {
-		margin-top: 1.4rem;
-		color: var(--text-muted);
+		margin-top: 1.2rem;
 	}
 
 	.lineup--prominent .lineup__space:first-child {

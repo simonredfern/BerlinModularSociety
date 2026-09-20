@@ -100,7 +100,8 @@
       }
     ],
     "slug": "bms59",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS58",
@@ -165,7 +166,8 @@
     ],
     "inferredYear": true,
     "slug": "bms58",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS57",
@@ -235,7 +237,8 @@
     ],
     "inferredYear": true,
     "slug": "bms57",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS56",
@@ -349,7 +352,8 @@
     ],
     "inferredYear": true,
     "slug": "bms55",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS54",
@@ -478,7 +482,8 @@
       }
     ],
     "slug": "bms53",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS52",
@@ -551,7 +556,8 @@
     ],
     "inferredYear": true,
     "slug": "bms52",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in Kreuzberg"
   },
   {
     "number": "BMS50",
@@ -654,7 +660,8 @@
       }
     ],
     "slug": "bms49",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS48",
@@ -756,7 +763,8 @@
       }
     ],
     "slug": "bms48",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in Kreuzberg"
   },
   {
     "number": "BMS47",
@@ -831,7 +839,8 @@
       }
     ],
     "slug": "bms47",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in Kreuzberg"
   },
   {
     "number": "BMS46",
@@ -954,7 +963,8 @@
     ],
     "inferredYear": true,
     "slug": "bms45",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS44",
@@ -1012,7 +1022,8 @@
     ],
     "inferredYear": true,
     "slug": "bms44",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in Kreuzberg"
   },
   {
     "number": "BMS43",
@@ -1105,7 +1116,8 @@
     ],
     "slug": "bms43",
     "hasBody": true,
-    "image": "bms_bms43-flyer"
+    "image": "bms_bms43-flyer",
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS42",
@@ -1201,7 +1213,8 @@
     ],
     "slug": "bms41",
     "hasBody": true,
-    "image": "bms_bms41-flyer"
+    "image": "bms_bms41-flyer",
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS40",
@@ -1244,7 +1257,8 @@
     ],
     "inferredYear": true,
     "slug": "bms40",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS39",
@@ -1335,7 +1349,8 @@
     ],
     "inferredYear": true,
     "slug": "bms38",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS37",
@@ -1369,7 +1384,8 @@
     ],
     "inferredYear": true,
     "slug": "bms37",
-    "hasBody": false
+    "hasBody": false,
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS36",
@@ -1417,7 +1433,8 @@
     ],
     "inferredYear": true,
     "slug": "bms36",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS35",
@@ -1459,7 +1476,8 @@
       }
     ],
     "slug": "bms35",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS34",
@@ -1529,7 +1547,8 @@
     ],
     "slug": "bms34",
     "hasBody": true,
-    "image": "bms_bms34-flyer"
+    "image": "bms_bms34-flyer",
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS33",
@@ -1571,7 +1590,8 @@
       }
     ],
     "slug": "bms33",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS32",
@@ -1621,7 +1641,8 @@
     ],
     "slug": "bms32",
     "hasBody": true,
-    "image": "bms_bms32-flyer"
+    "image": "bms_bms32-flyer",
+    "locality": "near Rosenthaler Platz"
   },
   {
     "number": "BMS31",
@@ -1684,7 +1705,8 @@
     ],
     "slug": "bms31",
     "hasBody": true,
-    "image": "bms_bms31-flyer"
+    "image": "bms_bms31-flyer",
+    "locality": "in the Neukölln Arcaden"
   },
   {
     "number": "BMS30",
@@ -1747,7 +1769,8 @@
     ],
     "slug": "bms30",
     "hasBody": true,
-    "image": "bms_bms30-flyer"
+    "image": "bms_bms30-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS29",
@@ -1806,7 +1829,8 @@
       }
     ],
     "slug": "bms29",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS28",
@@ -1863,7 +1887,8 @@
       }
     ],
     "slug": "bms28",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS27",
@@ -1918,7 +1943,8 @@
     ],
     "slug": "bms27",
     "hasBody": true,
-    "image": "bms_bms27-flyer"
+    "image": "bms_bms27-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS26",
@@ -1967,7 +1993,8 @@
     ],
     "slug": "bms26",
     "hasBody": true,
-    "image": "bms_bms26-flyer"
+    "image": "bms_bms26-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS25",
@@ -2017,7 +2044,8 @@
     ],
     "slug": "bms25",
     "hasBody": true,
-    "image": "bms_bms25-flyer"
+    "image": "bms_bms25-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS24",
@@ -2066,7 +2094,8 @@
     ],
     "slug": "bms24",
     "hasBody": true,
-    "image": "bms_bms24-flyer"
+    "image": "bms_bms24-flyer",
+    "locality": "near Rosenthaler Platz"
   },
   {
     "number": "BMS23",
@@ -2126,7 +2155,8 @@
     "slug": "bms23",
     "hasBody": true,
     "image": "bms_bms23-flyer",
-    "facebookNote": "Facebook reports Kaspar König alone, without Seamus O'Donnell and Dida Zende, and describes his set as performance art."
+    "facebookNote": "Facebook reports Kaspar König alone, without Seamus O'Donnell and Dida Zende, and describes his set as performance art.",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS22",
@@ -2176,7 +2206,8 @@
     ],
     "slug": "bms22",
     "hasBody": true,
-    "image": "bms_bms22-flyer"
+    "image": "bms_bms22-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS21",
@@ -2226,7 +2257,8 @@
     ],
     "slug": "bms21",
     "hasBody": true,
-    "image": "bms_bms21-flyer"
+    "image": "bms_bms21-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS20",
@@ -2276,7 +2308,8 @@
     ],
     "slug": "bms20",
     "hasBody": true,
-    "image": "bms_bms20-flyer"
+    "image": "bms_bms20-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS19",
@@ -2326,7 +2359,8 @@
     "slug": "bms19",
     "hasBody": true,
     "image": "bms_bms19-flyer",
-    "facebookNote": "Facebook reports Kat Polar in place of Gina Lo and Sub Strata."
+    "facebookNote": "Facebook reports Kat Polar in place of Gina Lo and Sub Strata.",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS18",
@@ -2376,7 +2410,8 @@
     ],
     "slug": "bms18",
     "hasBody": true,
-    "image": "bms_bms18-flyer"
+    "image": "bms_bms18-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS17",
@@ -2420,7 +2455,8 @@
     ],
     "slug": "bms17",
     "hasBody": true,
-    "image": "bms_bms17-flyer"
+    "image": "bms_bms17-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS16",
@@ -2469,7 +2505,8 @@
     ],
     "slug": "bms16",
     "hasBody": true,
-    "image": "bms_bms16-flyer"
+    "image": "bms_bms16-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS15",
@@ -2514,7 +2551,8 @@
     ],
     "slug": "bms15",
     "hasBody": true,
-    "image": "bms_bms15-flyer"
+    "image": "bms_bms15-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS14",
@@ -2565,7 +2603,8 @@
     ],
     "slug": "bms14",
     "hasBody": true,
-    "image": "bms_bms14-flyer"
+    "image": "bms_bms14-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS13",
@@ -2612,7 +2651,8 @@
     "slug": "bms13",
     "hasBody": true,
     "image": "bms_bms13-flyer",
-    "facebookNote": "Facebook reports the line-up as Schreibmaschine, Monotrail, JacqNoise, Sarah Sommers, Burnside and drusnoise with Optical Collusion."
+    "facebookNote": "Facebook reports the line-up as Schreibmaschine, Monotrail, JacqNoise, Sarah Sommers, Burnside and drusnoise with Optical Collusion.",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMSAV1",
@@ -2691,7 +2731,8 @@
     ],
     "slug": "bms12",
     "hasBody": true,
-    "image": "bms_bms12-flyer"
+    "image": "bms_bms12-flyer",
+    "locality": "near Jannowitzbrücke"
   },
   {
     "number": "BMS11",
@@ -2775,7 +2816,8 @@
       }
     ],
     "slug": "bms10",
-    "hasBody": true
+    "hasBody": true,
+    "locality": "in Wedding"
   },
   {
     "number": "BMS9",
@@ -2934,7 +2976,8 @@
     ],
     "slug": "bms6",
     "hasBody": false,
-    "image": "bms_bms6-flyer"
+    "image": "bms_bms6-flyer",
+    "locality": "in Wedding"
   },
   {
     "number": "BMS5",
@@ -3010,7 +3053,8 @@
     ],
     "slug": "bms4",
     "hasBody": false,
-    "image": "bms_bms4-banner"
+    "image": "bms_bms4-banner",
+    "locality": "in Wedding"
   },
   {
     "number": "BMS3",

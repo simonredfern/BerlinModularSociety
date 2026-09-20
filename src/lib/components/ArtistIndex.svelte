@@ -96,7 +96,7 @@
 					{#if a.aka?.length}
 						<span class="artist__aka">aka {a.aka.join(', ')}</span>
 					{/if}
-					{#each a.instagram ?? [] as h (h)}
+					{#each a.instagram ?? [] as h}
 						<a
 							class="artist__handle"
 							href="https://www.instagram.com/{h}/"
