@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { splitEvents, formatEventDate, eventTitle, eventWhere } from '$lib/events.js';
+	import { splitEvents, formatEventDate, eventTitle, eventWhereLong } from '$lib/events.js';
 
 	/** 'upcoming' or 'past'. The compact view - the archive uses EventArchive. */
 	let { show = 'upcoming' } = $props();
@@ -25,7 +25,7 @@
 							<a href={e.url} target="_blank" rel="noopener noreferrer">{eventTitle(e)}</a>
 						{:else}{eventTitle(e)}{/if}
 					</span>
-					<span class="event__where">{eventWhere(e)}</span>
+					<span class="event__where">{eventWhereLong(e)}</span>
 				</div>
 			</li>
 		{/each}

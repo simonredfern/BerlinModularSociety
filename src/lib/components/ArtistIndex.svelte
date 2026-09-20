@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import artists from '$lib/data/artists.json';
 	import events from '$lib/data/events.json';
-	import { formatEventDate, eventWhere, splitEvents } from '$lib/events.js';
+	import { formatEventDate, eventWhereLong, splitEvents } from '$lib/events.js';
 
 	// The index is a record of what has happened, so it counts archive events only.
 	// An announced line-up is not yet a performance - and it also keeps every link
@@ -32,20 +32,40 @@
 		}
 
 		const rows = [...appearances].map(([slug, list]) => {
-			// An artist can appear twice on one bill under the same name - sehrsehr
-			// opened and closed BMS48. Collapse those: the reader wants the event
-			// once. A different billing on the same night is kept, because it says
-			// something (3rd Party Influence's "2nd set").
-			const once = new Map();
+			const name = artists[slug]?.name ?? slug;
+			// An artist can be on one bill more than once, and whether that is worth
+			// showing twice depends on why:
+			//
+			//   Hilary C/B at BMS48   live, then a DJ set    -> two rows, two sets
+			//   3rd Party Influence   a second set later     -> one row
+			//   sehrsehr at BMS48     billed identically     -> one row
+			//
+			// So a billing marked "(2nd set)" is dropped when the artist is already
+			// on that bill, and identical billings collapse. Anything else - a
+			// different role, a different collaborator - stays.
+			const repeat = /\(\d+(?:st|nd|rd|th) set\)/i;
+			const byEvent = new Map();
 			for (const ap of list) {
-				const id = `${ap.event.number}|${ap.billed}`;
-				once.set(id, { ...ap, id });
+				if (!byEvent.has(ap.event.number)) byEvent.set(ap.event.number, []);
+				byEvent.get(ap.event.number).push(ap);
 			}
+
+			const once = [];
+			for (const [number, aps] of byEvent) {
+				const kept = aps.length > 1 ? aps.filter((a) => !repeat.test(a.billed)) : aps;
+				const seen = new Set();
+				for (const ap of kept.length ? kept : aps) {
+					if (seen.has(ap.billed)) continue;
+					seen.add(ap.billed);
+					once.push({ ...ap, id: `${number}|${ap.billed}` });
+				}
+			}
+
 			return {
 				...(artists[slug] ?? { slug, name: slug }),
 				slug,
 				// Newest first, the way the archive reads.
-				list: [...once.values()].sort((a, b) => b.event.date.localeCompare(a.event.date))
+				list: once.sort((a, b) => b.event.date.localeCompare(a.event.date))
 			};
 		});
 
@@ -111,7 +131,7 @@
 						<li>
 							<a href="{base}/event-archive#{ap.event.slug}">{ap.event.number}</a>
 							<span class="artist__when">{when(ap.event)}</span>
-							{#if ap.event.venue}<span class="artist__where">{eventWhere(ap.event)}</span>{/if}
+							{#if ap.event.venue}<span class="artist__where">{eventWhereLong(ap.event)}</span>{/if}
 							{#if ap.billed !== a.name}<span class="artist__billed">billed as {ap.billed}</span>{/if}
 						</li>
 					{/each}
