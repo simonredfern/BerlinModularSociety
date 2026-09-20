@@ -201,7 +201,7 @@ events.insert(0, {
     'city': 'Berlin',
     'url': None,
     'lineup': [
-        {'time': '19:00', 'act': 'Ambient Tai Chi: Simon Redfern + Mitch Altman',
+        {'time': '19:00', 'act': 'Ambient Tai Chi + MAPP: Simon Redfern + Mitch Altman',
          'url': 'https://www.ambienttaichi.com/', 'space': 'Movement Space or Outside'},
         {'time': '20:30', 'act': 'trismo', 'instagram': ['trismooo'],
          'space': 'Movement Space'},

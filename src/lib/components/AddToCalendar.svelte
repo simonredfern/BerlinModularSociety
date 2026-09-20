@@ -27,10 +27,7 @@
 
 	.cal__label {
 		margin-right: 0.2rem;
-		font-size: 0.72rem;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
+		font-size: 0.9rem;
 		color: var(--text-muted);
 	}
 

@@ -74,10 +74,8 @@
 
 	h2 {
 		margin: 0 0 0.6rem;
-		font-size: 0.75rem;
+		font-size: 0.95rem;
 		font-weight: 600;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
 		color: var(--text-muted);
 	}
 

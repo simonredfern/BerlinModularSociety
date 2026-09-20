@@ -18,7 +18,8 @@ DO_NOT_SPLIT = {
 
 # Billings the generic splitter cannot read.
 OVERRIDE = {
-    'Ambient Tai Chi: Simon Redfern + Mitch Altman': ['Ambient Tai Chi'],
+    'Ambient Tai Chi + MAPP: Simon Redfern + Mitch Altman':
+        ['Ambient Tai Chi', 'MAPP'],
     '3rd Party Influence (duo set: Simon Redfern and Daniel Tippmann) with Optical '
     'Collusion on visuals': ['3rd Party Influence', 'Optical Collusion'],
     # VTVT *is* Veith von Tsotzhousn and VanTa, so splitting double-counts them.
