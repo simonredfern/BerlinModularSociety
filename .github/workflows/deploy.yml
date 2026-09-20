@@ -43,12 +43,11 @@ jobs:
       - uses: actions/configure-pages@v5
         id: pages
 
+      # Every link and asset is relative, so the build is identical whether the
+      # site is served from simonredfern.github.io/BerlinModularSociety or from
+      # berlinmodularsociety.com. No BASE_PATH needed - and configure-pages
+      # returns an empty base_path here anyway.
       - run: npm run build
-        env:
-          # GitHub Pages serves this repo at /<repo-name> until a custom domain is
-          # set. Once berlinmodularsociety.com points here, delete this env block so
-          # the base path is empty.
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
