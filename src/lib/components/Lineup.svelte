@@ -104,16 +104,12 @@
 		text-decoration: underline;
 	}
 
-	/* Homepage billing. */
+	/* Homepage billing. No rules between acts - the running order reads as a
+	   list, and the tabular times already line it up. */
 	.lineup--prominent .lineup__acts li {
 		grid-template-columns: 5.5rem 1fr;
-		padding: 0.5rem 0;
-		border-top: 1px solid var(--rule);
+		padding: 0.3rem 0;
 		align-items: baseline;
-	}
-
-	.lineup--prominent .lineup__acts li:first-child {
-		border-top: 0;
 	}
 
 	.lineup--prominent .lineup__time {

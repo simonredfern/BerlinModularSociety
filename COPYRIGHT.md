@@ -55,6 +55,14 @@ licence covers what they were generated from.
 holds components (code) next to `src/lib/data/` (mostly content). Anyone reusing this
 codebase needs to take the components and scripts and leave the data behind.
 
+## Fonts — SIL Open Font License 1.1
+
+`src/lib/fonts/inter-latin.woff2` and `inter-latin-ext.woff2` are
+[Inter](https://rsms.me/inter/) by Rasmus Andersson, licensed under the
+[SIL Open Font License 1.1](https://openfontlicense.org/). Not ours, and not covered by
+either licence above. The Super site served the same typeface; these are the latin and
+latin-ext subsets of the variable font, from Google Fonts.
+
 ## Photographs and artwork
 
 Filenames carry the rights holder as a prefix, so you can tell at a glance whose an

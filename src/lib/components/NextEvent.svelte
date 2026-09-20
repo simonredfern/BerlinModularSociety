@@ -83,25 +83,10 @@
 {/if}
 
 <style>
-	/* Light card. The weight comes from the scale of the date and title and from
-	   two solid dark elements - the countdown and the Tickets pill - rather than
-	   from inverting the whole block. */
+	/* No card and no rule. The block sits directly on the page, held together by
+	   the scale of the date and title and by the space around it. */
 	.next {
-		position: relative;
 		margin: 2.5rem 0 3rem;
-		padding: 1.6rem 1.75rem 1.5rem;
-		border: 1px solid var(--rule);
-		border-radius: 12px;
-		background: var(--surface);
-		overflow: hidden;
-	}
-
-	.next::before {
-		content: '';
-		position: absolute;
-		inset: 0 0 auto;
-		height: 4px;
-		background: var(--ink);
 	}
 
 	.next__bar {
@@ -251,15 +236,7 @@
 		border-top: 0;
 	}
 
-	.next--empty::before {
-		background: var(--rule);
-	}
-
 	@media (max-width: 34rem) {
-		.next {
-			padding: 1.25rem 1.15rem 1.2rem;
-		}
-
 		.next__head {
 			gap: 0.9rem;
 		}

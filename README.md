@@ -354,6 +354,8 @@ Generated files are gitignored. Only the sources in `media/` are committed.
 
 Split, because this repo holds both software and an event series' content:
 
+- **Fonts** — [Inter](https://rsms.me/inter/), SIL Open Font License 1.1. Self-hosted
+  in `src/lib/fonts/`, so no request leaves for a font CDN.
 - **Code** — AGPLv3, © Simon Redfern. See [LICENSE](LICENSE). Derived from the
   [3pi.tv](https://3pi.tv) site, same licence and same author.
 - **Content** — text, event data, artwork, photographs, the BMS name and logo —
