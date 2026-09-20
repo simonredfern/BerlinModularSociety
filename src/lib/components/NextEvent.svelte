@@ -36,7 +36,7 @@
 
 {#if next}
 	<aside class="next">
-		<h2 class="next__label">Next event{#if countdown} is {countdown}{/if}</h2>
+		<h2 class="next__label">{countdown ? `The next event is ${countdown}` : 'The next event'}</h2>
 
 		<h3 class="next__title">
 			{#if next.url}
@@ -60,7 +60,7 @@
 	</aside>
 {:else}
 	<aside class="next next--empty">
-		<h2 class="next__label">Next event</h2>
+		<h2 class="next__label">The next event</h2>
 		<p class="next__meta">
 			Nothing announced yet — see <a href="{base}/upcoming-dates">upcoming dates</a>.
 		</p>
