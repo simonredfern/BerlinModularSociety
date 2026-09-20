@@ -68,6 +68,12 @@
 
 			<Lineup lineup={e.lineup} />
 
+			<!-- The archive is the master record. Where the Facebook event billed
+			     something different, say so rather than quietly picking one. -->
+			{#if e.facebookNote}
+				<p class="entry__note">{e.facebookNote}</p>
+			{/if}
+
 			{#if Body}<Body />{/if}
 		</article>
 	{/each}
@@ -99,6 +105,14 @@
 
 	.entry__renamed {
 		opacity: 0.75;
+	}
+
+	.entry__note {
+		margin: 1rem 0;
+		padding-left: 0.9rem;
+		border-left: 2px solid var(--rule);
+		color: var(--text-muted);
+		font-size: 0.92rem;
 	}
 
 	/* A flyer is a poster, not a photograph - it does not need the full measure. */

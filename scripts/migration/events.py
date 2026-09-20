@@ -286,104 +286,34 @@ for e in events:
         script + body + '\n')
     written += 1
 
-# Corrections made by hand after the parse, kept here so re-running this script
-# does not quietly undo them.
+# Curated event data, overlaid on whatever the parse produced.
 #
-# Sources of truth: Facebook for BMS1-BMS9 and BMSAV1, which predate the old site;
-# the event archive for everything else. The Google Calendar is neither - it is a
-# publishing target that drifts, and scripts/check-calendar-drift.mjs watches it. Anything you fix in events.json that came out of the
-# archive - rather than out of the hardcoded BMS59 above - belongs in here too.
-POST_FIXES = {
-    # BMS1-BMS9 and BMSAV1 were never on the Super site - its own event archive
-    # only went back to BMS10. These dates come from the Berlin Modular Society
-    # Facebook page's past-events list, read by an admin in September 2026.
-    # Facebook returns 400 to any logged-out request, so this cannot be re-fetched
-    # without a session: these values ARE the record now.
-    #
-    # Facebook is the source of truth for event DATES. It is not for venue names:
-    # it renders a place's current name, not its name at the time, which is why
-    # its BMS27 and BMS30 entries say "LARK Berlin" for what was Marie Antoinette
-    # at Holzmarktstrasse 15 in early 2023. Venue names stay as the archive had
-    # them.
-    'BMS2':   {'date': '2021-06-19'},
-    'BMS3':   {'date': '2021-08-28', 'name': 'Country Fair'},
-    'BMS4':   {'date': '2021-09-25', 'venue': 'Bar Drehmoment'},
-    'BMS5':   {'date': '2021-10-24', 'name': 'Undead'},
-    'BMS6':   {'date': '2021-11-27', 'venue': 'Bar Drehmoment'},
-    'BMS7':   {'date': '2021-12-18', 'name': 'Livestream'},
-    'BMS8':   {'date': '2022-01-28', 'name': 'Keep on patching'},
-    'BMS9':   {'date': '2022-02-26'},
-    'BMS11':  {'date': '2022-04-10', 'name': 'Out of Towners livestream'},
-    'BMSAV1': {'date': '2022-05-07', 'name': 'Modular Video Synth Special'},
-    'BMS24':  {'name': '1.5 Year Anniversary Show'},
-
-    # Line-ups for the early events, from the Facebook event descriptions and
-    # the flyers kept in some_sources/. Like the dates above, these exist
-    # nowhere else - the old site never listed them.
-    'BMS2': {'lineup': [
-        {'act': '3rd Party Influence'},
-        {'act': 'drusnoise'},
-        {'act': 'StaTrax Berlin'},
-    ]},
-    'BMS3': {'image': 'bms_bms3-country-fair', 'lineup': [
-        {'act': 'ili.ili'},
-        {'act': 'JacqNoise & max frimout'},
-        {'act': '3rd Party Influence'},
-        {'act': 'drusnoise'},
-    ]},
-    'BMS4': {'image': 'bms_bms4-banner', 'lineup': [
-        {'act': 'Monotrail'},
-        {'act': 'JacqNoise'},
-        {'act': 'drusnoise'},
-        {'act': '3rd Party Influence with Max Blax'},
-    ]},
-    'BMS5': {'image': 'bms_bms5-undead', 'lineup': [
-        {'act': 'Schreibmaschine'},
-        {'act': 'Andreas Krach'},
-        {'act': '3rd Party Influence & Max Blax'},
-        {'act': 'drusnoise'},
-    ]},
-    'BMS6': {'image': 'bms_bms6-flyer', 'lineup': [
-        {'act': 'Robin Burke'},
-        {'act': 'ili.ili'},
-        {'act': 'drusnoise'},
-        {'act': '3rd Party Influence'},
-    ]},
-    'BMS7': {'image': 'bms_bms7-livestream', 'lineup': [
-        {'act': 'Sarah Sommers'},
-        {'act': '3rd Party Influence'},
-        {'act': 'drusnoise'},
-        {'act': 'Live visuals by Optical Collusion'},
-    ]},
-    'BMS9': {'image': 'bms_bms9-flyer', 'lineup': [
-        {'act': 'JacqNoise'},
-        {'act': 'ili.ili'},
-        {'act': 'Neversleep'},
-        {'act': 'antilophobia'},
-        {'act': 'drusnoise'},
-        {'act': '3rd Party Influence with Optical Collusion'},
-    ]},
-    'BMS8': {'image': 'bms_bms8-keep-on-patching', 'lineup': [
-        {'time': '20:00', 'act': 'fabs.asmr'},
-        {'time': '21:00', 'act': '3rd Party Influence (duo set: Simon Redfern and Daniel Tippmann) with Optical Collusion on visuals'},
-        {'time': '23:00', 'act': 'drusnoise'},
-    ]},
-
-    # Facebook confirms the year the parser had to infer for these.
-    'BMS31':  {'inferredYear': None},
-    'BMS34':  {'inferredYear': None},
-    'BMS41':  {'inferredYear': None},
-    'BMS43':  {'inferredYear': None},
-    'BMS53':  {'inferredYear': None},
-
-}
+# post-fixes.json is the master record for event facts. It holds things the parser
+# cannot know or got wrong:
+#
+#   - dates and line-ups for BMS1-BMS9 and BMSAV1, which predate the old site (its
+#     archive began at BMS10) and came off Facebook. Facebook returns HTTP 400 to any
+#     logged-out request, so these cannot be re-fetched without a session.
+#   - line-ups the parser could not see, because the archive wrote them as prose or
+#     arrow-separated on one line rather than as a timed run.
+#   - event flyers, as `image`.
+#   - `facebookNote`, where the Facebook billing differs from the archive. The archive
+#     is the master record; the Facebook version is reported, not silently applied.
+#
+# Regenerate after editing events.json by hand:
+#   python3 -c "import json; e=json.load(open('src/lib/data/events.json')); \
+#     k=['date','name','venue','city','url','image','lineup','facebookNote']; \
+#     json.dump({x['number']:{a:x[a] for a in k if x.get(a)} for x in e}, \
+#     open('scripts/migration/post-fixes.json','w'), indent=2, ensure_ascii=False)"
+POST_FIXES = json.load(open(os.path.join(SCRATCH, 'post-fixes.json'), encoding='utf8'))
 
 for e in events:
-    for k, v in POST_FIXES.get(e['number'], {}).items():
-        if v is None:
-            e.pop(k, None)      # None clears a field rather than setting it
-        else:
-            e[k] = v
+    fix = POST_FIXES.get(e['number'], {})
+    for k, v in fix.items():
+        e[k] = v
+    # A date confirmed by Facebook is no longer a guess.
+    if 'date' in fix and fix['date'] == e.get('date'):
+        e.pop('inferredYear', None)
 
 out = os.path.join(PROJ, 'src', 'lib', 'data', 'events.json')
 json.dump(events, open(out, 'w', encoding='utf8'), indent=2, ensure_ascii=False)
