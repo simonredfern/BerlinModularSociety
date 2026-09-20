@@ -2,8 +2,6 @@
 
 **Where**: FITZROY, Holzmarktstraße 15, 10179 Berlin → [map](https://goo.gl/maps/rSTdUC9tiJTJWSTe8)
 
-**Artists (all live)**:
-
 19:30 Doors and meet the artists
 
 OPTICAL COLLUSION (VISUALS).

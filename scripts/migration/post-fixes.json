@@ -144,12 +144,69 @@
     "date": "2025-10-31",
     "name": "Halloweeeeeen!",
     "venue": "Crack Bellmer",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "Chang Rodrigues"
+      },
+      {
+        "act": "3rd Party Influence"
+      },
+      {
+        "act": "NEVERSLEEP x Severin"
+      },
+      {
+        "act": "MTCC"
+      },
+      {
+        "act": "Konapt"
+      }
+    ]
   },
   "BMS55": {
     "date": "2025-09-25",
     "venue": "Klunkerkranich",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "JacqNoise",
+        "instagram": [
+          "JacqNoise"
+        ]
+      },
+      {
+        "act": "Miquel Dangla",
+        "instagram": [
+          "miqueldangla"
+        ]
+      },
+      {
+        "act": "Virgil Diop",
+        "instagram": [
+          "virgil_on"
+        ]
+      },
+      {
+        "act": "Melanist B2B Mau's Acid Machine",
+        "instagram": [
+          "melanist_live",
+          "morriess"
+        ]
+      },
+      {
+        "act": "Frank Funke",
+        "instagram": [
+          "frankfunke"
+        ]
+      },
+      {
+        "act": "VAMP ACID B2B K1MB0XN4U7",
+        "instagram": [
+          "vampacid",
+          "k1mb0xn4u7"
+        ]
+      }
+    ]
   },
   "BMS54": {
     "date": "2025-06-08",
@@ -265,24 +322,179 @@
     "name": "Modulation in Utrecht",
     "venue": "De Helling",
     "city": "Utrecht",
-    "url": "https://dehelling.nl/agenda/modulation-x-berlin-modular-society-27-04-2025/"
+    "url": "https://dehelling.nl/agenda/modulation-x-berlin-modular-society-27-04-2025/",
+    "lineup": [
+      {
+        "act": "JacqNoise"
+      },
+      {
+        "act": "Teslator"
+      },
+      {
+        "act": "NEVERSLEEP"
+      },
+      {
+        "act": "3rd Party Influence"
+      }
+    ]
   },
   "BMS49": {
     "date": "2025-04-17",
     "venue": "Klunkerkranich",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "Krach der Roboter",
+        "instagram": [
+          "andreas_krach"
+        ]
+      },
+      {
+        "act": "Nathan Plante",
+        "instagram": [
+          "mistertrout"
+        ]
+      },
+      {
+        "act": "Silver Galaxy",
+        "instagram": [
+          "silvergalaxy__"
+        ]
+      },
+      {
+        "act": "jesusonecstasy",
+        "instagram": [
+          "jesusonecstasy"
+        ]
+      },
+      {
+        "act": "The Dark Wasp",
+        "instagram": [
+          "thedarkwasp"
+        ]
+      },
+      {
+        "act": "Opitz",
+        "instagram": [
+          "a_opitz"
+        ]
+      }
+    ]
   },
   "BMS48": {
     "date": "2025-03-08",
     "name": "Neulant",
     "venue": "Neulant van Excel",
     "city": "Berlin",
-    "url": "https://ra.co/events/2119018"
+    "url": "https://ra.co/events/2119018",
+    "lineup": [
+      {
+        "act": "sehrsehr (DJ)",
+        "instagram": [
+          "sehrsehr"
+        ]
+      },
+      {
+        "act": "Hilary C/B",
+        "instagram": [
+          "discretesystems"
+        ]
+      },
+      {
+        "act": "COAST"
+      },
+      {
+        "act": "soft fantasy",
+        "instagram": [
+          "lo_and_behold"
+        ]
+      },
+      {
+        "act": "Andert Tysma",
+        "instagram": [
+          "anderttysma"
+        ]
+      },
+      {
+        "act": "Shellbeat",
+        "instagram": [
+          "Shellfishbeat"
+        ]
+      },
+      {
+        "act": "Alexander Spree",
+        "instagram": [
+          "dr.spre"
+        ]
+      },
+      {
+        "act": "Dshanna",
+        "instagram": [
+          "dshanna_"
+        ]
+      },
+      {
+        "act": "Vasco Ispirian",
+        "instagram": [
+          "vasco.ispirian"
+        ]
+      },
+      {
+        "act": "Hilary C/B (DJ)"
+      },
+      {
+        "act": "sehrsehr (DJ)"
+      }
+    ]
   },
   "BMS47": {
     "date": "2024-12-13",
     "venue": "Neulant van Excel",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "Tosp",
+        "instagram": [
+          "tospklang"
+        ]
+      },
+      {
+        "act": "Antenne Neulant",
+        "instagram": [
+          "neulant"
+        ]
+      },
+      {
+        "act": "Millhoff",
+        "instagram": [
+          "_millhoff_"
+        ]
+      },
+      {
+        "act": "Neversleep",
+        "instagram": [
+          "neversleepmusic"
+        ]
+      },
+      {
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ]
+      },
+      {
+        "act": "Jessica Kert",
+        "instagram": [
+          "jessyandthechords"
+        ]
+      },
+      {
+        "act": "Dshanna",
+        "instagram": [
+          "dshanna_"
+        ]
+      }
+    ]
   },
   "BMS46": {
     "date": "2024-11-09",
@@ -322,12 +534,61 @@
   "BMS45": {
     "date": "2024-10-03",
     "venue": "Klunkerkranich",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "Professor Dictabeat"
+      },
+      {
+        "act": "Dozza & Tonyaa"
+      },
+      {
+        "act": "Neversleep"
+      },
+      {
+        "act": "Leo Novus"
+      },
+      {
+        "act": "Drusnoise"
+      }
+    ]
   },
   "BMS44": {
     "date": "2024-09-07",
     "venue": "Neulant van Excel",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "Teslator",
+        "instagram": [
+          "teslatormusic"
+        ]
+      },
+      {
+        "act": "Gina Lo",
+        "instagram": [
+          "ginalololo"
+        ]
+      },
+      {
+        "act": "ICKX",
+        "instagram": [
+          "jan_ickx"
+        ]
+      },
+      {
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ]
+      },
+      {
+        "act": "Opitz",
+        "instagram": [
+          "a_opitz"
+        ]
+      }
+    ]
   },
   "BMS43": {
     "date": "2024-05-19",
@@ -337,28 +598,53 @@
     "image": "bms_bms43-flyer",
     "lineup": [
       {
-        "act": "HATAKEN"
+        "act": "HATAKEN",
+        "instagram": [
+          "hataken_tfom"
+        ]
       },
       {
-        "act": "OCP"
+        "act": "OCP",
+        "instagram": [
+          "opcabpol"
+        ]
       },
       {
-        "act": "NNJA RIOT"
+        "act": "NNJA RIOT",
+        "instagram": [
+          "lisa_mckendrick"
+        ]
       },
       {
-        "act": "MADZINE"
+        "act": "MADZINE",
+        "instagram": [
+          "mmmmmmmadman"
+        ]
       },
       {
-        "act": "ELEKTORTEK"
+        "act": "ELEKTORTEK",
+        "instagram": [
+          "elektortek"
+        ]
       },
       {
-        "act": "CUCKOO"
+        "act": "CUCKOO",
+        "instagram": [
+          "truecuckoo"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ]
       },
       {
-        "act": "JacqNoise b2b Dan Graveyard"
+        "act": "JacqNoise b2b Dan Graveyard",
+        "instagram": [
+          "jacqnoise",
+          "dan.graveyard"
+        ]
       },
       {
         "act": "DJ Vamilienfa†er"
@@ -416,12 +702,43 @@
     "date": "2023-11-30",
     "name": "Ambient & Techno",
     "venue": "Fitzroy",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "KRACH DER ROBOTER"
+      },
+      {
+        "act": "OORA"
+      },
+      {
+        "act": "NEVERSLEEP"
+      },
+      {
+        "act": "FRISQO"
+      },
+      {
+        "act": "JESSICA KERT [Detroit Underground]"
+      }
+    ]
   },
   "BMS39": {
     "date": "2023-10-19",
     "venue": "Crack Bellmer",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "DANILA PLEE"
+      },
+      {
+        "act": "LUN ÁRIO X CATE HOPS"
+      },
+      {
+        "act": "LECKER KABEL SALAT"
+      },
+      {
+        "act": "THADDEUS"
+      }
+    ]
   },
   "BMS38": {
     "date": "2023-09-28",
@@ -496,7 +813,24 @@
     "date": "2023-06-29",
     "name": "Spectrum",
     "venue": "Fitzroy",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "KAIROSTAR"
+      },
+      {
+        "act": "KARAZEE"
+      },
+      {
+        "act": "VAMP ACID"
+      },
+      {
+        "act": "STANISLAV GLAZOV"
+      },
+      {
+        "act": "DRUSNOISE"
+      }
+    ]
   },
   "BMS34": {
     "date": "2023-05-14",
@@ -543,7 +877,24 @@
     "date": "2023-05-05",
     "name": "Dance!",
     "venue": "Marie Antoinette",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "KORBERD"
+      },
+      {
+        "act": "ANTILOPHOBIA"
+      },
+      {
+        "act": "TONYAA"
+      },
+      {
+        "act": "FRISQO"
+      },
+      {
+        "act": "FANGARM"
+      }
+    ]
   },
   "BMS32": {
     "date": "2023-04-22",
@@ -610,23 +961,38 @@
     "lineup": [
       {
         "time": "23:00",
-        "act": "Monotrail"
+        "act": "Monotrail",
+        "instagram": [
+          "monotrail"
+        ]
       },
       {
         "time": "00:00",
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ]
       },
       {
         "time": "01:00",
-        "act": "Opitz"
+        "act": "Opitz",
+        "instagram": [
+          "a_opitz"
+        ]
       },
       {
         "time": "02:00",
-        "act": "Parazeit"
+        "act": "Parazeit",
+        "instagram": [
+          "parazeit_music"
+        ]
       },
       {
         "time": "03:00",
-        "act": "Krista Bourgeois"
+        "act": "Krista Bourgeois",
+        "instagram": [
+          "kristabourgeoismusic"
+        ]
       }
     ]
   },
@@ -634,13 +1000,78 @@
     "date": "2023-03-02",
     "name": "Spectrum",
     "venue": "Fitzroy",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "SAVING KAISER",
+        "instagram": [
+          "savingkaiser"
+        ]
+      },
+      {
+        "act": "ASHLEY",
+        "instagram": [
+          "perpetuashlei333"
+        ]
+      },
+      {
+        "act": "VASCO ISPIRIAN",
+        "instagram": [
+          "vasco.ispirian"
+        ]
+      },
+      {
+        "act": "KONAPT",
+        "instagram": [
+          "konapt"
+        ]
+      },
+      {
+        "act": "KONPHAS x TIM STRAUCH",
+        "instagram": [
+          "konphas",
+          "tm_strauch"
+        ]
+      }
+    ]
   },
   "BMS28": {
     "date": "2023-02-09",
     "name": "Spectrum",
     "venue": "Fitzroy",
-    "city": "Berlin"
+    "city": "Berlin",
+    "lineup": [
+      {
+        "act": "KIRIEL",
+        "instagram": [
+          "nobreakspaced"
+        ]
+      },
+      {
+        "act": "MIQUEL",
+        "instagram": [
+          "miqueldangla"
+        ]
+      },
+      {
+        "act": "JESSICA KERT",
+        "instagram": [
+          "jessyandthechords"
+        ]
+      },
+      {
+        "act": "DRUSNOISE",
+        "instagram": [
+          "drusnoise"
+        ]
+      },
+      {
+        "act": "PRVNTK",
+        "instagram": [
+          "prvntk"
+        ]
+      }
+    ]
   },
   "BMS27": {
     "date": "2023-01-13",

@@ -15,10 +15,11 @@ NAV = [
     ('', 'Home', 'Home'),
     ('upcoming-dates', 'Upcoming Dates', 'Dates'),
     ('event-archive', 'Event Archive', 'Archive'),
+    ('bms-artists', 'BMS Artists', 'Artists'),
     ('about', 'About', 'About'),
     ('community', 'Community', 'Community'),
     ('modular-courses', 'Modular Courses', 'Courses'),
-    ('artist-area', 'Artist Area', 'Artists'),
+    ('artist-area', 'Artist Area', 'Artist Area'),
     ('submit', 'Artist Submission', 'Submit'),
 ]
 

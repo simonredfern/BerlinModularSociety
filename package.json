@@ -10,7 +10,8 @@
     "prebuild": "npm run images",
     "build": "vite build",
     "preview": "vite preview",
-    "check:calendar": "node scripts/check-calendar-drift.mjs"
+    "check:calendar": "node scripts/check-calendar-drift.mjs",
+    "artists": "python3 scripts/build-artists.py"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",

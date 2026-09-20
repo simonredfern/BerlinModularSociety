@@ -11,7 +11,10 @@
         "time": "19:00",
         "act": "Ambient Tai Chi: Simon Redfern + Mitch Altman",
         "url": "https://www.ambienttaichi.com/",
-        "space": "Movement Space or Outside"
+        "space": "Movement Space or Outside",
+        "artists": [
+          "ambient-tai-chi"
+        ]
       },
       {
         "time": "20:30",
@@ -19,6 +22,9 @@
         "space": "Movement Space",
         "instagram": [
           "trismooo"
+        ],
+        "artists": [
+          "trismo"
         ]
       },
       {
@@ -27,6 +33,9 @@
         "space": "Movement Space",
         "instagram": [
           "phoebekilldeerandtheshift"
+        ],
+        "artists": [
+          "phoebe-killdeer-the-shift"
         ]
       },
       {
@@ -36,6 +45,10 @@
         "space": "Movement Space",
         "instagram": [
           "NEVERSLEEPmusic"
+        ],
+        "artists": [
+          "neversleep",
+          "e-shapere"
         ]
       },
       {
@@ -44,6 +57,9 @@
         "space": "Movement Space",
         "instagram": [
           "vile.tensor"
+        ],
+        "artists": [
+          "vile-tensor"
         ]
       },
       {
@@ -53,12 +69,17 @@
         "instagram": [
           "Rocco.fx",
           "depuratumba"
+        ],
+        "artists": [
+          "rocco-fx",
+          "depuratumba"
         ]
       },
       {
         "time": "01:00",
         "act": "(other collective takes space)",
-        "space": "Movement Space"
+        "space": "Movement Space",
+        "artists": []
       },
       {
         "time": "02:00",
@@ -67,11 +88,15 @@
         "space": "Project Space",
         "instagram": [
           "3rdPartyInfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
         ]
       },
       {
         "time": "04:00",
-        "act": "Ends"
+        "act": "Ends",
+        "artists": []
       }
     ],
     "slug": "bms59",
@@ -87,31 +112,55 @@
     "lineup": [
       {
         "time": "17:00",
-        "act": "Forestry Commission"
+        "act": "Forestry Commission",
+        "artists": [
+          "forestry-commission"
+        ]
       },
       {
         "time": "17:55",
-        "act": "Agente Costura"
+        "act": "Agente Costura",
+        "artists": [
+          "agente-costura"
+        ]
       },
       {
         "time": "18:50",
-        "act": "Timo Rozendal"
+        "act": "Timo Rozendal",
+        "artists": [
+          "timo-rozendal"
+        ]
       },
       {
         "time": "20:00",
-        "act": "Estroe & Raaf"
+        "act": "Estroe & Raaf",
+        "artists": [
+          "estroe",
+          "raaf"
+        ]
       },
       {
         "time": "21:00",
-        "act": "Frank Funke b2b NEVERSLEEP b2b E.Shapere"
+        "act": "Frank Funke b2b NEVERSLEEP b2b E.Shapere",
+        "artists": [
+          "frank-funke",
+          "neversleep",
+          "e-shapere"
+        ]
       },
       {
         "time": "22:00",
-        "act": "tamiX ∞ THESSIAN"
+        "act": "tamiX ∞ THESSIAN",
+        "artists": [
+          "tamix-thessian"
+        ]
       },
       {
         "time": "23:00",
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       }
     ],
     "inferredYear": true,
@@ -128,27 +177,60 @@
     "lineup": [
       {
         "time": "20:00",
-        "act": "Harpa @bpnrao07"
+        "act": "Harpa",
+        "instagram": [
+          "bpnrao07"
+        ],
+        "artists": [
+          "harpa"
+        ]
       },
       {
         "time": "21:00",
-        "act": "Boris Hauf"
+        "act": "Boris Hauf",
+        "artists": [
+          "boris-hauf"
+        ]
       },
       {
         "time": "22:00",
-        "act": "Summaq @Summmmmaq"
+        "act": "Summaq",
+        "instagram": [
+          "Summmmmaq"
+        ],
+        "artists": [
+          "summaq"
+        ]
       },
       {
         "time": "23:00",
-        "act": "ICKX @jan_ickx"
+        "act": "ICKX",
+        "instagram": [
+          "jan_ickx"
+        ],
+        "artists": [
+          "ickx"
+        ]
       },
       {
         "time": "00:00",
-        "act": "Jesusonecstasy @jesusonecstasy"
+        "act": "Jesusonecstasy",
+        "instagram": [
+          "jesusonecstasy"
+        ],
+        "artists": [
+          "jesusonecstasy"
+        ]
       },
       {
         "time": "01:00",
-        "act": "The Dark Wasp @thedarkwasp"
+        "act": "The Dark Wasp",
+        "instagram": [
+          "thedarkwasp"
+        ],
+        "artists": [
+          "the-dark-wasp"
+        ]
       }
     ],
     "inferredYear": true,
@@ -162,7 +244,39 @@
     "venue": "Crack Bellmer",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "Chang Rodrigues",
+        "artists": [
+          "chang-rodrigues"
+        ]
+      },
+      {
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
+      },
+      {
+        "act": "NEVERSLEEP x Severin",
+        "artists": [
+          "neversleep",
+          "severin"
+        ]
+      },
+      {
+        "act": "MTCC",
+        "artists": [
+          "mtcc"
+        ]
+      },
+      {
+        "act": "Konapt",
+        "artists": [
+          "konapt"
+        ]
+      }
+    ],
     "slug": "bms56",
     "hasBody": true
   },
@@ -173,7 +287,66 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "JacqNoise",
+        "instagram": [
+          "JacqNoise"
+        ],
+        "artists": [
+          "jacqnoise"
+        ]
+      },
+      {
+        "act": "Miquel Dangla",
+        "instagram": [
+          "miqueldangla"
+        ],
+        "artists": [
+          "miquel-dangla"
+        ]
+      },
+      {
+        "act": "Virgil Diop",
+        "instagram": [
+          "virgil_on"
+        ],
+        "artists": [
+          "virgil-diop"
+        ]
+      },
+      {
+        "act": "Melanist B2B Mau's Acid Machine",
+        "instagram": [
+          "melanist_live",
+          "morriess"
+        ],
+        "artists": [
+          "melanist",
+          "mau-s-acid-machine"
+        ]
+      },
+      {
+        "act": "Frank Funke",
+        "instagram": [
+          "frankfunke"
+        ],
+        "artists": [
+          "frank-funke"
+        ]
+      },
+      {
+        "act": "VAMP ACID B2B K1MB0XN4U7",
+        "instagram": [
+          "vampacid",
+          "k1mb0xn4u7"
+        ],
+        "artists": [
+          "vamp-acid",
+          "k1mb0xn4u7"
+        ]
+      }
+    ],
     "inferredYear": true,
     "slug": "bms55",
     "hasBody": true
@@ -188,31 +361,52 @@
     "lineup": [
       {
         "time": "21:30",
-        "act": "Monotrail"
+        "act": "Monotrail",
+        "artists": [
+          "monotrail"
+        ]
       },
       {
         "time": "22:30",
-        "act": "Chang Rodrigues"
+        "act": "Chang Rodrigues",
+        "artists": [
+          "chang-rodrigues"
+        ]
       },
       {
         "time": "23:30",
-        "act": "Shellbeat"
+        "act": "Shellbeat",
+        "artists": [
+          "shellbeat"
+        ]
       },
       {
         "time": "00:30",
-        "act": "Andreas Krach"
+        "act": "Andreas Krach",
+        "artists": [
+          "andreas-krach"
+        ]
       },
       {
         "time": "01:30",
-        "act": "Catenation"
+        "act": "Catenation",
+        "artists": [
+          "catenation"
+        ]
       },
       {
         "time": "02:30",
-        "act": "Julez"
+        "act": "Julez",
+        "artists": [
+          "julez"
+        ]
       },
       {
         "time": "03:15",
-        "act": "(DJ) Hilary C/B"
+        "act": "(DJ) Hilary C/B",
+        "artists": [
+          "hilary-c-b"
+        ]
       }
     ],
     "slug": "bms54",
@@ -228,35 +422,59 @@
     "lineup": [
       {
         "time": "17:00",
-        "act": "Lena C."
+        "act": "Lena C.",
+        "artists": [
+          "lena-c"
+        ]
       },
       {
         "time": "17:40",
-        "act": "Teslator"
+        "act": "Teslator",
+        "artists": [
+          "teslator"
+        ]
       },
       {
         "time": "18:20",
-        "act": "Colloid"
+        "act": "Colloid",
+        "artists": [
+          "colloid"
+        ]
       },
       {
         "time": "19:15",
-        "act": "True Cuckoo"
+        "act": "True Cuckoo",
+        "artists": [
+          "true-cuckoo"
+        ]
       },
       {
         "time": "20:20",
-        "act": "Erd (Shakmat)"
+        "act": "Erd (Shakmat)",
+        "artists": [
+          "erd"
+        ]
       },
       {
         "time": "21:05",
-        "act": "Elektortek"
+        "act": "Elektortek",
+        "artists": [
+          "elektortek"
+        ]
       },
       {
         "time": "22:05",
-        "act": "NEVERSLEEP"
+        "act": "NEVERSLEEP",
+        "artists": [
+          "neversleep"
+        ]
       },
       {
         "time": "23:05",
-        "act": "ALX-106"
+        "act": "ALX-106",
+        "artists": [
+          "alx-106"
+        ]
       }
     ],
     "slug": "bms53",
@@ -272,27 +490,63 @@
     "lineup": [
       {
         "time": "22:00",
-        "act": "Krista Bourgeois  @kristabourgeoismusic"
+        "act": "Krista Bourgeois",
+        "instagram": [
+          "kristabourgeoismusic"
+        ],
+        "artists": [
+          "krista-bourgeois"
+        ]
       },
       {
         "time": "23:00",
-        "act": "Rocco.fx  @rocco.fx"
+        "act": "Rocco.fx",
+        "instagram": [
+          "rocco.fx"
+        ],
+        "artists": [
+          "rocco-fx"
+        ]
       },
       {
         "time": "02:00",
-        "act": "3rd Party Influence  @3rdPartyInfluence"
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdPartyInfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
         "time": "00:00",
-        "act": "Jamaica Suk  @jamaicasuk"
+        "act": "Jamaica Suk",
+        "instagram": [
+          "jamaicasuk"
+        ],
+        "artists": [
+          "jamaica-suk"
+        ]
       },
       {
         "time": "01:00",
-        "act": "Blush Response  @blush_response"
+        "act": "Blush Response",
+        "instagram": [
+          "blush_response"
+        ],
+        "artists": [
+          "blush-response"
+        ]
       },
       {
         "time": "03:00",
-        "act": "Frank Funke  @frankfunke"
+        "act": "Frank Funke",
+        "instagram": [
+          "frankfunke"
+        ],
+        "artists": [
+          "frank-funke"
+        ]
       }
     ],
     "inferredYear": true,
@@ -306,7 +560,32 @@
     "venue": "De Helling",
     "city": "Utrecht",
     "url": "https://dehelling.nl/agenda/modulation-x-berlin-modular-society-27-04-2025/",
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "JacqNoise",
+        "artists": [
+          "jacqnoise"
+        ]
+      },
+      {
+        "act": "Teslator",
+        "artists": [
+          "teslator"
+        ]
+      },
+      {
+        "act": "NEVERSLEEP",
+        "artists": [
+          "neversleep"
+        ]
+      },
+      {
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
+      }
+    ],
     "inferredYear": true,
     "slug": "bms50",
     "hasBody": true
@@ -318,7 +597,62 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "Krach der Roboter",
+        "instagram": [
+          "andreas_krach"
+        ],
+        "artists": [
+          "krach-der-roboter"
+        ]
+      },
+      {
+        "act": "Nathan Plante",
+        "instagram": [
+          "mistertrout"
+        ],
+        "artists": [
+          "nathan-plante"
+        ]
+      },
+      {
+        "act": "Silver Galaxy",
+        "instagram": [
+          "silvergalaxy__"
+        ],
+        "artists": [
+          "silver-galaxy"
+        ]
+      },
+      {
+        "act": "jesusonecstasy",
+        "instagram": [
+          "jesusonecstasy"
+        ],
+        "artists": [
+          "jesusonecstasy"
+        ]
+      },
+      {
+        "act": "The Dark Wasp",
+        "instagram": [
+          "thedarkwasp"
+        ],
+        "artists": [
+          "the-dark-wasp"
+        ]
+      },
+      {
+        "act": "Opitz",
+        "instagram": [
+          "a_opitz"
+        ],
+        "artists": [
+          "opitz"
+        ]
+      }
+    ],
     "slug": "bms49",
     "hasBody": true
   },
@@ -329,7 +663,98 @@
     "venue": "Neulant van Excel",
     "city": "Berlin",
     "url": "https://ra.co/events/2119018",
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "sehrsehr (DJ)",
+        "instagram": [
+          "sehrsehr"
+        ],
+        "artists": [
+          "sehrsehr"
+        ]
+      },
+      {
+        "act": "Hilary C/B",
+        "instagram": [
+          "discretesystems"
+        ],
+        "artists": [
+          "hilary-c-b"
+        ]
+      },
+      {
+        "act": "COAST",
+        "artists": [
+          "coast"
+        ]
+      },
+      {
+        "act": "soft fantasy",
+        "instagram": [
+          "lo_and_behold"
+        ],
+        "artists": [
+          "soft-fantasy"
+        ]
+      },
+      {
+        "act": "Andert Tysma",
+        "instagram": [
+          "anderttysma"
+        ],
+        "artists": [
+          "andert-tysma"
+        ]
+      },
+      {
+        "act": "Shellbeat",
+        "instagram": [
+          "Shellfishbeat"
+        ],
+        "artists": [
+          "shellbeat"
+        ]
+      },
+      {
+        "act": "Alexander Spree",
+        "instagram": [
+          "dr.spre"
+        ],
+        "artists": [
+          "alexander-spree"
+        ]
+      },
+      {
+        "act": "Dshanna",
+        "instagram": [
+          "dshanna_"
+        ],
+        "artists": [
+          "dshanna"
+        ]
+      },
+      {
+        "act": "Vasco Ispirian",
+        "instagram": [
+          "vasco.ispirian"
+        ],
+        "artists": [
+          "vasco-ispirian"
+        ]
+      },
+      {
+        "act": "Hilary C/B (DJ)",
+        "artists": [
+          "hilary-c-b"
+        ]
+      },
+      {
+        "act": "sehrsehr (DJ)",
+        "artists": [
+          "sehrsehr"
+        ]
+      }
+    ],
     "slug": "bms48",
     "hasBody": true
   },
@@ -340,7 +765,71 @@
     "venue": "Neulant van Excel",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "Tosp",
+        "instagram": [
+          "tospklang"
+        ],
+        "artists": [
+          "tosp"
+        ]
+      },
+      {
+        "act": "Antenne Neulant",
+        "instagram": [
+          "neulant"
+        ],
+        "artists": [
+          "antenne-neulant"
+        ]
+      },
+      {
+        "act": "Millhoff",
+        "instagram": [
+          "_millhoff_"
+        ],
+        "artists": [
+          "millhoff"
+        ]
+      },
+      {
+        "act": "Neversleep",
+        "instagram": [
+          "neversleepmusic"
+        ],
+        "artists": [
+          "neversleep"
+        ]
+      },
+      {
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
+        ]
+      },
+      {
+        "act": "Jessica Kert",
+        "instagram": [
+          "jessyandthechords"
+        ],
+        "artists": [
+          "jessica-kert"
+        ]
+      },
+      {
+        "act": "Dshanna",
+        "instagram": [
+          "dshanna_"
+        ],
+        "artists": [
+          "dshanna"
+        ]
+      }
+    ],
     "slug": "bms47",
     "hasBody": true
   },
@@ -354,31 +843,69 @@
     "lineup": [
       {
         "time": "20:30",
-        "act": "Chor für Oberton und Kehlgesang @musik_in_theorie_und_praxis @cassisbmusic"
+        "act": "Chor für Oberton und Kehlgesang",
+        "instagram": [
+          "musik_in_theorie_und_praxis",
+          "cassisbmusic"
+        ],
+        "artists": [
+          "chor-fur-oberton-und-kehlgesang"
+        ]
       },
       {
         "time": "21:30",
-        "act": "JacqNoise @jacqnoise"
+        "act": "JacqNoise",
+        "instagram": [
+          "jacqnoise"
+        ],
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
         "time": "22:30",
-        "act": "Vile Tensor @vile.tensor"
+        "act": "Vile Tensor",
+        "instagram": [
+          "vile.tensor"
+        ],
+        "artists": [
+          "vile-tensor"
+        ]
       },
       {
         "time": "23:30",
-        "act": "Leon Trimble @leolodreamland"
+        "act": "Leon Trimble",
+        "instagram": [
+          "leolodreamland"
+        ],
+        "artists": [
+          "leon-trimble"
+        ]
       },
       {
         "time": "00:30",
-        "act": "Outro @juan.outro"
+        "act": "Outro",
+        "instagram": [
+          "juan.outro"
+        ],
+        "artists": [
+          "outro"
+        ]
       },
       {
         "time": "01:30",
-        "act": "to 03:30 DJ 1 PARAND b2b Aura Nox"
+        "act": "PARAND b2b Aura Nox",
+        "artists": [
+          "parand",
+          "aura-nox"
+        ]
       },
       {
         "time": "03:30",
-        "act": "to 05:30 DJ 2 Matte"
+        "act": "Matte (DJ)",
+        "artists": [
+          "matte"
+        ]
       }
     ],
     "inferredYear": true,
@@ -392,7 +919,39 @@
     "venue": "Klunkerkranich",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "Professor Dictabeat",
+        "artists": [
+          "professor-dictabeat"
+        ]
+      },
+      {
+        "act": "Dozza & Tonyaa",
+        "artists": [
+          "dozza",
+          "tonyaa"
+        ]
+      },
+      {
+        "act": "Neversleep",
+        "artists": [
+          "neversleep"
+        ]
+      },
+      {
+        "act": "Leo Novus",
+        "artists": [
+          "leo-novus"
+        ]
+      },
+      {
+        "act": "Drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
+      }
+    ],
     "inferredYear": true,
     "slug": "bms45",
     "hasBody": true
@@ -404,7 +963,53 @@
     "venue": "Neulant van Excel",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "Teslator",
+        "instagram": [
+          "teslatormusic"
+        ],
+        "artists": [
+          "teslator"
+        ]
+      },
+      {
+        "act": "Gina Lo",
+        "instagram": [
+          "ginalololo"
+        ],
+        "artists": [
+          "gina-lo"
+        ]
+      },
+      {
+        "act": "ICKX",
+        "instagram": [
+          "jan_ickx"
+        ],
+        "artists": [
+          "ickx"
+        ]
+      },
+      {
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
+        ]
+      },
+      {
+        "act": "Opitz",
+        "instagram": [
+          "a_opitz"
+        ],
+        "artists": [
+          "opitz"
+        ]
+      }
+    ],
     "inferredYear": true,
     "slug": "bms44",
     "hasBody": true
@@ -418,31 +1023,84 @@
     "url": null,
     "lineup": [
       {
-        "act": "HATAKEN"
+        "act": "HATAKEN",
+        "instagram": [
+          "hataken_tfom"
+        ],
+        "artists": [
+          "hataken"
+        ]
       },
       {
-        "act": "OCP"
+        "act": "OCP",
+        "instagram": [
+          "opcabpol"
+        ],
+        "artists": [
+          "ocp"
+        ]
       },
       {
-        "act": "NNJA RIOT"
+        "act": "NNJA RIOT",
+        "instagram": [
+          "lisa_mckendrick"
+        ],
+        "artists": [
+          "nnja-riot"
+        ]
       },
       {
-        "act": "MADZINE"
+        "act": "MADZINE",
+        "instagram": [
+          "mmmmmmmadman"
+        ],
+        "artists": [
+          "madzine"
+        ]
       },
       {
-        "act": "ELEKTORTEK"
+        "act": "ELEKTORTEK",
+        "instagram": [
+          "elektortek"
+        ],
+        "artists": [
+          "elektortek"
+        ]
       },
       {
-        "act": "CUCKOO"
+        "act": "CUCKOO",
+        "instagram": [
+          "truecuckoo"
+        ],
+        "artists": [
+          "true-cuckoo"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "JacqNoise b2b Dan Graveyard"
+        "act": "JacqNoise b2b Dan Graveyard",
+        "instagram": [
+          "jacqnoise",
+          "dan.graveyard"
+        ],
+        "artists": [
+          "jacqnoise",
+          "dan-graveyard"
+        ]
       },
       {
-        "act": "DJ Vamilienfa†er"
+        "act": "DJ Vamilienfa†er",
+        "artists": [
+          "vamilienfaer"
+        ]
       }
     ],
     "slug": "bms43",
@@ -459,19 +1117,43 @@
     "lineup": [
       {
         "time": "20:00",
-        "act": "HARPA - bipinrao9"
+        "act": "HARPA",
+        "artists": [
+          "harpa"
+        ],
+        "instagram": [
+          "bipinrao9"
+        ]
       },
       {
         "time": "21:00",
-        "act": "SHELLBEAT - shellfishbeat"
+        "act": "SHELLBEAT",
+        "artists": [
+          "shellbeat"
+        ],
+        "instagram": [
+          "shellfishbeat"
+        ]
       },
       {
         "time": "22:00",
-        "act": "DJ_NIGHTLIFE93 - djnl93"
+        "act": "DJ_NIGHTLIFE93",
+        "artists": [
+          "dj-nightlife93"
+        ],
+        "instagram": [
+          "djnl93"
+        ]
       },
       {
         "time": "23:00",
-        "act": "VAMP ACID - vampacid"
+        "act": "VAMP ACID",
+        "artists": [
+          "vamp-acid"
+        ],
+        "instagram": [
+          "vampacid"
+        ]
       }
     ],
     "inferredYear": true,
@@ -487,19 +1169,34 @@
     "url": null,
     "lineup": [
       {
-        "act": "Silver Galaxy"
+        "act": "Silver Galaxy",
+        "artists": [
+          "silver-galaxy"
+        ]
       },
       {
-        "act": "Owen Ross"
+        "act": "Owen Ross",
+        "artists": [
+          "owen-ross"
+        ]
       },
       {
-        "act": "Teslator"
+        "act": "Teslator",
+        "artists": [
+          "teslator"
+        ]
       },
       {
-        "act": "Gina Lo"
+        "act": "Gina Lo",
+        "artists": [
+          "gina-lo"
+        ]
       },
       {
-        "act": "Vamilienfa†er (DJ set)"
+        "act": "Vamilienfa†er (DJ set)",
+        "artists": [
+          "vamilienfaer"
+        ]
       }
     ],
     "slug": "bms41",
@@ -513,7 +1210,38 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "KRACH DER ROBOTER",
+        "artists": [
+          "krach-der-roboter"
+        ]
+      },
+      {
+        "act": "OORA",
+        "artists": [
+          "oora"
+        ]
+      },
+      {
+        "act": "NEVERSLEEP",
+        "artists": [
+          "neversleep"
+        ]
+      },
+      {
+        "act": "FRISQO",
+        "artists": [
+          "frisqo"
+        ]
+      },
+      {
+        "act": "JESSICA KERT [Detroit Underground]",
+        "artists": [
+          "jessica-kert"
+        ]
+      }
+    ],
     "inferredYear": true,
     "slug": "bms40",
     "hasBody": true
@@ -525,7 +1253,33 @@
     "venue": "Crack Bellmer",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "DANILA PLEE",
+        "artists": [
+          "danila-plee"
+        ]
+      },
+      {
+        "act": "LUN ÁRIO X CATE HOPS",
+        "artists": [
+          "lun-ario",
+          "cate-hops"
+        ]
+      },
+      {
+        "act": "LECKER KABEL SALAT",
+        "artists": [
+          "lecker-kabel-salat"
+        ]
+      },
+      {
+        "act": "THADDEUS",
+        "artists": [
+          "thaddeus"
+        ]
+      }
+    ],
     "inferredYear": true,
     "slug": "bms39",
     "hasBody": true
@@ -540,19 +1294,43 @@
     "lineup": [
       {
         "time": "20:30",
-        "act": "EMME MOISES @emme.moises"
+        "act": "EMME MOISES",
+        "instagram": [
+          "emme.moises"
+        ],
+        "artists": [
+          "emme-moises"
+        ]
       },
       {
         "time": "21:30",
-        "act": "FRANK FUNKE @frankfunke"
+        "act": "FRANK FUNKE",
+        "instagram": [
+          "frankfunke"
+        ],
+        "artists": [
+          "frank-funke"
+        ]
       },
       {
         "time": "22:30",
-        "act": "3RD PARTY INFLUENCE @3rdPartyInfluence"
+        "act": "3RD PARTY INFLUENCE",
+        "instagram": [
+          "3rdPartyInfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
         "time": "23:30",
-        "act": "OPITZ @a_opitz"
+        "act": "OPITZ",
+        "instagram": [
+          "a_opitz"
+        ],
+        "artists": [
+          "opitz"
+        ]
       }
     ],
     "inferredYear": true,
@@ -569,15 +1347,24 @@
     "lineup": [
       {
         "time": "19:00",
-        "act": "UGLYDUB"
+        "act": "UGLYDUB",
+        "artists": [
+          "uglydub"
+        ]
       },
       {
         "time": "20:00",
-        "act": "ANNA SHARIFI"
+        "act": "ANNA SHARIFI",
+        "artists": [
+          "anna-sharifi"
+        ]
       },
       {
         "time": "21:00",
-        "act": "PETER KIRN"
+        "act": "PETER KIRN",
+        "artists": [
+          "peter-kirn"
+        ]
       }
     ],
     "inferredYear": true,
@@ -594,23 +1381,38 @@
     "lineup": [
       {
         "time": "23:00",
-        "act": "LEON TRIMBLE"
+        "act": "LEON TRIMBLE",
+        "artists": [
+          "leon-trimble"
+        ]
       },
       {
         "time": "00:00",
-        "act": "PROFESSOR DICTABEAT"
+        "act": "PROFESSOR DICTABEAT",
+        "artists": [
+          "professor-dictabeat"
+        ]
       },
       {
         "time": "01:00",
-        "act": "3RD PARTY INFLUENCE"
+        "act": "3RD PARTY INFLUENCE",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
         "time": "02:00",
-        "act": "JESSICA KERT"
+        "act": "JESSICA KERT",
+        "artists": [
+          "jessica-kert"
+        ]
       },
       {
         "time": "03:00",
-        "act": "STIWAHN"
+        "act": "STIWAHN",
+        "artists": [
+          "stiwahn"
+        ]
       }
     ],
     "inferredYear": true,
@@ -624,7 +1426,38 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "KAIROSTAR",
+        "artists": [
+          "kairostar"
+        ]
+      },
+      {
+        "act": "KARAZEE",
+        "artists": [
+          "karazee"
+        ]
+      },
+      {
+        "act": "VAMP ACID",
+        "artists": [
+          "vamp-acid"
+        ]
+      },
+      {
+        "act": "STANISLAV GLAZOV",
+        "artists": [
+          "stanislav-glazov"
+        ]
+      },
+      {
+        "act": "DRUSNOISE",
+        "artists": [
+          "drusnoise"
+        ]
+      }
+    ],
     "slug": "bms35",
     "hasBody": true
   },
@@ -638,35 +1471,60 @@
     "lineup": [
       {
         "time": "16:00",
-        "act": "Vamilienfa†er (DJ set)"
+        "act": "Vamilienfa†er (DJ set)",
+        "artists": [
+          "vamilienfaer"
+        ]
       },
       {
         "time": "18:00",
-        "act": "ëgg"
+        "act": "ëgg",
+        "artists": [
+          "egg"
+        ]
       },
       {
         "time": "18:50",
-        "act": "Das Ding"
+        "act": "Das Ding",
+        "artists": [
+          "das-ding"
+        ]
       },
       {
         "time": "19:40",
-        "act": "Colloid"
+        "act": "Colloid",
+        "artists": [
+          "colloid"
+        ]
       },
       {
         "time": "20:30",
-        "act": "Sarah Sommers"
+        "act": "Sarah Sommers",
+        "artists": [
+          "sarah-sommers"
+        ]
       },
       {
         "time": "21:20",
-        "act": "Eric Schlappi + Syntonie"
+        "act": "Eric Schlappi + Syntonie",
+        "artists": [
+          "eric-schlappi",
+          "syntonie"
+        ]
       },
       {
         "time": "22:10",
-        "act": "KT66"
+        "act": "KT66",
+        "artists": [
+          "kt66"
+        ]
       },
       {
         "time": "23:00",
-        "act": "The C.L.F."
+        "act": "The C.L.F.",
+        "artists": [
+          "the-c-l-f"
+        ]
       }
     ],
     "slug": "bms34",
@@ -680,7 +1538,38 @@
     "venue": "Marie Antoinette",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "KORBERD",
+        "artists": [
+          "korberd"
+        ]
+      },
+      {
+        "act": "ANTILOPHOBIA",
+        "artists": [
+          "antilophobia"
+        ]
+      },
+      {
+        "act": "TONYAA",
+        "artists": [
+          "tonyaa"
+        ]
+      },
+      {
+        "act": "FRISQO",
+        "artists": [
+          "frisqo"
+        ]
+      },
+      {
+        "act": "FANGARM",
+        "artists": [
+          "fangarm"
+        ]
+      }
+    ],
     "slug": "bms33",
     "hasBody": true
   },
@@ -693,22 +1582,41 @@
     "url": null,
     "lineup": [
       {
-        "act": "drusnoise & Erbse"
+        "act": "drusnoise & Erbse",
+        "artists": [
+          "drusnoise",
+          "erbse"
+        ]
       },
       {
-        "act": "3rd Party Influence (ambient set)"
+        "act": "3rd Party Influence (ambient set)",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "Aquarium"
+        "act": "Aquarium",
+        "artists": [
+          "aquarium"
+        ]
       },
       {
-        "act": "Felipe Vareschi"
+        "act": "Felipe Vareschi",
+        "artists": [
+          "felipe-vareschi"
+        ]
       },
       {
-        "act": "Chebedajha"
+        "act": "Chebedajha",
+        "artists": [
+          "chebedajha"
+        ]
       },
       {
-        "act": "Katharina Bévand"
+        "act": "Katharina Bévand",
+        "artists": [
+          "katharina-bevand"
+        ]
       }
     ],
     "slug": "bms32",
@@ -725,23 +1633,53 @@
     "lineup": [
       {
         "time": "20:15",
-        "act": "JACQNOISE  \t@jacqnoise"
+        "act": "JACQNOISE",
+        "instagram": [
+          "jacqnoise"
+        ],
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
         "time": "21:30",
-        "act": "JAY QUENTIN \t@jay_quentin"
+        "act": "JAY QUENTIN",
+        "instagram": [
+          "jay_quentin"
+        ],
+        "artists": [
+          "jay-quentin"
+        ]
       },
       {
         "time": "22:30",
-        "act": "RICHARD EASEL\t@richardeasel"
+        "act": "RICHARD EASEL",
+        "instagram": [
+          "richardeasel"
+        ],
+        "artists": [
+          "richard-easel"
+        ]
       },
       {
         "time": "23:30",
-        "act": "NEVERSLEEP \t@neversleepmusic"
+        "act": "NEVERSLEEP",
+        "instagram": [
+          "neversleepmusic"
+        ],
+        "artists": [
+          "neversleep"
+        ]
       },
       {
         "time": "00:30",
-        "act": "HARTBRAND\t\t@hartbrand"
+        "act": "HARTBRAND",
+        "instagram": [
+          "hartbrand"
+        ],
+        "artists": [
+          "hartbrand"
+        ]
       }
     ],
     "slug": "bms31",
@@ -758,23 +1696,53 @@
     "lineup": [
       {
         "time": "23:00",
-        "act": "Monotrail"
+        "act": "Monotrail",
+        "instagram": [
+          "monotrail"
+        ],
+        "artists": [
+          "monotrail"
+        ]
       },
       {
         "time": "00:00",
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "instagram": [
+          "3rdpartyinfluence"
+        ],
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
         "time": "01:00",
-        "act": "Opitz"
+        "act": "Opitz",
+        "instagram": [
+          "a_opitz"
+        ],
+        "artists": [
+          "opitz"
+        ]
       },
       {
         "time": "02:00",
-        "act": "Parazeit"
+        "act": "Parazeit",
+        "instagram": [
+          "parazeit_music"
+        ],
+        "artists": [
+          "parazeit"
+        ]
       },
       {
         "time": "03:00",
-        "act": "Krista Bourgeois"
+        "act": "Krista Bourgeois",
+        "instagram": [
+          "kristabourgeoismusic"
+        ],
+        "artists": [
+          "krista-bourgeois"
+        ]
       }
     ],
     "slug": "bms30",
@@ -788,7 +1756,55 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "SAVING KAISER",
+        "instagram": [
+          "savingkaiser"
+        ],
+        "artists": [
+          "saving-kaiser"
+        ]
+      },
+      {
+        "act": "ASHLEY",
+        "instagram": [
+          "perpetuashlei333"
+        ],
+        "artists": [
+          "ashley"
+        ]
+      },
+      {
+        "act": "VASCO ISPIRIAN",
+        "instagram": [
+          "vasco.ispirian"
+        ],
+        "artists": [
+          "vasco-ispirian"
+        ]
+      },
+      {
+        "act": "KONAPT",
+        "instagram": [
+          "konapt"
+        ],
+        "artists": [
+          "konapt"
+        ]
+      },
+      {
+        "act": "KONPHAS x TIM STRAUCH",
+        "instagram": [
+          "konphas",
+          "tm_strauch"
+        ],
+        "artists": [
+          "konphas",
+          "tim-strauch"
+        ]
+      }
+    ],
     "slug": "bms29",
     "hasBody": true
   },
@@ -799,7 +1815,53 @@
     "venue": "Fitzroy",
     "city": "Berlin",
     "url": null,
-    "lineup": [],
+    "lineup": [
+      {
+        "act": "KIRIEL",
+        "instagram": [
+          "nobreakspaced"
+        ],
+        "artists": [
+          "kiriel"
+        ]
+      },
+      {
+        "act": "MIQUEL",
+        "instagram": [
+          "miqueldangla"
+        ],
+        "artists": [
+          "miquel-dangla"
+        ]
+      },
+      {
+        "act": "JESSICA KERT",
+        "instagram": [
+          "jessyandthechords"
+        ],
+        "artists": [
+          "jessica-kert"
+        ]
+      },
+      {
+        "act": "DRUSNOISE",
+        "instagram": [
+          "drusnoise"
+        ],
+        "artists": [
+          "drusnoise"
+        ]
+      },
+      {
+        "act": "PRVNTK",
+        "instagram": [
+          "prvntk"
+        ],
+        "artists": [
+          "prvntk"
+        ]
+      }
+    ],
     "slug": "bms28",
     "hasBody": true
   },
@@ -813,27 +1875,45 @@
     "lineup": [
       {
         "time": "22:00",
-        "act": "QURE"
+        "act": "QURE",
+        "artists": [
+          "qure"
+        ]
       },
       {
         "time": "23:00",
-        "act": "JACQNOISE"
+        "act": "JACQNOISE",
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
         "time": "00:00",
-        "act": "3RD PARTY INFLUENCE"
+        "act": "3RD PARTY INFLUENCE",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
         "time": "01:00",
-        "act": "KIMBOWNAUT"
+        "act": "KIMBOWNAUT",
+        "artists": [
+          "kimbownaut"
+        ]
       },
       {
         "time": "02:00",
-        "act": "EIRA"
+        "act": "EIRA",
+        "artists": [
+          "eira"
+        ]
       },
       {
         "time": "03:00",
-        "act": "FANGARM"
+        "act": "FANGARM",
+        "artists": [
+          "fangarm"
+        ]
       }
     ],
     "slug": "bms27",
@@ -849,22 +1929,40 @@
     "url": null,
     "lineup": [
       {
-        "act": "Gong Klonk"
+        "act": "Gong Klonk",
+        "artists": [
+          "gong-klonk"
+        ]
       },
       {
-        "act": "Manuel Manko"
+        "act": "Manuel Manko",
+        "artists": [
+          "manuel-manko"
+        ]
       },
       {
-        "act": "Anna Sharifi"
+        "act": "Anna Sharifi",
+        "artists": [
+          "anna-sharifi"
+        ]
       },
       {
-        "act": "Neversleep"
+        "act": "Neversleep",
+        "artists": [
+          "neversleep"
+        ]
       },
       {
-        "act": "Alessandro Nero Trin1ty"
+        "act": "Alessandro Nero Trin1ty",
+        "artists": [
+          "alessandro-nero-trin1ty"
+        ]
       },
       {
-        "act": "Altemotiv"
+        "act": "Altemotiv",
+        "artists": [
+          "altemotiv"
+        ]
       }
     ],
     "slug": "bms26",
@@ -881,23 +1979,40 @@
     "lineup": [
       {
         "time": "20:30",
-        "act": "KATHARINA BÉVAND"
+        "act": "KATHARINA BÉVAND",
+        "artists": [
+          "katharina-bevand"
+        ]
       },
       {
         "time": "21:00",
-        "act": "QUOTATION MARK W/ CONNY ALBRECHT"
+        "act": "QUOTATION MARK W/ CONNY ALBRECHT",
+        "artists": [
+          "quotation-mark",
+          "conny-albrecht"
+        ]
       },
       {
         "time": "22:00",
-        "act": "DRUSNOISE"
+        "act": "DRUSNOISE",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
         "time": "23:00",
-        "act": "OCTODIODE (Covid)"
+        "act": "OCTODIODE (Covid)",
+        "artists": [
+          "octodiode"
+        ]
       },
       {
         "time": "00:00",
-        "act": "JEAN MARCEL FRICKE B2B  PETER KIRN"
+        "act": "JEAN MARCEL FRICKE B2B  PETER KIRN",
+        "artists": [
+          "jean-marcel-fricke",
+          "peter-kirn"
+        ]
       }
     ],
     "slug": "bms25",
@@ -914,23 +2029,39 @@
     "lineup": [
       {
         "time": "21:00",
-        "act": "EILIYAS"
+        "act": "EILIYAS",
+        "artists": [
+          "eiliyas"
+        ]
       },
       {
         "time": "21:45",
-        "act": "ANDREW BLUMHAGEN"
+        "act": "ANDREW BLUMHAGEN",
+        "artists": [
+          "andrew-blumhagen"
+        ]
       },
       {
         "time": "22:45",
-        "act": "JULIUS B2B JACQNOISE"
+        "act": "JULIUS B2B JACQNOISE",
+        "artists": [
+          "julius",
+          "jacqnoise"
+        ]
       },
       {
         "time": "23:45",
-        "act": "SUKKUBE"
+        "act": "SUKKUBE",
+        "artists": [
+          "sukkube"
+        ]
       },
       {
         "time": "00:45",
-        "act": "SELV IKEI"
+        "act": "SELV IKEI",
+        "artists": [
+          "selv-ikei"
+        ]
       }
     ],
     "slug": "bms24",
@@ -946,25 +2077,50 @@
     "url": null,
     "lineup": [
       {
-        "act": "Kaspar König & Seamus O'Donnell & Dida Zende"
+        "act": "Kaspar König & Seamus O'Donnell & Dida Zende",
+        "artists": [
+          "kaspar-konig",
+          "seamus-o-donnell",
+          "dida-zende"
+        ]
       },
       {
-        "act": "Aquarium (A/V show)"
+        "act": "Aquarium (A/V show)",
+        "artists": [
+          "aquarium"
+        ]
       },
       {
-        "act": "Planetary Echoes"
+        "act": "Planetary Echoes",
+        "artists": [
+          "planetary-echoes"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "Sergey Chernyshov & Stanislav Tolkachev"
+        "act": "Sergey Chernyshov & Stanislav Tolkachev",
+        "artists": [
+          "sergey-chernyshov",
+          "stanislav-tolkachev"
+        ]
       },
       {
-        "act": "JS Park & Maarten Vos"
+        "act": "JS Park & Maarten Vos",
+        "artists": [
+          "js-park",
+          "maarten-vos"
+        ]
       },
       {
-        "act": "Live visuals by Optical Collusion"
+        "act": "Live visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms23",
@@ -981,22 +2137,41 @@
     "url": "https://ra.co/events/1602864",
     "lineup": [
       {
-        "act": "Nikita and Anton"
+        "act": "Nikita and Anton",
+        "artists": [
+          "nikita-and-anton"
+        ]
       },
       {
-        "act": "jesusonecstasy + GMB (live visuals)"
+        "act": "jesusonecstasy + GMB (live visuals)",
+        "artists": [
+          "jesusonecstasy",
+          "gmb"
+        ]
       },
       {
-        "act": "Cinema.AV (A/V show)"
+        "act": "Cinema.AV (A/V show)",
+        "artists": [
+          "cinema-av"
+        ]
       },
       {
-        "act": "Pyro Strom"
+        "act": "Pyro Strom",
+        "artists": [
+          "pyro-strom"
+        ]
       },
       {
-        "act": "Opitz"
+        "act": "Opitz",
+        "artists": [
+          "opitz"
+        ]
       },
       {
-        "act": "Live visuals by Optical Collusion"
+        "act": "Live visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms22",
@@ -1012,22 +2187,41 @@
     "url": null,
     "lineup": [
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "Not for human consumption"
+        "act": "Not for human consumption",
+        "artists": [
+          "not-for-human-consumption"
+        ]
       },
       {
-        "act": "Sara Persico & Tony Elieh"
+        "act": "Sara Persico & Tony Elieh",
+        "artists": [
+          "sara-persico",
+          "tony-elieh"
+        ]
       },
       {
-        "act": "Jessica Kert"
+        "act": "Jessica Kert",
+        "artists": [
+          "jessica-kert"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "Live visuals by Optical Collusion"
+        "act": "Live visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms21",
@@ -1043,22 +2237,41 @@
     "url": null,
     "lineup": [
       {
-        "act": "Chebedajha"
+        "act": "Chebedajha",
+        "artists": [
+          "chebedajha"
+        ]
       },
       {
-        "act": "JS Park"
+        "act": "JS Park",
+        "artists": [
+          "js-park"
+        ]
       },
       {
-        "act": "Leon Trimble - AV show"
+        "act": "Leon Trimble (AV show)",
+        "artists": [
+          "leon-trimble"
+        ]
       },
       {
-        "act": "Burnside"
+        "act": "Burnside",
+        "artists": [
+          "burnside"
+        ]
       },
       {
-        "act": "drusnoise and Hanaway"
+        "act": "drusnoise and Hanaway",
+        "artists": [
+          "drusnoise",
+          "hanaway"
+        ]
       },
       {
-        "act": "Live visuals by Optical Collusion"
+        "act": "Live visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms20",
@@ -1074,22 +2287,40 @@
     "url": "https://ra.co/dj/sarahsommers",
     "lineup": [
       {
-        "act": "Gina Lo"
+        "act": "Gina Lo",
+        "artists": [
+          "gina-lo"
+        ]
       },
       {
-        "act": "Sub Strata"
+        "act": "Sub Strata",
+        "artists": [
+          "sub-strata"
+        ]
       },
       {
-        "act": "Sarah Sommers"
+        "act": "Sarah Sommers",
+        "artists": [
+          "sarah-sommers"
+        ]
       },
       {
-        "act": "Detroit Bureau of Sound"
+        "act": "Detroit Bureau of Sound",
+        "artists": [
+          "detroit-bureau-of-sound"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "Live visuals by Optical Collusion"
+        "act": "Live visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms19",
@@ -1106,22 +2337,41 @@
     "url": "https://ra.co/dj/josefkunz",
     "lineup": [
       {
-        "act": "Katharina Bévand"
+        "act": "Katharina Bévand",
+        "artists": [
+          "katharina-bevand"
+        ]
       },
       {
-        "act": "ValeLumìnal"
+        "act": "ValeLumìnal",
+        "artists": [
+          "valeluminal"
+        ]
       },
       {
-        "act": "JacqNoise with Mehmet Guren"
+        "act": "JacqNoise with Mehmet Guren",
+        "artists": [
+          "jacqnoise",
+          "mehmet-guren"
+        ]
       },
       {
-        "act": "Josef Kunz"
+        "act": "Josef Kunz",
+        "artists": [
+          "josef-kunz"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "Optical Collusion (live visuals)"
+        "act": "Optical Collusion (live visuals)",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms18",
@@ -1137,19 +2387,35 @@
     "url": null,
     "lineup": [
       {
-        "act": "Böse"
+        "act": "Böse",
+        "artists": [
+          "bose"
+        ]
       },
       {
-        "act": "Jake Mehew (AV)"
+        "act": "Jake Mehew (AV)",
+        "artists": [
+          "jake-mehew"
+        ]
       },
       {
-        "act": "Double Vitrage (AV)"
+        "act": "Double Vitrage (AV)",
+        "artists": [
+          "double-vitrage"
+        ]
       },
       {
-        "act": "3rd Party Influence w/ Optical Collusion"
+        "act": "3rd Party Influence w/ Optical Collusion",
+        "artists": [
+          "3rd-party-influence",
+          "optical-collusion"
+        ]
       },
       {
-        "act": "Neversleep"
+        "act": "Neversleep",
+        "artists": [
+          "neversleep"
+        ]
       }
     ],
     "slug": "bms17",
@@ -1165,22 +2431,40 @@
     "url": "https://ra.co/dj/josefkunz",
     "lineup": [
       {
-        "act": "Phallucipher"
+        "act": "Phallucipher",
+        "artists": [
+          "phallucipher"
+        ]
       },
       {
-        "act": "ili.ili"
+        "act": "ili.ili",
+        "artists": [
+          "ili-ili"
+        ]
       },
       {
-        "act": "Vasco"
+        "act": "Vasco",
+        "artists": [
+          "vasco-ispirian"
+        ]
       },
       {
-        "act": "Josef Kunz"
+        "act": "Josef Kunz",
+        "artists": [
+          "josef-kunz"
+        ]
       },
       {
-        "act": "Richard Easel"
+        "act": "Richard Easel",
+        "artists": [
+          "richard-easel"
+        ]
       },
       {
-        "act": "Visuals by Optical Collusion"
+        "act": "Visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms16",
@@ -1196,19 +2480,36 @@
     "url": "https://ra.co/dj/roccofx",
     "lineup": [
       {
-        "act": "VTVT w/ VanTa on visuals"
+        "act": "VTVT w/ VanTa on visuals",
+        "artists": [
+          "vtvt"
+        ]
       },
       {
-        "act": "Sukkube"
+        "act": "Sukkube",
+        "artists": [
+          "sukkube"
+        ]
       },
       {
-        "act": "Cinema.av (Texas)"
+        "act": "Cinema.av (Texas)",
+        "artists": [
+          "cinema-av"
+        ]
       },
       {
-        "act": "drusnoise w/ Optical Collusion"
+        "act": "drusnoise w/ Optical Collusion",
+        "artists": [
+          "drusnoise",
+          "optical-collusion"
+        ]
       },
       {
-        "act": "Rocco.fx w/ Juani Cabruja on visuals"
+        "act": "Rocco.fx w/ Juani Cabruja on visuals",
+        "artists": [
+          "rocco-fx",
+          "juani-cabruja"
+        ]
       }
     ],
     "slug": "bms15",
@@ -1224,22 +2525,42 @@
     "url": null,
     "lineup": [
       {
-        "act": "Aquarium"
+        "act": "Aquarium",
+        "artists": [
+          "aquarium"
+        ]
       },
       {
-        "act": "Verónica Mota"
+        "act": "Verónica Mota",
+        "artists": [
+          "veronica-mota"
+        ]
       },
       {
-        "act": "JacqNoise w/ Dan Graveyard"
+        "act": "JacqNoise w/ Dan Graveyard",
+        "artists": [
+          "jacqnoise",
+          "dan-graveyard"
+        ]
       },
       {
-        "act": "Josef Kunz"
+        "act": "Josef Kunz",
+        "artists": [
+          "josef-kunz"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "3rd Party Influence w/ Optical Collusion"
+        "act": "3rd Party Influence w/ Optical Collusion",
+        "artists": [
+          "3rd-party-influence",
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms14",
@@ -1256,23 +2577,36 @@
     "lineup": [
       {
         "time": "20:00",
-        "act": "Schreibmaschine"
+        "act": "Schreibmaschine",
+        "artists": [
+          "schreibmaschine"
+        ]
       },
       {
         "time": "21:00",
-        "act": "Monotrail"
+        "act": "Monotrail",
+        "artists": [
+          "monotrail"
+        ]
       },
       {
         "time": "22:00",
-        "act": "Sarah Sommers"
+        "act": "Sarah Sommers",
+        "artists": [
+          "sarah-sommers"
+        ]
       },
       {
         "time": "23:00",
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
         "time": "00:00",
-        "act": "Modular Roulette + special guests"
+        "act": "Modular Roulette + special guests",
+        "artists": []
       }
     ],
     "slug": "bms13",
@@ -1289,10 +2623,17 @@
     "url": null,
     "lineup": [
       {
-        "act": "Optical Collusion with 3rd Party Influence"
+        "act": "Optical Collusion with 3rd Party Influence",
+        "artists": [
+          "optical-collusion",
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "Veith von Tsotzhousn and VanTa (VTVT)"
+        "act": "Veith von Tsotzhousn and VanTa (VTVT)",
+        "artists": [
+          "vtvt"
+        ]
       }
     ],
     "slug": "bmsav1",
@@ -1307,25 +2648,45 @@
     "url": null,
     "lineup": [
       {
-        "act": "Neversleep"
+        "act": "Neversleep",
+        "artists": [
+          "neversleep"
+        ]
       },
       {
-        "act": "Octodiode"
+        "act": "Octodiode",
+        "artists": [
+          "octodiode"
+        ]
       },
       {
-        "act": "JacqNoise"
+        "act": "JacqNoise",
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
-        "act": "Lost Between Layers"
+        "act": "Lost Between Layers",
+        "artists": [
+          "lost-between-layers"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "3rd Party Influence w/ Optical Collusion"
+        "act": "3rd Party Influence w/ Optical Collusion",
+        "artists": [
+          "3rd-party-influence",
+          "optical-collusion"
+        ]
       },
       {
-        "act": "Modular Roulette"
+        "act": "Modular Roulette",
+        "artists": []
       }
     ],
     "slug": "bms12",
@@ -1341,13 +2702,22 @@
     "url": null,
     "lineup": [
       {
-        "act": "Octodiode"
+        "act": "Octodiode",
+        "artists": [
+          "octodiode"
+        ]
       },
       {
-        "act": "Uberkeine"
+        "act": "Uberkeine",
+        "artists": [
+          "uberkeine"
+        ]
       },
       {
-        "act": "Lost Between Layers"
+        "act": "Lost Between Layers",
+        "artists": [
+          "lost-between-layers"
+        ]
       }
     ],
     "slug": "bms11",
@@ -1364,27 +2734,44 @@
     "lineup": [
       {
         "time": "20:00",
-        "act": "3rd Party Influence with Optical Collusion"
+        "act": "3rd Party Influence with Optical Collusion",
+        "artists": [
+          "3rd-party-influence",
+          "optical-collusion"
+        ]
       },
       {
         "time": "21:00",
-        "act": "Talk with Freedom Boxes"
+        "act": "Talk with Freedom Boxes",
+        "artists": []
       },
       {
         "time": "21:20",
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
         "time": "22:20",
-        "act": "ili.ili"
+        "act": "ili.ili",
+        "artists": [
+          "ili-ili"
+        ]
       },
       {
         "time": "23:00",
-        "act": "JacqNoise"
+        "act": "JacqNoise",
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
         "time": "00:00",
-        "act": "3rd Party Influence (2nd set)"
+        "act": "3rd Party Influence (2nd set)",
+        "artists": [
+          "3rd-party-influence"
+        ]
       }
     ],
     "slug": "bms10",
@@ -1399,22 +2786,41 @@
     "url": null,
     "lineup": [
       {
-        "act": "JacqNoise"
+        "act": "JacqNoise",
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
-        "act": "ili.ili"
+        "act": "ili.ili",
+        "artists": [
+          "ili-ili"
+        ]
       },
       {
-        "act": "Neversleep"
+        "act": "Neversleep",
+        "artists": [
+          "neversleep"
+        ]
       },
       {
-        "act": "antilophobia"
+        "act": "antilophobia",
+        "artists": [
+          "antilophobia"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "3rd Party Influence with Optical Collusion"
+        "act": "3rd Party Influence with Optical Collusion",
+        "artists": [
+          "3rd-party-influence",
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms9",
@@ -1431,15 +2837,25 @@
     "lineup": [
       {
         "time": "20:00",
-        "act": "fabs.asmr"
+        "act": "fabs.asmr",
+        "artists": [
+          "fabs-asmr"
+        ]
       },
       {
         "time": "21:00",
-        "act": "3rd Party Influence (duo set: Simon Redfern and Daniel Tippmann) with Optical Collusion on visuals"
+        "act": "3rd Party Influence (duo set: Simon Redfern and Daniel Tippmann) with Optical Collusion on visuals",
+        "artists": [
+          "3rd-party-influence",
+          "optical-collusion"
+        ]
       },
       {
         "time": "23:00",
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       }
     ],
     "slug": "bms8",
@@ -1455,16 +2871,28 @@
     "url": null,
     "lineup": [
       {
-        "act": "Sarah Sommers"
+        "act": "Sarah Sommers",
+        "artists": [
+          "sarah-sommers"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "Live visuals by Optical Collusion"
+        "act": "Live visuals by Optical Collusion",
+        "artists": [
+          "optical-collusion"
+        ]
       }
     ],
     "slug": "bms7",
@@ -1480,16 +2908,28 @@
     "url": null,
     "lineup": [
       {
-        "act": "Robin Burke"
+        "act": "Robin Burke",
+        "artists": [
+          "robin-burke"
+        ]
       },
       {
-        "act": "ili.ili"
+        "act": "ili.ili",
+        "artists": [
+          "ili-ili"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       }
     ],
     "slug": "bms6",
@@ -1505,16 +2945,29 @@
     "url": null,
     "lineup": [
       {
-        "act": "Schreibmaschine"
+        "act": "Schreibmaschine",
+        "artists": [
+          "schreibmaschine"
+        ]
       },
       {
-        "act": "Andreas Krach"
+        "act": "Andreas Krach",
+        "artists": [
+          "andreas-krach"
+        ]
       },
       {
-        "act": "3rd Party Influence & Max Blax"
+        "act": "3rd Party Influence & Max Blax",
+        "artists": [
+          "3rd-party-influence",
+          "max-blax"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       }
     ],
     "slug": "bms5",
@@ -1530,16 +2983,29 @@
     "url": null,
     "lineup": [
       {
-        "act": "Monotrail"
+        "act": "Monotrail",
+        "artists": [
+          "monotrail"
+        ]
       },
       {
-        "act": "JacqNoise"
+        "act": "JacqNoise",
+        "artists": [
+          "jacqnoise"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "3rd Party Influence with Max Blax"
+        "act": "3rd Party Influence with Max Blax",
+        "artists": [
+          "3rd-party-influence",
+          "max-blax"
+        ]
       }
     ],
     "slug": "bms4",
@@ -1555,16 +3021,29 @@
     "url": null,
     "lineup": [
       {
-        "act": "ili.ili"
+        "act": "ili.ili",
+        "artists": [
+          "ili-ili"
+        ]
       },
       {
-        "act": "JacqNoise & max frimout"
+        "act": "JacqNoise & max frimout",
+        "artists": [
+          "jacqnoise",
+          "max-frimout"
+        ]
       },
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       }
     ],
     "slug": "bms3",
@@ -1580,13 +3059,22 @@
     "url": null,
     "lineup": [
       {
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
-        "act": "StaTrax Berlin"
+        "act": "StaTrax Berlin",
+        "artists": [
+          "statrax-berlin"
+        ]
       }
     ],
     "slug": "bms2",
@@ -1602,27 +3090,45 @@
     "lineup": [
       {
         "time": "20:00",
-        "act": "Monotrail"
+        "act": "Monotrail",
+        "artists": [
+          "monotrail"
+        ]
       },
       {
         "time": "20:30",
-        "act": "eddrro"
+        "act": "eddrro",
+        "artists": [
+          "eddrro"
+        ]
       },
       {
         "time": "21:00",
-        "act": "ili.ili"
+        "act": "ili.ili",
+        "artists": [
+          "ili-ili"
+        ]
       },
       {
         "time": "21:30",
-        "act": "3rd Party Influence"
+        "act": "3rd Party Influence",
+        "artists": [
+          "3rd-party-influence"
+        ]
       },
       {
         "time": "22:00",
-        "act": "drusnoise"
+        "act": "drusnoise",
+        "artists": [
+          "drusnoise"
+        ]
       },
       {
         "time": "00:00",
-        "act": "3rd Party Influence (2nd set)"
+        "act": "3rd Party Influence (2nd set)",
+        "artists": [
+          "3rd-party-influence"
+        ]
       }
     ],
     "slug": "bms1",

@@ -3,15 +3,6 @@
 	import Photo from '$lib/components/Photo.svelte';
 </script>
 
-HATAKEN 	[@hataken_tfom](https://www.instagram.com/hataken_tfom)
-OCP                      [@opcabpol](https://www.instagram.com/opcabpol/)
-NNJA RIOT 	[@lisa_mckendrick](https://www.instagram.com/lisa_mckendrick/)
-MADZINE	[@mmmmmmmadman](https://www.instagram.com/mmmmmmmadman/)
-ELEKTORTEK 	                        [@elektortek](https://www.instagram.com/elektortek/)
-3RD PARTY INFLUENCE 	[@3rdpartyinfluence](https://www.instagram.com/3rdpartyinfluence/)
-CUCKOO 	                                         [@truecuckoo](https://www.instagram.com/truecuckoo/)
-JACQNOISE B2B DAN GRAVEYARD  [@jacqnoise](https://www.instagram.com/jacqnoise/) + [@dan.graveyard](https://www.instagram.com/dan.graveyard/)
-
 <Photo id="bms_bms43-still-b6" />
 
 <Embed src="https://www.youtube.com/embed/QhTPjmvwVcQ" title="www.youtube.com" />

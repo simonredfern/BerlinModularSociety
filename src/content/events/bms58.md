@@ -12,10 +12,6 @@
 
 Building and soldering (see above)
 
-**Live modular acts**:
-
--- upstairs --
-
 24:00 Ends
 
 **Getting to** **[Klunkerkranich](https://maps.app.goo.gl/9j35QSEru1zzeGXu6)** **can be tricky if it’s your first time**. *Entrance is via the shopping arcade on Karl-Marx-Strasse*. You go up in the lift to Parkdeck 6&7 and then walk up further!

@@ -16,3 +16,6 @@ scripts/migration/out/
 # Originals of the flyers, already imported into media/web/ with bms_ ids.
 # Kept locally as provenance; photos.json records the Facebook source.
 some_sources/
+
+# Python bytecode from scripts/
+__pycache__/
