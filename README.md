@@ -281,7 +281,7 @@ Worth a pass by someone who was there, none of it blocking:
   on 19 July 2025 — a one-hour entry against a 5.8h median, never edited after it was
   created in February, so it reads as a pencilled hold that did not go ahead. The
   archive's 25 September 2025 at Klunkerkranich is the event, and stands.
-- **9 of 62 photos have no alt text.** Notion set every alt to the literal word "image", so
+- **1 of 87 photos have no alt text.** Notion set every alt to the literal word "image", so
   alt is derived from the filename where the filename says something (`bms_obs-general-settings`
   → "OBS general settings"). The `IMG_####` ones from `/community` could not be, and are
   empty. Grep `"alt": ""` in `photos.json`.

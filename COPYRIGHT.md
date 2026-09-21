@@ -96,13 +96,15 @@ its variants, the page banner, and OBS screenshots — work made by or for BMS.
 ### No photographer credits survived
 
 Nothing on the Super site recorded one: every image's caption was Notion's placeholder,
-the literal word "image". So every `credit` field in `photos.json` is `null`.
+the literal word "image". The nine photographs on `/community` have since been credited
+from memory — Simon Redfern, bar one by FM / BMS — but every other `credit` field in
+`photos.json` is still `null`.
 
 Basically we dont' have much formally recorded in the way of photo credits. Early flyers are Steve Williams, Later flyers are Simon Redfern. Pictures on community page are Simon Redfern - SR
 
 | | |
 |---|---|
-| the `IMG_####` photos on `/community` | candid shots of people at events, the sort a guest takes |
+| ~~the `IMG_####` photos on `/community`~~ | **settled** — all by Simon Redfern except the Superbooth one, which is FM / BMS |
 | `bms_whatsapp-image-2025-04-15-at-08-47-04` | on BMS50, forwarded from someone |
 | `bms_bms9-flyer` | built around a photograph of a performer at a modular rig |
 | `bms_bms3-country-fair` | the event was co-presented with NÖ, so the poster may be too |
