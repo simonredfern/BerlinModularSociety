@@ -70,7 +70,7 @@
 
 		<div class="next__foot">
 			{#if next.url}
-				<a class="next__cta" href={next.url} target="_blank" rel="noopener noreferrer">Tickets</a>
+				<a class="next__cta" href={next.url} target="_blank" rel="noopener noreferrer">RA</a>
 			{/if}
 			<AddToCalendar event={next} />
 		</div>

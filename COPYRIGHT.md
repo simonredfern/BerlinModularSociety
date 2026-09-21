@@ -98,8 +98,7 @@ its variants, the page banner, and OBS screenshots — work made by or for BMS.
 Nothing on the Super site recorded one: every image's caption was Notion's placeholder,
 the literal word "image". So every `credit` field in `photos.json` is `null`.
 
-That is a gap in the record rather than a dispute. A few images have someone else's hand
-in them somewhere, and if you ever learn whose, they are worth crediting:
+Basically we dont' have much formally recorded in the way of photo credits. Early flyers are Steve Williams, Later flyers are Simon Redfern. Pictures on community page are Simon Redfern - SR
 
 | | |
 |---|---|
@@ -110,7 +109,3 @@ in them somewhere, and if you ever learn whose, they are worth crediting:
 
 To credit one: rename the file with that person's prefix, and fill in `credit` and
 `creditUrl` in `photos.json`. The credit then renders under the photo.
-
-### If you are in a photo and want it down
-
-Email info@berlinmodularsociety.com and it will be removed.

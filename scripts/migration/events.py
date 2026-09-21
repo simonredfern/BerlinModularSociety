@@ -222,7 +222,7 @@ events.insert(0, {
     'body': 'There are several other performance and workshop spaces, and the whole '
             'event runs from 16:00 to 04:00.',
     'note':
-        'BMS59 takes place in the context of [Pollen](https://ra.co/events/2536386) — a 24 hour interdisciplinary festival. You will need to have / get membership for 5 Euros and then there is a suggested donation of 20 to 30 Euros. The second image shows the broader context for the night.',
+        'BMS59 takes place in the context of [Pollen](https://ra.co/events/2536386) — a 24 hour interdisciplinary festival. You will need to have / get membership for 5 Euros (available on the door) and then there is a suggested donation of 20 to 30 Euros. The second image shows the broader context for the night.',
 })
 
 # Events are written newest-first and the sequence never goes backwards, so an event
